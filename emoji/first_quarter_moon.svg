@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g id="半月">
+	<g>
+		<g>
+			
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="24.9419" y1="7.98" x2="52.7091" y2="52.5877" gradientTransform="matrix(-1 0 0 -1 64 64)">
+				<stop  offset="0" style="stop-color:#00173F"/>
+				<stop  offset="1" style="stop-color:#00019D"/>
+			</linearGradient>
+			<path fill="url(#SVGID_1_)" d="M32,60.416V3.583C16.306,3.583,3.583,16.306,3.583,32C3.583,47.693,16.306,60.416,32,60.416z"/>
+			<path fill="none" stroke="#010D28" stroke-width="3" stroke-miterlimit="10" d="M32,60.416V3.583
+				C16.306,3.583,3.583,16.306,3.583,32C3.583,47.693,16.306,60.416,32,60.416z"/>
+		</g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="2.083" y="2.083" width="31.417" height="59.833">
+				<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+				<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="2.083" y="2.083" width="31.417" height="59.833" id="SVGID_2_">
+			<g filter="url(#Adobe_OpacityMaskFilter)">
+				
+					<image overflow="visible" width="36" height="64" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
+EAMCAwYAAAG7AAACKgAAAtj/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX
+Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa
+JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIAEAAJAMBIgACEQEDEQH/
+xACFAAACAgMBAAAAAAAAAAAAAAAABwMGAQIFBAEBAAAAAAAAAAAAAAAAAAAAABAAAQMDAgcBAAAA
+AAAAAAAAAQIDBAAFBjRGEDARFBUWBxIRAAIBAgQGAwEAAAAAAAAAAAECABEDECExwUFRcRKDBLFj
+FIESAQAAAAAAAAAAAAAAAAAAADD/2gAMAwEAAhEDEQAAAF/kvZXeuydBJHuDZwUBiGYJ4BPgFiYi
+acBNBPAJ8A497oeR86KLrnGPCH//2gAIAQIAAQUA5n//2gAIAQMAAQUA5n//2gAIAQEAAQUAoAqN
+txa4zivBFMM9oPIAFRxLEv1TEVlhM9IVF6D2XFrYZ9xisJYZqbptz/OoyTxm6bc/zqSBxm6bc+LX
+MwLjFfS+zU3TbnBKTiWW9KYlMvpnrCYvUey0CUm25TcYJXnSn2e7HkP/2gAIAQICBj8AT//aAAgB
+AwIGPwBP/9oACAEBAQY/AJRRUnQCBihtoeesL3GZiM+U/Jw7+2BRmTkBF9r2lqxzAOgEC21ApLlR
+wlPu2iEiqWzX+xbailBhc6TzbR7vEt8ZY3Ok820e1oVb5zxudJ5togY0S4aHrFuKa1GFzpPNtAwy
+IzBi+r7TUYZAnQiBrbA1lyp4Sv3bYVU0I0IgUubiDnrClxWUnLnP18O/un//2Q==">
+				</image>
+			</g>
+		</mask>
+		<g opacity="0.17" mask="url(#SVGID_2_)">
+			<path fill="#4B98ED" d="M32,60.416V3.583C16.306,3.583,3.583,16.306,3.583,32C3.583,47.693,16.306,60.416,32,60.416z"/>
+			<path fill="none" stroke="#4B98ED" stroke-width="3" stroke-miterlimit="10" d="M32,60.416V3.583
+				C16.306,3.583,3.583,16.306,3.583,32C3.583,47.693,16.306,60.416,32,60.416z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			
+				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="10.7104" y1="10.48" x2="38.1001" y2="54.4813" gradientTransform="matrix(-1 0 0 -1 64 64)">
+				<stop  offset="0" style="stop-color:#FFD05F"/>
+				<stop  offset="1" style="stop-color:#DD8600"/>
+			</linearGradient>
+			<path fill="url(#SVGID_3_)" d="M32,60.416c15.694,0,28.417-12.723,28.417-28.417C60.416,16.306,47.694,3.583,32,3.583V60.416z"/>
+			<path fill="none" stroke="#2B2001" stroke-width="3" stroke-miterlimit="10" d="M32,60.416c15.694,0,28.417-12.723,28.417-28.417
+				C60.416,16.306,47.694,3.583,32,3.583V60.416z"/>
+		</g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="30.5" y="2.083" width="31.417" height="59.833">
+				<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+				<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="30.5" y="2.083" width="31.417" height="59.833" id="SVGID_4_">
+			<g filter="url(#Adobe_OpacityMaskFilter_1_)">
+				
+					<image overflow="visible" width="36" height="64" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
+EAMCAwYAAAG4AAACJQAAAsX/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX
+Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa
+JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIAEAAJAMBIgACEQEDEQH/
+xACCAAADAQEBAAAAAAAAAAAAAAAABAcGBQEBAQAAAAAAAAAAAAAAAAAAAAAQAAEEAQQDAQAAAAAA
+AAAAAAQBAgMFEBI0BgcAMBQVEQABAwIEBQUBAAAAAAAAAAABABECIQMQsRIiMUFhwXJRUhMEFCMS
+AQAAAAAAAAAAAAAAAAAAADD/2gAMAwEAAhEDEQAAAMn1mKYQlezyk5wBtKZM6YeZTWJENHw0lMmd
+MBJzJk8EA2NMi3VN3Kl1wAP/2gAIAQIAAQUA9n//2gAIAQMAAQUA9n//2gAIAQEAAQUApKlLN5PB
+TI4ywCw3469YjiNDVS5oBT4LqomqyfOutxjmtO0oPS7V11uMW0SShfMn7XXW4xbSpEF9KftddbjH
+Nblgoep2rr16NIV7ES65AMDBcW01mT5SW6VjyecmSRlHFGPx/9oACAECAgY/AE//2gAIAQMCBj8A
+T//aAAgBAQEGPwCUa0LURnakSeIBCMPsWzFufLG4/uGSYgMpjQHIRtzH8ydh7YXfIZYyuQG8VB6h
+aG3OzdVd8hljcifQr870+XvqV3yGWNyR9Cv0NT5e+lXfIZYytwO4hgOpWt9zu/VXH9wyTkhlI6w4
+CNyZ2A7RhKVal6IwtRIPAElGf2Lhk/Llj//Z" transform="matrix(1 0 0 1 28 0)">
+				</image>
+			</g>
+		</mask>
+		<g opacity="0.32" mask="url(#SVGID_4_)">
+			<path fill="#FFDE00" d="M32,60.416c15.694,0,28.417-12.723,28.417-28.417C60.416,16.306,47.694,3.583,32,3.583V60.416z"/>
+			<path fill="none" stroke="#FFDE00" stroke-width="3" stroke-miterlimit="10" d="M32,60.416c15.694,0,28.417-12.723,28.417-28.417
+				C60.416,16.306,47.694,3.583,32,3.583V60.416z"/>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,6 @@
+{
+	"name": "Bags_McRibbit",
+	"oneshot": false,
+	"order": [0, 1, 2, 3, 4],
+	"delay": 0.25
+}
