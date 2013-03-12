@@ -135,18 +135,16 @@ AABJRU5ErkJggg==" transform="matrix(0.48 0 0 0.48 3.7871 -15.8091)">
 			</image>
 		</g>
 	</g>
-	<path style="fill:none;stroke:#78211C;stroke-width:3;stroke-miterlimit:10;" d="M36.027,33.895c0,0-12.735-4.505-13.544-0.029
-		c-0.81,4.479,6.365,6.337,9.548,6.73c0,0-10.11-1.488-9.725,3.22c0.384,4.709,9.096,4.15,9.096,4.15"/>
+	<path style="fill:none;stroke:#78211C;stroke-width:3;stroke-miterlimit:10;" d="M20.498,49.628c0,0,19.008-5.949,24.334-2.042"/>
 	<g>
-		<g>
-			<line style="fill:none;stroke:#78211C;stroke-width:1.5;stroke-miterlimit:10;" x1="38.26" y1="16.3" x2="48.211" y2="18.929"/>
-		</g>
-		<line style="fill:none;stroke:#78211C;stroke-width:3;stroke-miterlimit:10;" x1="37.563" y1="18.886" x2="47.688" y2="21.696"/>
+		<path style="fill:#FFFFFF;stroke:#78211C;stroke-width:1.5;stroke-miterlimit:10;" d="M27.25,24.542
+			c0,4.698-3.808,8.504-8.508,8.504c-4.699,0-8.507-3.806-8.507-8.504c0-4.7,3.808-8.508,8.507-8.508
+			C23.442,16.033,27.25,19.841,27.25,24.542z"/>
+		<circle style="fill:#78211C;" cx="18.742" cy="24.542" r="3.95"/>
 	</g>
 	<g>
-		
-			<line style="fill:none;stroke:#78211C;stroke-width:1.5;stroke-miterlimit:10;" x1="14.334" y1="20.526" x2="22.296" y2="16.529"/>
-		<line style="fill:none;stroke:#78211C;stroke-width:3;stroke-miterlimit:10;" x1="15.526" y1="22.718" x2="23.519" y2="18.899"/>
+		<circle style="fill:#FFFFFF;stroke:#78211C;stroke-width:1.5;stroke-miterlimit:10;" cx="43.947" cy="24.542" r="8.508"/>
+		<circle style="fill:#78211C;" cx="43.946" cy="24.542" r="3.95"/>
 	</g>
 	<circle style="fill:none;stroke:#BB5E5D;stroke-width:2.5;stroke-miterlimit:10;" cx="32.332" cy="32" r="28.079"/>
 	<circle style="fill:none;stroke:#541715;stroke-width:2.5;stroke-miterlimit:10;" cx="32.333" cy="32" r="28.944"/>

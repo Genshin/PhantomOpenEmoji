@@ -12,12 +12,6 @@
 	unicode: "1f601"
 },
 {
-	moji: "😂",
-	name: "joy",
-	name-ja: "泣き笑い",
-	unicode: "1f602"
-},
-{
 	moji: "😃",
 	name: "smiley",
 	name-ja: "スマイル",
@@ -85,7 +79,7 @@
 },
 {
 	moji: "😓",
-	name: "つらい",
+	name: "sweat",
 	name-ja: "困り顔",
 	unicode: "1f613"
 },
@@ -129,6 +123,12 @@
 	moji: "😜",
 	name: "stuck_out_tongue_winking_eye",
 	name-ja: "あっかんべー",
+	unicode: "1f61c"
+},
+{
+	moji: "😜",
+	name: "wink2",
+	name-ja: "ウインク",
 	unicode: "1f61c"
 },
 {

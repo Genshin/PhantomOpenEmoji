@@ -5,14 +5,14 @@ require 'rsvg2'
 
 #rsvg-convert -w 200 smile_only.svg -o testes.png
 
-SRC = "images/svg/smile_only.svg"
+SRC = "./images/svg/smile_only.svg"
 DST = "smile_only.png"
 
 handle = RSVG::Handle.new_from_file(SRC)
 
 ratio = 1.0
 
-output_px = 12800
+output_px = 128
 
 dim = handle.dimensions
 ratio_w = output_px.to_f / dim.width.to_f
