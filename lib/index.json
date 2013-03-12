@@ -1,202 +1,202 @@
 [
 {
-	moji: "😃",
-	name: "grinning",
-	name-ja: "にんまり",
-	unicode: "1f600"
+	"moji": "😃",
+	"name": "grinning",
+	"name-ja": "にんまり",
+	"unicode": "1f600"
 },
 {
-	moji: "😁",
-	name: "grin",
-	name-ja: "うっしっし",
-	unicode: "1f601"
+	"moji": "😁",
+	"name": "grin",
+	"name-ja": "うっしっし",
+	"unicode": "1f601"
 },
 {
-	moji: "😃",
-	name: "smiley",
-	name-ja: "スマイル",
-	unicode: "1f603"
+	"moji": "😃",
+	"name": "smiley",
+	"name-ja": "スマイル",
+	"unicode": "1f603"
 },
 {
-	moji: "😄",
-	name: "smile",
-	name-ja: "嬉しい顔",
-	unicode: "1f604"
+	"moji": "😄",
+	"name": "smile",
+	"name-ja": "嬉しい顔",
+	"unicode": "1f604"
 },
 {
-	moji: "😅",
-	name: "sweat_smile",
-	name-ja: "冷や汗",
-	unicode: "1f605"
+	"moji": "😅",
+	"name": "sweat_smile",
+	"name-ja": "冷や汗",
+	"unicode": "1f605"
 },
 {
-	moji: "😆",
-	name: "laughing",
-	name-ja: "笑い",
-	unicode: "1f606"
+	"moji": "😆",
+	"name": "laughing",
+	"name-ja": "笑い",
+	"unicode": "1f606"
 },
 {
-	moji: "😉",
-	name: "wink",
-	name-ja: "ウインク",
-	unicode: "1f609"
+	"moji": "😉",
+	"name": "wink",
+	"name-ja": "ウインク",
+	"unicode": "1f609"
 },
 {
-	moji: "😊",
-	name: "blush",
-	name-ja: "にこにこ",
-	unicode: "1f60a"
+	"moji": "😊",
+	"name": "blush",
+	"name-ja": "にこにこ",
+	"unicode": "1f60a"
 },
 {
-	moji: "😌",
-	name: "relieved",
-	name-ja: "ほっとした顔",
-	unicode: "1f60c"
+	"moji": "😌",
+	"name": "relieved",
+	"name-ja": "ほっとした顔",
+	"unicode": "1f60c"
 },
 {
-	moji: "😍",
-	name: "heart_eyes",
-	name-ja: "目がハート",
-	unicode: "1f60d"
+	"moji": "😍",
+	"name": "heart_eyes",
+	"name-ja": "目がハート",
+	"unicode": "1f60d"
 },
 {
-	moji: "😏",
-	name: "smirk",
-	name-ja: "ふっ",
-	unicode: "1f60f"
+	"moji": "😏",
+	"name": "smirk",
+	"name-ja": "ふっ",
+	"unicode": "1f60f"
 },
 {
-	moji: "😑",
-	name: "expressioonless",
-	name-ja: "ぼけーっとした顔",
-	unicode: "1f611"
+	"moji": "😑",
+	"name": "expressioonless",
+	"name-ja": "ぼけーっとした顔",
+	"unicode": "1f611"
 },
 {
-	moji: "😒",
-	name: "unamused",
-	name-ja: "横目",
-	unicode: "1f612"
+	"moji": "😒",
+	"name": "unamused",
+	"name-ja": "横目",
+	"unicode": "1f612"
 },
 {
-	moji: "😓",
-	name: "sweat",
-	name-ja: "困り顔",
-	unicode: "1f613"
+	"moji": "😓",
+	"name": "sweat",
+	"name-ja": "困り顔",
+	"unicode": "1f613"
 },
 {
-	moji: "😕",
-	name: "confused",
-	name-ja: "困る",
-	unicode: "1f615"
+	"moji": "😕",
+	"name": "confused",
+	"name-ja": "困る",
+	"unicode": "1f615"
 },
 {
-	moji: "😗",
-	name: "kissing",
-	name-ja: "チュー",
-	unicode: "1f617"
+	"moji": "😗",
+	"name": "kissing",
+	"name-ja": "チュー",
+	"unicode": "1f617"
 },
 {
-	moji: "😘",
-	name: "kissing_heart",
-	name-ja: "投げキッス",
-	unicode: "1f618"
+	"moji": "😘",
+	"name": "kissing_heart",
+	"name-ja": "投げキッス",
+	"unicode": "1f618"
 },
 {
-	moji: "😙",
-	name: "kissing_smiling_eyes",
-	name-ja: "チューしよ",
-	unicode: "1f619"
+	"moji": "😙",
+	"name": "kissing_smiling_eyes",
+	"name-ja": "チューしよ",
+	"unicode": "1f619"
 },
 {
-	moji: "😚",
-	name: "kissing_closed_eyes",
-	name-ja: "チュッ",
-	unicode: "1f61a"
+	"moji": "😚",
+	"name": "kissing_closed_eyes",
+	"name-ja": "チュッ",
+	"unicode": "1f61a"
 },
 {
-	moji: "😛",
-	name: "stuck_out_tongue",
-	name-ja: "べー",
-	unicode: "1f61b"
+	"moji": "😛",
+	"name": "stuck_out_tongue",
+	"name-ja": "べー",
+	"unicode": "1f61b"
 },
 {
-	moji: "😜",
-	name: "stuck_out_tongue_winking_eye",
-	name-ja: "あっかんべー",
-	unicode: "1f61c"
+	"moji": "😜",
+	"name": "stuck_out_tongue_winking_eye",
+	"name-ja": "あっかんべー",
+	"unicode": "1f61c"
 },
 {
-	moji: "😜",
-	name: "wink2",
-	name-ja: "ウインク",
-	unicode: "1f61c"
+	"moji": "😜",
+	"name": "stuck_out_tongue_winking_eye",
+	"name-ja": "あっかんべー",
+	"unicode": "1f61c"
 },
 {
-	moji: "😝",
-	name: "stuck_out_tongue_closed_eyes",
-	name-ja: "べーっ",
-	unicode: "1f61d"
+	"moji": "😝",
+	"name": "stuck_out_tongue_closed_eyes",
+	"name-ja": "べーっ",
+	"unicode": "1f61d"
 },
 {
-	moji: "😟",
-	name: "worried",
-	name-ja: "心配",
-	unicode: "1f61f"
+	"moji": "😟",
+	"name": "worried",
+	"name-ja": "心配",
+	"unicode": "1f61f"
 },
 {
-	moji: "😦",
-	name: "frowning",
-	name-ja: "しかめっ面",
-	unicode: "1f626"
+	"moji": "😦",
+	"name": "frowning",
+	"name-ja": "しかめっ面",
+	"unicode": "1f626"
 },
 {
-	moji: "😧",
-	name: "anguished",
-	name-ja: "悲しい顔",
-	unicode: "1f627"
+	"moji": "😧",
+	"name": "anguished",
+	"name-ja": "悲しい顔",
+	"unicode": "1f627"
 },
 {
-	moji: "😬",
-	name: "grimacing",
-	name-ja: "いーっ",
-	unicode: "1f62c"
+	"moji": "😬",
+	"name": "grimacing",
+	"name-ja": "いーっ",
+	"unicode": "1f62c"
 },
 {
-	moji: "😮",
-	name: "open_mouth",
-	name-ja: "ぽかんと",
-	unicode: "1f62e"
+	"moji": "😮",
+	"name": "open_mouth",
+	"name-ja": "ぽかんと",
+	"unicode": "1f62e"
 },
 {
-	moji: "😯",
-	name: "hushed",
-	name-ja: "しーん",
-	unicode: "1f62f"
+	"moji": "😯",
+	"name": "hushed",
+	"name-ja": "しーん",
+	"unicode": "1f62f"
 },
 {
-	moji: "😳",
-	name: "flushed",
-	name-ja: "ぽっ",
-	unicode: "1f633"
+	"moji": "😳",
+	"name": "flushed",
+	"name-ja": "ぽっ",
+	"unicode": "1f633"
 },
 {
-	moji: "😴",
-	name: "sleeping",
-	name-ja: "眠い",
-	unicode: "1f634"
+	"moji": "😴",
+	"name": "sleeping",
+	"name-ja": "眠い",
+	"unicode": "1f634"
 },
 {
-	name: "bowtie",
-	name-ja: "ちょうネクタイ"
+	"name": "bowtie",
+	"name-ja": "ちょうネクタイ"
 },
 {
-	name: "satisfied",
-	name-ja: "満足"
+	"name": "satisfied",
+	"name-ja": "満足"
 },
 {
-	moji: "☺",
-	name: "relaxed",
-	name-ja: "リラックス",
-	unicode: "263a"
+	"moji": "☺",
+	"name": "relaxed",
+	"name-ja": "リラックス",
+	"unicode": "263a"
 }
 ]
