@@ -30,20 +30,17 @@ surface.write_to_png(DST)
 #
 # #"images/svg/???.svg" -> "images/png64/???.png"
 
-filenames = Array.new
+emojiDatas = Array.new
 
 file = open('index.json').read
 data = JSON.parse(file)
 data.each do |list|
-  puts list['moji']
-  puts list['name']
-  puts list['name-ja']
-  puts list['unicode']
-  filename = 'images/svg/' + list['name'] + '.svg'
-  filenames.push(filename)
+  emojiDatas.push(list)
 end
 
-filenames.each do |name|
-  puts name
-  # ここでコンバートとか…？
+emojiDatas.each do |emoji|
+  # ここでコンバートとか
+  # 'images/svg/' + emoji['name'] + '.svg'
+  # 'images/png64/' + emoji['name'] + '.png'
+  puts 'images/svg/' + emoji['name'] + '.svg'
 end
