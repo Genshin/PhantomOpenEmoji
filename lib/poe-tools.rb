@@ -1,19 +1,9 @@
 # -*- encoding: utf-8 -*-
 
-
 require './poe.rb'
 require 'optparse'
 
 poe = POE.new
-
-#TODO
-# $ poe-tools -h
-# $ poe-tools help
-# * print help
-
-#TODO
-# $ poe-tools -i {index_file}
-# * the -i flag allows specification of an index other than the default
 
 #TODO
 # $ poe-tools convert {format} {px}
@@ -24,49 +14,98 @@ poe = POE.new
 
 # helpを表示
 if ARGV[0] == 'help'
-  puts 'print help!'
+  puts poe.print_help
 end
 
-# 引数がない場合はindex.jsonを使用
-if ARGV[0].nil?
-  poe.parse_json_index('index.json')
-end
-
+opts = OptionParser.new
+# ヘルプ
+opts.on('-h', '--help') {|v|
+  poe.print_help
+}
+# index.json以外のファイル使用
+opts.on('-i=FILE') {|v|
+  poe.parse_json_index(v)
+}
 # コンバート
-if ARGV[0] == 'convert'
-  if ARGV.size < 3
-    puts '引数が足りません'
-  end
+opts.on('-c=FORMAT PX', '--convert=FORMAT PX') {|v|
+  puts v
+  puts ARGV[0]
+}
+# 絵文字から名前を検索
+opts.on('--search-name=EMOJI') {|v|
+  poe.emoji_to_name(v)
+}
+# 絵文字から日本語名を検索
+opts.on('--search-name-ja=EMOJI') {|v|
+  poe.emoji_to_name_ja(v)
+}
+# 名前から絵文字を検索
+opts.on('--search-emoji-name=NAME') {|v|
+  poe.name_to_emoji(v)
+}
+# 日本語名から絵文字を検索
+opts.on('--search-emoji-name-ja=NAME') {|v|
+  poe.name_ja_to_emoji(v)
+}
+opts.parse!(ARGV)
 
-  if ARGV[1] != 'png' && ARGV[1] != 'svg'
-    puts '形式が違います'
-  end
-
-  if ARGV[2] =~ /[0-9]/
-    puts 'ok'
-  else
-    puts '整数を入力してください'
-  end
-end
-
-# オプション付き
+=begin
+# オプション
 ARGV.options do |opts|
   # helpを表示
   opts.on("-h", "--help") {|help|
-    puts 'print help!'
+    poe.print_help
   }
 
  # index.json以外のインデックスファイルを使用
-  opts.on("-i FILE") {|file|
-    puts 'not use index.json!'
-    #poe.parse_json_index(file)
+  opts.on("-i=FILE") {|file|
+    poe.parse_json_index(file)
   }
 
-  # デフォルト(png 64px)コンバート
-  opts.on("-c", "--convert") {|c|
-    puts 'default convert!'
+  # コンバート
+  opts.on("-c=FORMAT PX", "--convert=FORMAT PX") {|c|
+    format = c
+    px = ARGV
     # poe.all_to_png(64)
   }
 
   opts.parse!
+end
+=end
+
+=begin
+# 引数がない場合はindex.jsonを使用
+if ARGV[0].nil?
+  poe.parse_json_index('index.json')
+end
+=end
+
+# コンバート
+=begin
+if ARGV[0] == 'convert'
+  if ARGV.size == 1 then
+    puts 'default convert!'
+  elsif ARGV[1] != 'png' && ARGV[1] != 'svg' then
+    puts 'error: poe-tools convert {format} {px}   ex) poe-tools convert png 64'
+  elsif !ARGV[2] =~ /[0-9]/ then
+    puts 'error: poe-tools convert {format} {px}   ex) poe-tools convert png 64'
+  else
+     puts ARGV[1] + ' ' + ARGV[2] + ' convert!'
+  end
+end
+=end
+
+# コンバート
+for num in 0..ARGV.size do
+  if ARGV[num] == 'convert' then
+    if ARGV[num + 1] != 'png' && ARGV[num + 1] != 'svg' then
+      puts 'error: poe-tools convert {format} {px}   ex) poe-tools convert png 64'
+    elsif !(ARGV[num + 2] =~ /[0-9]/) then
+      puts 'error: poe-tools convert {format} {px}   ex) poe-tools convert png 64'
+    else
+      format = ARGV[num + 1]
+      px = ARGV[num + 2]
+      puts ARGV[num] + ' ' + format + ' ' + px
+    end
+  end
 end
