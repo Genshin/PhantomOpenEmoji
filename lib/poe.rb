@@ -9,15 +9,42 @@ class POE
   def parse_json_index(file)
     file = open(file).read
     @index = JSON.parse(file)
+  end
+
+  def show_items()
+    if @index.nil?
+      parse_json_index('./index.json')
+    end
+
     @index.each do |item|
-      puts item['moji']
-      # puts item['name']
-      # puts item['name-ja']
-      # puts item['unicode']
+      str = ""
+      if !(item['moji'].nil?)
+        str += item['moji']
+      end
+      str += "\t"
+      if !(item['name'].nil?)
+        str += item['name']
+      end
+      str += "\t"
+      if !(item['name-ja'].nil?)
+        str += item['name-ja']
+      end
+      str += "\t"
+      if !(item['unicode'].nil?)
+        str += item['unicode']
+      end
+      puts str
     end
   end
 
   def all_to_png(px)
+    if @index.nil?
+      parse_json_index('./index.json')
+    end
+
+    @index.each do |item|
+      emoji_to_png(item['name'], px)
+    end
   end
 
   def emoji_to_png(name, px)
@@ -48,7 +75,7 @@ class POE
   # 絵文字から名前を検索
   def emoji_to_name(emoji)
     if @index.nil?
-      parse_json_index('index.json')
+      parse_json_index('./index.json')
     end
 
     @index.each do |item|
@@ -61,7 +88,7 @@ class POE
   # 絵文字から日本語名を検索
   def emoji_to_name_ja(emoji)
     if @index.nil?
-      parse_json_index('index.json')
+      parse_json_index('./index.json')
     end
 
     @index.each do |item|
@@ -74,7 +101,7 @@ class POE
   # 名前から絵文字を検索
   def name_to_emoji(name)
     if @index.nil?
-      parse_json_index('index.json')
+      parse_json_index('./index.json')
     end
 
     @index.each do |item|
@@ -87,7 +114,7 @@ class POE
   # 日本語名から絵文字を検索
   def name_ja_to_emoji(name_ja)
     if @index.nil?
-      parse_json_index('index.json')
+      parse_json_index('./index.json')
     end
 
     @index.each do |item|

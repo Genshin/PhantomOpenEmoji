@@ -18,18 +18,26 @@ if ARGV[0] == 'help'
 end
 
 opts = OptionParser.new
-# ヘルプ
+# helpを表示
 opts.on('-h', '--help') {|v|
   poe.print_help
 }
-# index.json以外のファイル使用
+# 一覧表示
+opts.on('-l') {|v|
+  poe.show_items
+}
+# ./index.json以外のファイル使用
 opts.on('-i=FILE') {|v|
   poe.parse_json_index(v)
 }
 # コンバート
 opts.on('-c=FORMAT PX', '--convert=FORMAT PX') {|v|
-  puts v
-  puts ARGV[0]
+  if ARGV[0].nil?
+    puts 'error'
+  elsif v == 'png'
+    poe.all_to_png(ARGV[0])
+  end
+  # 将来的にフォーマットが増える？
 }
 # 絵文字から名前を検索
 opts.on('--search-name=EMOJI') {|v|
@@ -49,63 +57,29 @@ opts.on('--search-emoji-name-ja=NAME') {|v|
 }
 opts.parse!(ARGV)
 
-=begin
-# オプション
-ARGV.options do |opts|
-  # helpを表示
-  opts.on("-h", "--help") {|help|
-    poe.print_help
-  }
-
- # index.json以外のインデックスファイルを使用
-  opts.on("-i=FILE") {|file|
-    poe.parse_json_index(file)
-  }
-
-  # コンバート
-  opts.on("-c=FORMAT PX", "--convert=FORMAT PX") {|c|
-    format = c
-    px = ARGV
-    # poe.all_to_png(64)
-  }
-
-  opts.parse!
-end
-=end
-
-=begin
-# 引数がない場合はindex.jsonを使用
-if ARGV[0].nil?
-  poe.parse_json_index('index.json')
-end
-=end
-
-# コンバート
-=begin
-if ARGV[0] == 'convert'
-  if ARGV.size == 1 then
-    puts 'default convert!'
-  elsif ARGV[1] != 'png' && ARGV[1] != 'svg' then
-    puts 'error: poe-tools convert {format} {px}   ex) poe-tools convert png 64'
-  elsif !ARGV[2] =~ /[0-9]/ then
-    puts 'error: poe-tools convert {format} {px}   ex) poe-tools convert png 64'
-  else
-     puts ARGV[1] + ' ' + ARGV[2] + ' convert!'
-  end
-end
-=end
-
 # コンバート
 for num in 0..ARGV.size do
   if ARGV[num] == 'convert' then
-    if ARGV[num + 1] != 'png' && ARGV[num + 1] != 'svg' then
+    if num == ARGV.size - 1 then
+      # デフォルトのコンバート
+      poe.all_to_png(64)
+      # puts 'default'
+      break
+    elsif ARGV[num + 1] != 'png' && ARGV[num + 1] != 'gif' then
+      # {format}が違う
       puts 'error: poe-tools convert {format} {px}   ex) poe-tools convert png 64'
-    elsif !(ARGV[num + 2] =~ /[0-9]/) then
+      break
+    elsif !(ARGV[num + 2] =~ /[0-9]/)  || ARGV[num + 2].nil? then
+      # {px}が違う
       puts 'error: poe-tools convert {format} {px}   ex) poe-tools convert png 64'
+      break
     else
-      format = ARGV[num + 1]
-      px = ARGV[num + 2]
-      puts ARGV[num] + ' ' + format + ' ' + px
+      if ARGV[num + 1] == 'png'
+        poe.all_to_png(ARGV[num + 2])
+        # puts 'png' + ARGV[num + 2]
+      end
+      # 将来的に違うフォーマットも増える？
+      break
     end
   end
 end
