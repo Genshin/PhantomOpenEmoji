@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 # -*- encoding: utf-8 -*-
 
 require './poe.rb'
@@ -75,7 +76,7 @@ for num in 0..ARGV.size do
       break
     else
       if ARGV[num + 1] == 'png'
-        poe.all_to_png(ARGV[num + 2])
+        poe.all_to_png(ARGV[num + 2].to_i)
         # puts 'png' + ARGV[num + 2]
       end
       # 将来的に違うフォーマットも増える？
