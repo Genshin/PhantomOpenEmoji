@@ -6,42 +6,21 @@ require 'rsvg2'
 class POE
   @index
 
+  def initialize
+    parse_json_index('./index.json')
+  end
+
   def parse_json_index(file)
     file = open(file).read
     @index = JSON.parse(file)
   end
 
-  def show_items()
-    if @index.nil?
-      parse_json_index('./index.json')
-    end
-
-    @index.each do |item|
-      str = ""
-      if !(item['moji'].nil?)
-        str += item['moji']
-      end
-      str += "\t"
-      if !(item['name'].nil?)
-        str += item['name']
-      end
-      str += "\t"
-      if !(item['name-ja'].nil?)
-        str += item['name-ja']
-      end
-      str += "\t"
-      if !(item['unicode'].nil?)
-        str += item['unicode']
-      end
-      puts str
-    end
+  def get_index()
+    return @index
   end
 
-  def all_to_png(px)
-    if @index.nil?
-      parse_json_index('./index.json')
-    end
-
+  def index_to_png(px, outdir)
+    #TODO handle outdir
     @index.each do |item|
       emoji_to_png(item['name'], px)
     end
@@ -66,60 +45,29 @@ class POE
     surface.write_to_png(destination)
   end
 
-  # helpを表示
-  def print_help
-    str = File.read("help.txt", :encoding => Encoding::UTF_8)
-    print(str)
-  end
-
-  # 絵文字から名前を検索
-  def emoji_to_name(emoji)
-    if @index.nil?
-      parse_json_index('./index.json')
-    end
-
+  # 絵文字から検索
+  def lookup_emoji(emoji)
     @index.each do |item|
       if emoji == item['moji']
-        puts item['name']
+        return item
       end
     end
   end
 
-  # 絵文字から日本語名を検索
-  def emoji_to_name_ja(emoji)
-    if @index.nil?
-      parse_json_index('./index.json')
-    end
-
-    @index.each do |item|
-      if emoji == item['moji']
-        puts item['name-ja']
-      end
-    end
-  end
-
-  # 名前から絵文字を検索
-  def name_to_emoji(name)
-    if @index.nil?
-      parse_json_index('./index.json')
-    end
-
+  # 名前から検索
+  def lookup_name(name)
     @index.each do |item|
       if name == item['name']
-        puts item['moji']
+        return item
       end
     end
   end
 
-  # 日本語名から絵文字を検索
-  def name_ja_to_emoji(name_ja)
-    if @index.nil?
-      parse_json_index('./index.json')
-    end
-
+  # 日本語名から検索
+  def lookup_name_ja(name_ja)
     @index.each do |item|
       if name_ja == item['name-ja']
-        puts item['moji']
+        return item
       end
     end
   end
