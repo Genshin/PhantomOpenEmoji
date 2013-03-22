@@ -20,15 +20,14 @@ class POE
   end
 
   def index_to_png(px, outdir)
-    #TODO handle outdir
     @index.each do |item|
-      emoji_to_png(item['name'], px)
+      emoji_to_png(item['name'], px, outdir)
     end
   end
 
-  def emoji_to_png(name, px)
+  def emoji_to_png(name, px, outdir)
     source = "./images/svg/" + name + ".svg"
-    destination = "./images/png64/" + name + ".png"
+    destination = outdir + name + ".png"
 
     handle = RSVG::Handle.new_from_file(source)
 

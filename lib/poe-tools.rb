@@ -7,6 +7,7 @@ require 'optparse'
 @poe = POE.new
 @format = 'png'
 @size = 64
+@outdir = "./images/png64/"
 
 def list_emoji()
   index = @poe.get_index
@@ -35,7 +36,7 @@ end
 
 opts = OptionParser.new
 # 一覧表示
-opts.on('--list', '-l') {|v|
+opts.on('-l', '--list') {|v|
   list_emoji
 }
 
@@ -54,8 +55,11 @@ opts.on('-s PX', '--size PX') {|px|
 
 # コンバート
 opts.on('-c [OUTDIR]', '--convert [OUTDIR]') {|outdir|
+  if !outdir.nil?
+    @outdir = outdir
+  end
   if @format == 'png'
-    @poe.index_to_png(@size, outdir)
+    @poe.index_to_png(@size, @outdir)
   end
 }
 
