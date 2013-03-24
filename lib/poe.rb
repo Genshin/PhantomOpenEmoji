@@ -64,7 +64,6 @@ class POE
     context = Cairo::Context.new(surface)
     context.scale(ratio_w, ratio_h)
     context.render_rsvg_handle(handle)
-    puts "OUTDUR" << destination
     surface.write_to_png(destination + "/" + name + ".png")
   end
 
