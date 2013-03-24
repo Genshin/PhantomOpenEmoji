@@ -5,6 +5,9 @@ require 'rsvg2'
 
 class POE
   @index
+  DEF_PX = 64
+  DEF_FORMAT = 'png'
+  DEF_OUTDIR = "./images"
 
   def initialize
     parse_json_index('./index.json')
@@ -19,16 +22,35 @@ class POE
     return @index
   end
 
-  def index_to_png(px, outdir)
+  def convert_index(format, px, outdir)
+    if format.nil?
+      format = DEF_FORMAT
+    end
+    if px.nil?
+      px = DEF_PX
+    end
+    if outdir.nil?
+      outdir = DEF_OUTDIR
+    end
+
+    destination = create_destination(outdir, format, px)
+
+    case format
+    when 'png'
+      index_to_png(px, destination)
+    end
+
+  end
+
+  def index_to_png(px, destination)
     #TODO handle outdir
     @index.each do |item|
-      emoji_to_png(item['name'], px)
+      emoji_to_png(item['name'], px, destination)
     end
   end
 
-  def emoji_to_png(name, px)
+  def emoji_to_png(name, px, destination)
     source = "./images/svg/" + name + ".svg"
-    destination = "./images/png64/" + name + ".png"
 
     handle = RSVG::Handle.new_from_file(source)
 
@@ -42,7 +64,17 @@ class POE
     context = Cairo::Context.new(surface)
     context.scale(ratio_w, ratio_h)
     context.render_rsvg_handle(handle)
-    surface.write_to_png(destination)
+    surface.write_to_png(destination + "/" + name + ".png")
+  end
+
+  def create_destination(outdir, format, px)
+    destination = outdir + "/" + format + px.to_s
+    begin
+      Dir::mkdir(destination)
+    rescue
+    end
+
+    return destination
   end
 
   # 絵文字から検索
@@ -73,3 +105,4 @@ class POE
   end
 
 end
+
