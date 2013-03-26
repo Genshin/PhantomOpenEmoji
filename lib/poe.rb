@@ -22,7 +22,7 @@ class POE
     return @index
   end
 
-  def convert_index(format, px, outdir)
+  def convert_index(format, px, outdir, outdir_is_absolute = false)
     if format.nil?
       format = DEF_FORMAT
     end
@@ -33,7 +33,7 @@ class POE
       outdir = DEF_OUTDIR
     end
 
-    destination = create_destination(outdir, format, px)
+    destination = create_destination(outdir, format, px, outdir_is_absolute)
 
     case format
     when 'png'
@@ -67,8 +67,13 @@ class POE
     surface.write_to_png(destination + "/" + name + ".png")
   end
 
-  def create_destination(outdir, format, px)
-    destination = outdir + "/" + format + px.to_s
+  def create_destination(outdir, format, px, outdir_is_absolute = false)
+    if outdir_is_absolute
+      destination = outdir
+    else
+      destination = outdir + "/" + format + px.to_s
+    end
+
     begin
       Dir::mkdir(destination)
     rescue
