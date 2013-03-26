@@ -1,5 +1,11 @@
 [
 {
+	"moji": "🍕",
+	"name": "pizza",
+	"name-ja": "ピザ",
+	"unicode": "1f355"
+},
+{
 	"moji": "😀",
 	"name": "grinning",
 	"name-ja": "にんまり",
@@ -180,6 +186,12 @@
 	"unicode": "1f634"
 },
 {
+	"moji": "☺",
+	"name": "relaxed",
+	"name-ja": "リラックス",
+	"unicode": "263a"
+},
+{
 	"name": "bowtie",
 	"name-ja": "ちょうネクタイ"
 },
@@ -188,9 +200,7 @@
 	"name-ja": "満足"
 },
 {
-	"moji": "☺",
-	"name": "relaxed",
-	"name-ja": "リラックス",
-	"unicode": "263a"
+	"name": "wink2",
+	"name-ja": "ウインク2"
 }
 ]
