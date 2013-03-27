@@ -52,6 +52,8 @@ class POE
   def emoji_to_png(name, px, destination)
     source = "./images/svg/" + name + ".svg"
 
+    #puts "converting " + name + " @ " + px.to_s + "px"
+
     handle = RSVG::Handle.new_from_file(source)
 
     output_px = px
