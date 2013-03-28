@@ -3,210 +3,265 @@
 	"moji": "🍕",
 	"name": "pizza",
 	"name-ja": "ピザ",
+	"category": "food",
 	"unicode": "1f355"
 },
 {
 	"moji": "💩",
 	"name": "poop",
 	"name-ja": "うんち",
+	"category": "abstract",
 	"unicode": "1f4a9"
+},
+{
+	"moji": "🔫",
+	"name": "pistol",
+	"name-ja": "ピストル",
+	"category": "tools",
+	"unicode": "1f52b"
 },
 {
 	"moji": "😀",
 	"name": "grinning",
 	"name-ja": "にんまり",
+	"category": "faces",
 	"unicode": "1f600"
 },
 {
 	"moji": "😁",
 	"name": "grin",
 	"name-ja": "うっしっし",
+	"category": "faces",
 	"unicode": "1f601"
 },
 {
 	"moji": "😃",
 	"name": "smiley",
 	"name-ja": "スマイル",
+	"category": "faces",
 	"unicode": "1f603"
 },
 {
 	"moji": "😄",
 	"name": "smile",
 	"name-ja": "嬉しい顔",
+	"category": "faces",
 	"unicode": "1f604"
 },
 {
 	"moji": "😅",
 	"name": "sweat_smile",
 	"name-ja": "冷や汗",
+	"category": "faces",
 	"unicode": "1f605"
 },
 {
 	"moji": "😆",
 	"name": "laughing",
 	"name-ja": "笑い",
+	"category": "faces",
 	"unicode": "1f606"
 },
 {
 	"moji": "😉",
 	"name": "wink",
 	"name-ja": "ウインク",
+	"category": "faces",
 	"unicode": "1f609"
 },
 {
 	"moji": "😊",
 	"name": "blush",
 	"name-ja": "にこにこ",
+	"category": "faces",
 	"unicode": "1f60a"
 },
 {
 	"moji": "😌",
 	"name": "relieved",
 	"name-ja": "ほっとした顔",
+	"category": "faces",
 	"unicode": "1f60c"
 },
 {
 	"moji": "😍",
 	"name": "heart_eyes",
 	"name-ja": "目がハート",
+	"category": "faces",
 	"unicode": "1f60d"
 },
 {
 	"moji": "😏",
 	"name": "smirk",
 	"name-ja": "ふっ",
+	"category": "faces",
 	"unicode": "1f60f"
 },
 {
 	"moji": "😑",
 	"name": "expressionless",
 	"name-ja": "ぼけーっとした顔",
+	"category": "faces",
 	"unicode": "1f611"
 },
 {
 	"moji": "😒",
 	"name": "unamused",
 	"name-ja": "横目",
+	"category": "faces",
 	"unicode": "1f612"
 },
 {
 	"moji": "😓",
 	"name": "sweat",
 	"name-ja": "困り顔",
+	"category": "faces",
 	"unicode": "1f613"
 },
 {
 	"moji": "😕",
 	"name": "confused",
 	"name-ja": "困る",
+	"category": "faces",
 	"unicode": "1f615"
 },
 {
 	"moji": "😗",
 	"name": "kissing",
 	"name-ja": "チュー",
+	"category": "faces",
 	"unicode": "1f617"
 },
 {
 	"moji": "😘",
 	"name": "kissing_heart",
 	"name-ja": "投げキッス",
+	"category": "faces",
 	"unicode": "1f618"
 },
 {
 	"moji": "😙",
 	"name": "kissing_smiling_eyes",
 	"name-ja": "チューしよ",
+	"category": "faces",
 	"unicode": "1f619"
 },
 {
 	"moji": "😚",
 	"name": "kissing_closed_eyes",
 	"name-ja": "チュッ",
+	"category": "faces",
 	"unicode": "1f61a"
 },
 {
 	"moji": "😛",
 	"name": "stuck_out_tongue",
 	"name-ja": "べー",
+	"category": "faces",
 	"unicode": "1f61b"
 },
 {
 	"moji": "😜",
 	"name": "stuck_out_tongue_winking_eye",
 	"name-ja": "あっかんべー",
+	"category": "faces",
 	"unicode": "1f61c"
 },
 {
 	"moji": "😝",
 	"name": "stuck_out_tongue_closed_eyes",
 	"name-ja": "べーっ",
+	"category": "faces",
 	"unicode": "1f61d"
 },
 {
 	"moji": "😟",
 	"name": "worried",
 	"name-ja": "心配",
+	"category": "faces",
 	"unicode": "1f61f"
 },
 {
 	"moji": "😦",
 	"name": "frowning",
 	"name-ja": "しかめっ面",
+	"category": "faces",
 	"unicode": "1f626"
 },
 {
 	"moji": "😧",
 	"name": "anguished",
 	"name-ja": "悲しい顔",
+	"category": "faces",
 	"unicode": "1f627"
 },
 {
 	"moji": "😬",
 	"name": "grimacing",
 	"name-ja": "いーっ",
+	"category": "faces",
 	"unicode": "1f62c"
 },
 {
 	"moji": "😮",
 	"name": "open_mouth",
 	"name-ja": "ぽかんと",
+	"category": "faces",
 	"unicode": "1f62e"
 },
 {
 	"moji": "😯",
 	"name": "hushed",
 	"name-ja": "しーん",
+	"category": "faces",
 	"unicode": "1f62f"
 },
 {
 	"moji": "😳",
 	"name": "flushed",
 	"name-ja": "ぽっ",
+	"category": "faces",
 	"unicode": "1f633"
 },
 {
 	"moji": "😴",
 	"name": "sleeping",
 	"name-ja": "眠い",
+	"category": "faces",
 	"unicode": "1f634"
+},
+{
+	"moji": "🚗",
+	"name": "car",
+	"name-ja": "車",
+	"category": "vehicles",
+	"unicode": "1f697"
 },
 {
 	"moji": "☺",
 	"name": "relaxed",
 	"name-ja": "リラックス",
+	"category": "faces",
 	"unicode": "263a"
 },
 {
 	"name": "bowtie",
-	"name-ja": "ちょうネクタイ"
+	"name-ja": "ちょうネクタイ",
+	"category": "faces"
 },
 {
 	"name": "satisfied",
-	"name-ja": "満足"
+	"name-ja": "満足",
+	"category": "faces"
 },
 {
 	"name": "wink2",
-	"name-ja": "ウインク2"
+	"name-ja": "ウインク2",
+	"category": "faces"
+},
+{
+	"name": "assault_rifle",
+	"name-ja": "アサルトライフル",
+	"category": "tools"
 }
 ]
