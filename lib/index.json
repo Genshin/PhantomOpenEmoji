@@ -1,5 +1,12 @@
 [
 {
+	"moji": "🍔",
+	"name": "hamburger",
+	"name-ja": "ハンバーガー",
+	"category": "food",
+	"unicode": "1f354"
+},
+{
 	"moji": "🍕",
 	"name": "pizza",
 	"name-ja": "ピザ",
@@ -238,6 +245,13 @@
 	"unicode": "1f697"
 },
 {
+	"moji": "🚙",
+	"name": "RV",
+	"name-ja": "RV車",
+	"category": "vehicles",
+	"unicode": "1f699"
+},
+{
 	"moji": "☺",
 	"name": "relaxed",
 	"name-ja": "リラックス",
@@ -263,5 +277,12 @@
 	"name": "assault_rifle",
 	"name-ja": "アサルトライフル",
 	"category": "tools"
+},
+{
+	"name": "genshin",
+	"name-ja": "幻信",
+	"category": "logos",
+  "contributor": "幻信創造株式会社[Phantom Creation Inc.]",
+  "url": "http://genshin.org"
 }
 ]
