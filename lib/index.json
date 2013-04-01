@@ -1,5 +1,12 @@
 [
 {
+	"moji": "🌈",
+	"name": "rainbow",
+	"name-ja": "虹",
+	"category": "nature",
+	"unicode": "1f308"
+},
+{
 	"moji": "🍔",
 	"name": "hamburger",
 	"name-ja": "ハンバーガー",
@@ -279,10 +286,25 @@
 	"category": "tools"
 },
 {
+	"name": "sun_with_face",
+	"name-ja": "顔太陽",
+	"category": "nature"
+},
+{
+	"name": "rainbow_solid",
+	"name-ja": "虹[不透明]",
+	"category": "nature"
+},
+{
+	"name": "rainbow_sky",
+	"name-ja": "虹空",
+	"category": "nature"
+},
+{
 	"name": "genshin",
 	"name-ja": "幻信",
 	"category": "logos",
-  "contributor": "幻信創造株式会社[Phantom Creation Inc.]",
-  "url": "http://genshin.org"
+	"contributor": "幻信創造株式会社[Phantom Creation Inc.]",
+	"url": "http://genshin.org"
 }
 ]
