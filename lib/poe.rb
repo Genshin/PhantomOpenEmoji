@@ -2,6 +2,7 @@
 
 require 'json'
 require 'rsvg2'
+require 'fileutils'
 
 class POE
   @index
@@ -108,6 +109,20 @@ class POE
       if name_ja == item['name-ja']
         return item
       end
+    end
+  end
+
+  # シンボリックリンク作成
+  def create_symboliclink(pngdir, outdir)
+    fullpath = File.expand_path('./')
+    #pngdir = 'images/png64'
+    #outdir = 'images/link'
+    FileUtils.mkdir_p(outdir) unless FileTest.exist?(outdir)
+    Dir.chdir(pngdir)
+    filenames = Dir.glob('*.png')
+    filenames.each do |f|
+      FileUtils.symlink(fullpath + '/' + pngdir + '/' + f,
+                        fullpath + '/' + outdir + '/' + f, {:force => true});
     end
   end
 
