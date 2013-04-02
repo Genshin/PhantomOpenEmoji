@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="rice_ball.svg"
+   x="0px"
+   y="0px"
+   width="207.03"
+   height="178.29634"
+   viewBox="0 0 207.03 178.29633"
+   xml:space="preserve"><metadata
+   id="metadata20"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs18" />
+<sodipodi:namedview
+   id="base"
+   inkscape:window-y="136"
+   inkscape:window-x="427"
+   inkscape:window-height="724"
+   inkscape:window-width="1366"
+   inkscape:guide-bbox="true"
+   inkscape:current-layer="layer1"
+   inkscape:document-units="px"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:cx="111.04075"
+   pagecolor="#ffffff"
+   showgrid="false"
+   inkscape:cy="63.859406"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   showguides="true"
+   inkscape:zoom="0.73691406"
+   inkscape:window-maximized="0"
+   showborder="false"
+   inkscape:showpageshadow="false"
+   borderlayer="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0">
+	</sodipodi:namedview>
+<g
+   id="layer1"
+   inkscape:groupmode="layer"
+   inkscape:label="Layer 1"
+   transform="translate(-10.972,-11.160023)">
+	<path
+   id="path3019-5-4"
+   sodipodi:nodetypes="cccc"
+   inkscape:connector-curvature="0"
+   style="fill:#ffffff;stroke:#bebec8"
+   d="m 114.467,12.875 c -26.817,0 -101.015,77.782 -101.015,149.502 0,30.404 202.031,33.018 202.031,0 C 215.482,96.718 142.568,13.333 114.467,12.875 z" />
+	
+		<linearGradient
+   id="path3019-7_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="674.30127"
+   y1="319.9707"
+   x2="676.66852"
+   y2="432.76059"
+   gradientTransform="matrix(1,0,0,-1,-560.543,517.3711)">
+		<stop
+   offset="0"
+   style="stop-color:#C8C8D3;stop-opacity:0.5022"
+   id="stop7" />
+		<stop
+   offset="1"
+   style="stop-color:#000000;stop-opacity:0"
+   id="stop9" />
+	</linearGradient>
+	
+		<path
+   id="path3019-7"
+   sodipodi:nodetypes="cccc"
+   inkscape:connector-curvature="0"
+   style="fill:url(#path3019-7_1_);stroke:#bebec8;stroke-width:5"
+   d="m 114.487,13.66 c -26.818,0 -101.015,77.782 -101.015,149.503 0,30.404 202.03,33.018 202.03,0 0,-65.66 -72.914,-149.045 -101.015,-149.503 z" />
+	
+		<linearGradient
+   id="path3993_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="679.50049"
+   y1="246.7881"
+   x2="680.17902"
+   y2="299.71121"
+   gradientTransform="matrix(1.3321,0,0,-1,-791.1714,418.7686)">
+		<stop
+   offset="0"
+   style="stop-color:#000000;stop-opacity:0.8978"
+   id="stop13" />
+		<stop
+   offset="1"
+   style="stop-color:#000000;stop-opacity:0.7556"
+   id="stop15" />
+	</linearGradient>
+	
+		<path
+   id="path3993"
+   sodipodi:nodetypes="csccc"
+   inkscape:connector-curvature="0"
+   style="fill:url(#path3993_1_);stroke:#000000;stroke-width:1.15419996;stroke-opacity:0"
+   d="m 56.679,183.442 c 24.368,5.202 81.792,6.166 113.703,0.656 3.839,-0.663 -5.678,-88.163 -12.605,-90.243 -15.308,-4.427 -80.345,-3.327 -87.758,-1.002 -6.657,2.998 -14.605,77.865 -13.34,90.589 l 0,0 z" />
+</g>
+</svg>
