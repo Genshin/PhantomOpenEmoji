@@ -24,13 +24,50 @@
 	"moji": "🍙",
 	"name": "rice_ball",
 	"name-ja": "おにぎり",
+	"category": "food",
 	"unicode": "1f359"
 },
 {
 	"moji": "🍰",
 	"name": "cake",
 	"name-ja": "ケーキ",
+	"category": "food",
 	"unicode": "1f370"
+},
+{
+	"moji": "🐌",
+	"name": "snail",
+	"name-ja": "かたつむり",
+	"category": "nature",
+	"unicode": "1f40c"
+},
+{
+	"moji": "🐍",
+	"name": "snake",
+	"name-ja": "へび",
+	"category": "nature",
+	"unicode": "1f40d"
+},
+{
+	"moji": "🐔",
+	"name": "chicken",
+	"name-ja": "にわとり",
+	"category": "nature",
+	"unicode": "1f414"
+},
+{
+	"moji": "🐗",
+	"name": "boar",
+	"name-ja": "いのしし",
+	"category": "nature",
+	"unicode": "1f417"
+},
+{
+	"moji": "🐴",
+	"name": "horse",
+	"name-ja": "うま",
+	"category": "nature",
+	"unicode": "1f434"
 },
 {
 	"moji": "💩",
