@@ -37,37 +37,86 @@
 {
 	"moji": "🐌",
 	"name": "snail",
-	"name-ja": "かたつむり",
+	"name-ja": "カタツムリ",
 	"category": "nature",
 	"unicode": "1f40c"
 },
 {
 	"moji": "🐍",
 	"name": "snake",
-	"name-ja": "へび",
+	"name-ja": "ヘビ",
 	"category": "nature",
 	"unicode": "1f40d"
 },
 {
 	"moji": "🐔",
 	"name": "chicken",
-	"name-ja": "にわとり",
+	"name-ja": "ニワトリ",
 	"category": "nature",
 	"unicode": "1f414"
 },
 {
 	"moji": "🐗",
 	"name": "boar",
-	"name-ja": "いのしし",
+	"name-ja": "イノシシ",
 	"category": "nature",
 	"unicode": "1f417"
 },
 {
+	"moji": "🐘",
+	"name": "elephant",
+	"name-ja": "ゾウ",
+	"category": "nature",
+	"unicode": "1f418"
+},
+{
+	"moji": "🐨",
+	"name": "koala",
+	"name-ja": "コアラ",
+	"category": "nature",
+	"unicode": "1f428"
+},
+{
+	"moji": "🐫",
+	"name": "bactrian_camel",
+	"name-ja": "フタコブラクダ",
+	"category": "nature",
+	"unicode": "1f42b"
+},
+{
 	"moji": "🐴",
 	"name": "horse",
-	"name-ja": "うま",
+	"name-ja": "ウマ",
 	"category": "nature",
 	"unicode": "1f434"
+},
+{
+	"moji": "👫",
+	"name": "couple_holding_hands",
+	"name-ja": "手をつないだカップル",
+	"category": "faces",
+	"unicode": "1f46b"
+},
+{
+	"moji": "👬",
+	"name": "two_men_holding_hands",
+	"name-ja": "手をつないだ二人の男性",
+	"category": "faces",
+	"unicode": "1f46c"
+},
+{
+	"moji": "👭",
+	"name": "two_women_holding_hands",
+	"name-ja": "手をつないだ二人の女性",
+	"category": "faces",
+	"unicode": "1f46d"
+},
+{
+	"moji": "💑",
+	"name": "couple_with_heart",
+	"name-ja": "カップルとハート",
+	"category": "faces",
+	"unicode": "1f491"
 },
 {
 	"moji": "💩",
@@ -315,6 +364,13 @@
 	"unicode": "263a"
 },
 {
+	"moji": "❤",
+	"name": "heart",
+	"name-ja": "ハート",
+	"category": "faces",
+	"unicode": "2764"
+},
+{
 	"name": "bowtie",
 	"name-ja": "ちょうネクタイ",
 	"category": "faces"
@@ -348,6 +404,31 @@
 	"name": "rainbow_sky",
 	"name-ja": "虹空",
 	"category": "nature"
+},
+{
+	"name": "couple_in_love",
+	"name-ja": "手をつないだカップルとハート",
+	"category": "faces"
+},
+{
+	"name": "two_men_in_love",
+	"name-ja": "手をつないだ二人の男性とハート",
+	"category": "faces"
+},
+{
+	"name": "two_men_with_heart",
+	"name-ja": "二人の男性とハート",
+	"category": "faces"
+},
+{
+	"name": "two_women_in_love",
+	"name-ja": "手をつないだ二人の女性とハート",
+	"category": "faces"
+},
+{
+	"name": "two_women_with_heart",
+	"name-ja": "二人の女性とハート",
+	"category": "faces"
 },
 {
 	"name": "genshin",
