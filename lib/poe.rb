@@ -6,6 +6,10 @@ require 'fileutils'
 
 class POE
   @index
+  @format
+  @px
+  @outdir
+
   DEF_PX = 64
   DEF_FORMAT = 'png'
   DEF_OUTDIR = "./images"
@@ -24,21 +28,26 @@ class POE
   end
 
   def convert_index(format, px, outdir, outdir_is_absolute = false)
-    if format.nil?
-      format = DEF_FORMAT
-    end
-    if px.nil?
-      px = DEF_PX
-    end
-    if outdir.nil?
-      outdir = DEF_OUTDIR
+    @format = format
+    if @format.nil?
+      @format = DEF_FORMAT
     end
 
-    destination = create_destination(outdir, format, px, outdir_is_absolute)
+    @px = px
+    if @px.nil?
+      @px = DEF_PX
+    end
 
-    case format
+    @outdir = outdir
+    if @outdir.nil?
+      @outdir = DEF_OUTDIR
+    end
+
+    destination = create_destination(@outdir, @format, @px, outdir_is_absolute)
+
+    case @format
     when 'png'
-      index_to_png(px, destination)
+      index_to_png(@px, destination)
     end
 
   end
@@ -79,10 +88,25 @@ class POE
 
     begin
       Dir::mkdir(destination)
+      Dir::mkdir(destination + "/unicode")
     rescue
     end
 
     return destination
+  end
+
+  # シンボリックリンク作成
+  def create_unicode_symlink(emoji, srcdir, outdir)
+    if !emoji.unicode.nil?
+      putf "moji " + item.name + " unicode " + item.unicode
+    end
+
+   # FileUtils.mkdir_p(outdir) unless FileTest.exist?(outdir)
+   # Dir.chdir(pngdir)
+   # filenames = Dir.glob('*.png')
+   # filenames.each do |f|
+   #FileUtils.symlink( "./" + srcdir + '/' + emoji.name + , fullpath + '/' + outdir + '/' + f, {:force => true});
+   # end
   end
 
   # 絵文字から検索
@@ -109,20 +133,6 @@ class POE
       if name_ja == item['name-ja']
         return item
       end
-    end
-  end
-
-  # シンボリックリンク作成
-  def create_symboliclink(pngdir, outdir)
-    fullpath = File.expand_path('./')
-    #pngdir = 'images/png64'
-    #outdir = 'images/link'
-    FileUtils.mkdir_p(outdir) unless FileTest.exist?(outdir)
-    Dir.chdir(pngdir)
-    filenames = Dir.glob('*.png')
-    filenames.each do |f|
-      FileUtils.symlink(fullpath + '/' + pngdir + '/' + f,
-                        fullpath + '/' + outdir + '/' + f, {:force => true});
     end
   end
 

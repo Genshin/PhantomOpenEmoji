@@ -9,7 +9,6 @@ require 'optparse'
 @size = 64
 @outdir = "./images"
 @pngdir = 'images/png64'
-@linkdir = 'images/link'
 
 def list_emoji()
   index = @poe.get_index
@@ -100,17 +99,6 @@ opts.on('--lookup-name NAME') {|name|
 # 日本語名から絵文字を検索
 opts.on('--lookup-name-ja NAME') {|name|
   puts @poe.lookup_name_ja(name)
-}
-
-# シンボリックリンク作成
-opts.on('--symbolic PNGDIR LINKDIR') {|name|
-  if !name.nil?
-    @pngdir = name
-  end
-  if !ARGV.nil?
-    @linkdir = ARGV[0]
-  end
-  @poe.create_symboliclink(@pngdir, @linkdir)
 }
 
 opts.parse!(ARGV)
