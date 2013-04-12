@@ -150,6 +150,7 @@
 	"moji": "😃",
 	"name": "smiley",
 	"name-ja": "スマイル",
+	"emoticon": ":)",
 	"category": "faces",
 	"unicode": "1f603"
 },
@@ -171,6 +172,7 @@
 	"moji": "😆",
 	"name": "laughing",
 	"name-ja": "笑い",
+	"emoticon": ":D",
 	"category": "faces",
 	"unicode": "1f606"
 },
@@ -178,6 +180,7 @@
 	"moji": "😉",
 	"name": "wink",
 	"name-ja": "ウインク",
+	"emoticon": ";)",
 	"category": "faces",
 	"unicode": "1f609"
 },
@@ -185,6 +188,7 @@
 	"moji": "😊",
 	"name": "blush",
 	"name-ja": "にこにこ",
+	"emoticon": ":$",
 	"category": "faces",
 	"unicode": "1f60a"
 },
@@ -228,12 +232,14 @@
 	"name": "sweat",
 	"name-ja": "困り顔",
 	"category": "faces",
+	"emoticon": "(:|",
 	"unicode": "1f613"
 },
 {
 	"moji": "😕",
 	"name": "confused",
 	"name-ja": "困る",
+	"emoticon": ":^)",
 	"category": "faces",
 	"unicode": "1f615"
 },
@@ -241,6 +247,7 @@
 	"moji": "😗",
 	"name": "kissing",
 	"name-ja": "チュー",
+	"emoticon": ":*",
 	"category": "faces",
 	"unicode": "1f617"
 },
@@ -269,6 +276,7 @@
 	"moji": "😛",
 	"name": "stuck_out_tongue",
 	"name-ja": "べー",
+	"emoticon": ":P",
 	"category": "faces",
 	"unicode": "1f61b"
 },
@@ -276,6 +284,7 @@
 	"moji": "😜",
 	"name": "stuck_out_tongue_winking_eye",
 	"name-ja": "あっかんべー",
+	"emoticon": ";P",
 	"category": "faces",
 	"unicode": "1f61c"
 },
@@ -283,6 +292,7 @@
 	"moji": "😝",
 	"name": "stuck_out_tongue_closed_eyes",
 	"name-ja": "べーっ",
+	"emoticon": "XP",
 	"category": "faces",
 	"unicode": "1f61d"
 },
@@ -297,6 +307,7 @@
 	"moji": "😦",
 	"name": "frowning",
 	"name-ja": "しかめっ面",
+	"emoticon": ":(",
 	"category": "faces",
 	"unicode": "1f626"
 },
@@ -318,6 +329,7 @@
 	"moji": "😮",
 	"name": "open_mouth",
 	"name-ja": "ぽかんと",
+	"emoticon": ":O",
 	"category": "faces",
 	"unicode": "1f62e"
 },
@@ -325,6 +337,7 @@
 	"moji": "😯",
 	"name": "hushed",
 	"name-ja": "しーん",
+	"emoticon": ":x",
 	"category": "faces",
 	"unicode": "1f62f"
 },
