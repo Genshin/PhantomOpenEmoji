@@ -94,28 +94,28 @@
 	"moji": "👫",
 	"name": "couple_holding_hands",
 	"name-ja": "手をつないだカップル",
-	"category": "faces",
+	"category": "people",
 	"unicode": "1f46b"
 },
 {
 	"moji": "👬",
 	"name": "two_men_holding_hands",
 	"name-ja": "手をつないだ二人の男性",
-	"category": "faces",
+	"category": "people",
 	"unicode": "1f46c"
 },
 {
 	"moji": "👭",
 	"name": "two_women_holding_hands",
 	"name-ja": "手をつないだ二人の女性",
-	"category": "faces",
+	"category": "people",
 	"unicode": "1f46d"
 },
 {
 	"moji": "💑",
 	"name": "couple_with_heart",
 	"name-ja": "カップルとハート",
-	"category": "faces",
+	"category": "people",
 	"unicode": "1f491"
 },
 {
@@ -421,28 +421,43 @@
 {
 	"name": "couple_in_love",
 	"name-ja": "手をつないだカップルとハート",
-	"category": "faces"
+	"category": "people"
 },
 {
 	"name": "two_men_in_love",
 	"name-ja": "手をつないだ二人の男性とハート",
-	"category": "faces"
+	"category": "people"
 },
 {
 	"name": "two_men_with_heart",
 	"name-ja": "二人の男性とハート",
-	"category": "faces"
+	"category": "people"
 },
 {
 	"name": "two_women_in_love",
 	"name-ja": "手をつないだ二人の女性とハート",
-	"category": "faces"
+	"category": "people"
 },
 {
 	"name": "two_women_with_heart",
 	"name-ja": "二人の女性とハート",
-	"category": "faces"
+	"category": "people"
 },
+{
+	"name": "happijar",
+	"alts": ["grateful"],
+	"name-ja": "ハッピジャー",
+	"category": "logos",
+	"contributor": "groupme",
+	"url": "http://groupme.com"
+},
+/*{
+	"name": "groupme",
+	"name-ja": "groupme",
+	"category": "logos",
+	"contributor": "groupme",
+	"url": "http://groupme.com"
+},*/
 {
 	"name": "genshin",
 	"name-ja": "幻信",
