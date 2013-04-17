@@ -91,6 +91,13 @@
 	"unicode": "1f434"
 },
 {
+	"moji": "👪",
+	"name": "family",
+	"name-ja": "家族",
+	"category": "people",
+	"unicode": "1f46a"
+},
+{
 	"moji": "👫",
 	"name": "couple_holding_hands",
 	"name-ja": "手をつないだカップル",
@@ -399,6 +406,11 @@
 	"category": "faces"
 },
 {
+	"name": "drunk",
+	"name-ja": "酔っ払い",
+	"category": "faces"
+},
+{
 	"name": "assault_rifle",
 	"name-ja": "アサルトライフル",
 	"category": "tools"
@@ -417,6 +429,16 @@
 	"name": "rainbow_sky",
 	"name-ja": "虹空",
 	"category": "nature"
+},
+{
+	"name": "jumping_spider",
+	"name-ja": "ハエトリグモ",
+	"category": "nature"
+},
+{
+	"name": "family_daughters",
+	"name-ja": "家族",
+	"category": "people"
 },
 {
 	"name": "couple_in_love",
