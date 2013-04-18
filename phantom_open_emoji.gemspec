@@ -1,6 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'phantom_open_emoji'
   s.version     = '0.0.1'
+  s.license     = "Source: MIT, Glyphs/Fonts: SIL, Images: CC-By 3.0"
   s.summary     = "Completely FOSS Emoji for everyone"
   s.description = "A completely free and open set of emoji that anybody can use in any project without a fee and without any restrictive conditions. "
   s.authors     = ["Rei Kagetsuki", "Jun Tohyama", "Rika Yoshida"]

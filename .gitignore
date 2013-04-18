@@ -4,3 +4,4 @@
 .*.swm
 .DS_Store
 .project
+*.gem
