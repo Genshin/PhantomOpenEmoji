@@ -5,9 +5,6 @@ require File.expand_path('../../lib/poe.rb', __FILE__)
 require 'optparse'
 
 @poe = POE.new
-@format = 'png'
-@size = 64
-@outdir = Dir.pwd
 
 def list_emoji()
   index = @poe.get_index
@@ -42,29 +39,38 @@ opts.on('--list', '-l') {
 
 # ./index.json以外のファイル使用
 opts.on('-i', '--index') {|index_file|
-  @poe.parse_json_index(index_file)
+  @poe.set_index_file(index_file)
 }
 
 opts.on('-f FORMAT', '--format FORMAT') {|format|
-  @format = format
+  @poe.set_format(format)
 }
 
 opts.on('-s PX', '--size PX') {|px|
-  @size = px.to_i
+  @poe.set_size(px.to_i)
 }
 
 # コンバート
 opts.on('-c [OUTDIR]', '--convert [OUTDIR]') {|outdir|
   if outdir.nil?
-    outdir = Dir.pwd + @format + @size.to_s
+    @poe.set_target_path(Dir.pwd, true)
+  else
+    @poe.set_target_path(outdir, false)
   end
 
-  @poe.convert_index(@format, @size, outdir)
+  @poe.convert_index()
 }
 
 def convert_standard_sets
-  @poe.convert_index('png', 20, @outdir)
-  @poe.convert_index('png', 64, @outdir)
+  @poe.set_format 'png'
+
+  @poe.set_size(20)
+  @poe.set_target_path(Dir.pwd, true)
+  @poe.convert_index()
+
+  @poe.set_size(64)
+  @poe.set_target_path(Dir.pwd, true)
+  @poe.convert_index()
 end
 
 opts.on('--standard') {
@@ -72,10 +78,23 @@ opts.on('--standard') {
 }
 
 def convert_android_sets
-  @poe.convert_index('png', 9, @outdir + '/drawable-ldpi', true)
-  @poe.convert_index('png', 18, @outdir + '/drawable-mdpi', true)
-  @poe.convert_index('png', 27, @outdir + '/drawable-hdpi', true)
-  @poe.convert_index('png', 36, @outdir + '/drawable-xhdpi', true)
+  @poe.set_format 'png'
+
+  @poe.set_size(9)
+  @poe.set_target_path(Dir.pwd + '/drawable-ldpi')
+  @poe.convert_index()
+
+  @poe.set_size(18)
+  @poe.set_target_path(Dir.pwd + '/drawable-mdpi')
+  @poe.convert_index()
+
+  @poe.set_size(27)
+  @poe.set_target_path(Dir.pwd + '/drawable-hdpi')
+  @poe.convert_index()
+
+  @poe.set_size(36)
+  @poe.set_target_path(Dir.pwd + '/drawable-xhdpi')
+  @poe.convert_index()
 end
 
 opts.on('--android') {
