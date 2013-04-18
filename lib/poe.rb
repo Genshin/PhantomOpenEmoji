@@ -116,6 +116,7 @@ class POE
         return item
       end
     end
+    return nil
   end
 
   # 名前から検索
@@ -125,6 +126,7 @@ class POE
         return item
       end
     end
+    return nil
   end
 
   # 日本語名から検索
@@ -134,6 +136,16 @@ class POE
         return item
       end
     end
+    return nil
+  end
+
+  def lookup_emoticon(emoticon)
+    @index.each do |item|
+      if item.emoticon.exists? && item.emoticon == emoticon
+        return item
+      end
+    end
+    return nil
   end
 
 end
