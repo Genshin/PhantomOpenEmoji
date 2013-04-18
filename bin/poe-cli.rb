@@ -1,14 +1,13 @@
 #!/usr/bin/env ruby
 # -*- encoding: utf-8 -*-
 
-require './poe.rb'
+require File.expand_path('../../lib/poe.rb', __FILE__)
 require 'optparse'
 
 @poe = POE.new
 @format = 'png'
 @size = 64
-@outdir = "./images"
-@pngdir = 'images/png64'
+@outdir = Dir.pwd
 
 def list_emoji()
   index = @poe.get_index
@@ -56,11 +55,11 @@ opts.on('-s PX', '--size PX') {|px|
 
 # コンバート
 opts.on('-c [OUTDIR]', '--convert [OUTDIR]') {|outdir|
-  if !outdir.nil?
-    @outdir = outdir
+  if outdir.nil?
+    outdir = Dir.pwd + @format + @size.to_s
   end
 
-  @poe.convert_index(@format, @size, @outdir)
+  @poe.convert_index(@format, @size, outdir)
 }
 
 def convert_standard_sets

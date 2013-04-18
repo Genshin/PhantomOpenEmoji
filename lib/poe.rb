@@ -6,6 +6,7 @@ require 'fileutils'
 
 class POE
   @index
+  @source_path
   @format
   @px
   @outdir
@@ -15,7 +16,8 @@ class POE
   DEF_OUTDIR = "./images"
 
   def initialize
-    parse_json_index('./index.json')
+    @source_path = File.expand_path('../', __FILE__)
+    parse_json_index(@source_path + "index.json")
   end
 
   def parse_json_index(file)
