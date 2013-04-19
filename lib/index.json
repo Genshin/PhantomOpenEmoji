@@ -7,6 +7,48 @@
 	"unicode": "1f308"
 },
 {
+	"moji": "🌑",
+	"name": "new_moon",
+	"name-ja": "新月",
+	"category": "cosmos",
+	"unicode": "1f311"
+},
+{
+	"moji": "🌓",
+	"name": "first_quarter_moon",
+	"name-ja": "半月",
+	"category": "cosmos",
+	"unicode": "1f313"
+},
+{
+	"moji": "🌔",
+	"name": "waxing_gibbous_moon",
+	"name-ja": "やや欠け月",
+	"category": "cosmos",
+	"unicode": "1f314"
+},
+{
+	"moji": "🌕",
+	"name": "full_moon",
+	"name-ja": "満月",
+	"category": "cosmos",
+	"unicode": "1f315"
+},
+{
+	"moji": "🌙",
+	"name": "crescent_moon",
+	"name-ja": "三日月",
+	"category": "cosmos",
+	"unicode": "1f319"
+},
+{
+	"moji": "🌛",
+	"name": "moon_with_face",
+	"name-ja": "顔月",
+	"category": "cosmos",
+	"unicode": "1f31b"
+},
+{
 	"moji": "🍔",
 	"name": "hamburger",
 	"name-ja": "ハンバーガー",
