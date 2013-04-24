@@ -220,6 +220,7 @@
 	"moji": "😂",
 	"name": "face_with_tear_of_joy",
 	"name-ja": "泣き笑い",
+	"emoticon": ";D",
 	"category": "faces",
 	"unicode": "1f602"
 },
@@ -315,8 +316,8 @@
 	"moji": "😓",
 	"name": "sweat",
 	"name-ja": "困り顔",
-	"category": "faces",
 	"emoticon": "(:|",
+	"category": "faces",
 	"unicode": "1f613"
 },
 {
@@ -412,6 +413,7 @@
 	"moji": "😢",
 	"name": "crying_face",
 	"name-ja": "涙",
+	"emoticon": ";(",
 	"category": "faces",
 	"unicode": "1f622"
 },
@@ -462,6 +464,7 @@
 	"moji": "😩",
 	"name": "weary_face",
 	"name-ja": "うんざり",
+	"emoticon": "X(",
 	"category": "faces",
 	"unicode": "1f629"
 },
@@ -498,7 +501,7 @@
 {
 	"moji": "😰",
 	"name": "face_with_open_mouth_and_cold_sweat",
-	"name-ja": "冷や汗２",
+	"name-ja": "冷や汗2",
 	"category": "faces",
 	"unicode": "1f630"
 },
@@ -527,6 +530,7 @@
 	"moji": "😵",
 	"name": "dizzy_face",
 	"name-ja": "ふらふら",
+	"emoticon": "Xo",
 	"category": "faces",
 	"unicode": "1f635"
 },
@@ -568,7 +572,7 @@
 {
 	"name": "relaxed",
 	"name-ja": "リラックス",
-	"category": "faces",
+	"category": "faces"
 },
 {
 	"name": "bowtie",
