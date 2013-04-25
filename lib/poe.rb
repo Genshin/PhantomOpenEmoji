@@ -3,6 +3,7 @@
 require 'json'
 require 'rsvg2'
 require 'fileutils'
+require 'RMagick'
 
 class POE
   @index #index hash
@@ -64,10 +65,20 @@ class POE
     end
   end
 
-  def emoji_to_png(emoji)
-    source = @source_path + "/images/svg/" + emoji['name'] + ".svg"
+  def get_source_info(emoji)
+    path = @source_path + '/images/svg/' + emoji['name']
+    if File.exist?(path + '.svg') #SVG source file
+      return {file: path + '.svg', type: 'svg'}
+    elsif FileTest.exist?(path) #folder with multiple sources for animation
+      files = Dir.entries(path)
+      return {path: path + "/", files: files, type: 'directory'}
+    end
 
-    handle = RSVG::Handle.new_from_file(source)
+    return {path: path, type: 'none'}
+  end
+
+  def _svg_to_surface(file)
+    handle = RSVG::Handle.new_from_file(file)
 
     dim = handle.dimensions
     ratio_w = @px.to_f / dim.width.to_f
@@ -77,15 +88,51 @@ class POE
     context = Cairo::Context.new(surface)
     context.scale(ratio_w, ratio_h)
     context.render_rsvg_handle(handle)
-    surface.write_to_png(@target_path + emoji['name'] + ".png")
+
+    return surface
+  end
+
+  def emoji_to_png(emoji)
+    source = get_source_info(emoji)
+
+    case source[:type]
+    when 'svg'
+      surface = _svg_to_surface(source[:file])
+      create_target_path()
+      surface.write_to_png(@target_path + emoji['name'] + '.png')
+    when 'directory'
+      origin = Dir.pwd
+      Dir.chdir(source[:path])
+
+      animation = Magick::ImageList.new()
+      Dir['*.svg'].each do |source_file|
+        surface = _svg_to_surface(source_file)
+        frame = Magick::Image.new(@px, @px)
+        frame.import_pixels(0, 0, @px, @px, 'BGRA', surface.data)
+        animation << frame
+      end
+
+      Dir.chdir(origin)
+
+      animation.delay = 10
+      animation.write(@target_path + emoji['name'] + ".miff")
+    end
   end
 
   def create_target_path()
+    if FileTest.exist?(@target_path)
+      return true
+    end
+
     begin
       Dir::mkdir(@target_path)
-      Dir::mkdir(@target_path + "unicode")
+      Dir::mkdir(@target_path + 'unicode')
+      return true
     rescue
+      return false
     end
+
+    return false
   end
 
   # シンボリックリンク作成
