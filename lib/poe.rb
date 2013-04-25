@@ -11,15 +11,24 @@ class POE
   @format #defaults to png
   @px #output px
   @target_path #path to output
+  @has_apng_support
 
   DEF_PX = 64
   DEF_FORMAT = 'png'
   DEF_TARGET = './images/' + DEF_FORMAT + DEF_PX.to_s + '/'
 
+  def _check_system_deps()
+    #apngasm
+    `which apngasm`
+    @has_apng_support = $?.success?
+  end
+
   def initialize
     #use the standard index inside lib
     @source_path = File.expand_path('../', __FILE__)
     set_index_file(@source_path + '/index.json')
+    
+    _check_system_deps()
 
     @px = DEF_PX
     @format = DEF_FORMAT
@@ -92,6 +101,14 @@ class POE
     return surface
   end
 
+  def _generate_apng(frame_path, name)
+    if @has_apng_support
+      `apngasm #{(@target_path + name + '.png')} #{frame_path + '*.png'}`
+    else #No apng generation. Fallback.
+      FileUtils.cp(frame_path + '0.png', @target_path + name + '.png')
+    end
+  end
+
   def emoji_to_png(emoji)
     source = get_source_info(emoji)
 
@@ -105,28 +122,41 @@ class POE
       Dir.chdir(source[:path])
 
       animation = Magick::ImageList.new()
-      Dir['*.svg'].each do |source_file|
+      frame_path = @target_path + emoji['name'] + '/'
+      create_target_path(frame_path, false)
+      Dir['*.svg'].sort().each_with_index do |source_file, i|
         surface = _svg_to_surface(source_file)
+        surface.write_to_png(frame_path + i.to_s + '.png')
         frame = Magick::Image.new(@px, @px)
         frame.import_pixels(0, 0, @px, @px, 'BGRA', surface.data)
         animation << frame
       end
 
+      _generate_apng(frame_path, emoji['name'])
+
       Dir.chdir(origin)
 
       animation.delay = 10
-      animation.write(@target_path + emoji['name'] + ".miff")
+      opt = animation.optimize_layers(Magick::OptimizeTransLayer)
+      opt.write(@target_path + emoji['name'] + ".mng")
+      opt.write(@target_path + emoji['name'] + ".gif")
     end
   end
 
-  def create_target_path()
-    if FileTest.exist?(@target_path)
+  def create_target_path(path = nil, generate_unicode_links = true)
+    if path.nil?
+      path = @target_path
+    end
+
+    if FileTest.exist?(path)
       return true
     end
 
     begin
-      Dir::mkdir(@target_path)
-      Dir::mkdir(@target_path + 'unicode')
+      Dir::mkdir(path)
+      if generate_unicode_folder
+        Dir::mkdir(path + 'unicode')
+      end
       return true
     rescue
       return false
