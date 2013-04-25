@@ -69,7 +69,7 @@ class POE
     case @format
     when 'png'
       @index.each do |emoji|
-        emoji_to_png(emoji)
+        convert_emoji(emoji)
       end
     end
   end
@@ -101,15 +101,15 @@ class POE
     return surface
   end
 
-  def _generate_apng(frame_path, name)
+  def _generate_apng(frame_path, name, animation_info)
     if @has_apng_support
-      `apngasm #{(@target_path + name + '.png')} #{frame_path + '*.png'}`
+      `apngasm #{(@target_path + name + '.png')} #{frame_path + '*.png'} #{animation_info['delay'].to_s}`
     else #No apng generation. Fallback.
       FileUtils.cp(frame_path + '0.png', @target_path + name + '.png')
     end
   end
 
-  def emoji_to_png(emoji)
+  def convert_emoji(emoji)
     source = get_source_info(emoji)
 
     case source[:type]
@@ -124,19 +124,20 @@ class POE
       animation = Magick::ImageList.new()
       frame_path = @target_path + emoji['name'] + '/'
       create_target_path(frame_path, false)
-      Dir['*.svg'].sort().each_with_index do |source_file, i|
-        surface = _svg_to_surface(source_file)
+      animation_info = JSON.parse(open(source[:path] + 'animation.json').read)
+      animation_info['order'].each_with_index do |number, i|
+        surface = _svg_to_surface(number.to_s + '.svg')
         surface.write_to_png(frame_path + i.to_s + '.png')
         frame = Magick::Image.new(@px, @px)
         frame.import_pixels(0, 0, @px, @px, 'BGRA', surface.data)
         animation << frame
       end
 
-      _generate_apng(frame_path, emoji['name'])
+      _generate_apng(frame_path, emoji['name'], animation_info)
 
       Dir.chdir(origin)
 
-      animation.delay = 10
+      animation.delay = animation_info['delay']
       opt = animation.optimize_layers(Magick::OptimizeTransLayer)
       opt.write(@target_path + emoji['name'] + ".mng")
       opt.write(@target_path + emoji['name'] + ".gif")
