@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="&#x30EC;&#x30A4;&#x30E4;&#x30FC;_1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="14.8027" y1="0.5483" x2="50.4732" y2="66.153">
+				<stop  offset="0" style="stop-color:#FADACD"/>
+				<stop  offset="0.0825" style="stop-color:#FAD3C5"/>
+				<stop  offset="0.2102" style="stop-color:#FBC1AF"/>
+				<stop  offset="0.3672" style="stop-color:#FCA38C"/>
+				<stop  offset="0.5457" style="stop-color:#FE795B"/>
+				<stop  offset="0.6364" style="stop-color:#FF623F"/>
+				<stop  offset="1" style="stop-color:#E71500"/>
+			</linearGradient>
+			<circle style="fill:url(#SVGID_1_);" cx="31.903" cy="32" r="28.944"/>
+		</g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="2.959" y="3.057" width="57.889" height="57.887">
+				
+					<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="2.959" y="3.057" width="57.889" height="57.887" id="SVGID_2_">
+			<g style="filter:url(#Adobe_OpacityMaskFilter);">
+				
+					<image style="overflow:visible;" width="63" height="62" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
+EAMCAwYAAAHPAAACXgAAA5v/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX
+Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa
+JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIAD4APwMBIgACEQEDEQH/
+xACOAAADAAMBAAAAAAAAAAAAAAAABgcBAgMFAQEAAAAAAAAAAAAAAAAAAAAAEAABBAEEAQUBAAAA
+AAAAAAACAQMFBgQAECAHQBExEhMUFREAAgEDAgMFBgcAAAAAAAAAAQIDABEEIRIxQQUQIFFhIoGh
+0cIjFHGRscGCE4MSAQAAAAAAAAAAAAAAAAAAAED/2gAMAwEAAhEDEQAAAJ/tioi0yN2RQW6nggWt
+PmYxVpGegAAAxMqcoHnv8XspuAAAJjfJxbd0gL31j7gOHJUTz0k0D//aAAgBAgABBQDwP//aAAgB
+AwABBQDwP//aAAgBAQABBQDTbbjpw/X8hmiHW8Mgn1vDKMx19IYQuNuNHoAIzp9TZwMb23VPXVxq
+Dee39Tn20WJSQl0RETgqIqTsS3h3TrLHUcTlbhT+31jkj8OVtyAWxVaWWKlmnQeb4POgy3JTn7bZ
+qn3McQWchnIDZ/JYxguFxPNPevlaw03IX9BckL+o2ArUe/8A/9oACAECAgY/AAf/2gAIAQMCBj8A
+B//aAAgBAQEGPwCljjUu7GyqOJNCXMb7eM8FGrUAzOTzO4/GiEZweR3H40ZcNvuIwNVOjU0cilHU
+2ZToQexUQXZiAo8SaTLzI1bLbUEi+0HlVh22NNnYShMlBdgODDzr+nb9Tds28917W/OhLILx4/q4
+abjQA0A4d0g6g8awNo+nl5MJK/6ID+tZE5tZ39PjpYd/oT21+9gF/wCYrKxy3q3Bgt+Vu/0LHB9Y
+zIGt5CRR+9RSk2ikIST28DSyIbqwuCO60shsqi5JrGzCfo42TFs/BJFLH3dkfTuoElL2SUm9vAGg
+8Lh1OoIPaZJnCKNdTTYOA22BdHkHPyHcv0lJJI+StbZ7N5X3UAelKx8TNEPnogdKRT4iaI/PV+rJ
+JGnNVts9uwt2/wD/2Q==" transform="matrix(1 0 0 1 0 1)">
+				</image>
+			</g>
+		</mask>
+		<g style="opacity:0.27;mask:url(#SVGID_2_);">
+			<circle style="fill:#EC7878;" cx="31.903" cy="32" r="28.944"/>
+		</g>
+	</g>
+	<circle style="fill:none;stroke:#BB5E5D;stroke-width:2.5;stroke-miterlimit:10;" cx="31.902" cy="32" r="28.079"/>
+	<circle style="fill:none;stroke:#541715;stroke-width:2.5;stroke-miterlimit:10;" cx="31.903" cy="32" r="28.944"/>
+	<g>
+		
+			<rect x="48.578" y="32.407" transform="matrix(0.9387 -0.3448 0.3448 0.9387 -8.2647 20.9729)" style="fill:#FFFFFF;stroke:#C8C8CC;stroke-miterlimit:10;" width="12.494" height="2.625"/>
+		<polygon style="fill:#FFFFFF;stroke:#C8C8CC;stroke-miterlimit:10;" points="2.858,32.971 14.658,37.14 15.635,34.582 
+			3.835,30.413 		"/>
+		
+			<rect x="49.622" y="44.786" transform="matrix(0.9999 -0.0141 0.0141 0.9999 -0.6453 0.7576)" style="fill:#FFFFFF;stroke:#C8C8CC;stroke-width:1.0166;stroke-miterlimit:10;" width="7.548" height="2.695"/>
+		
+			<rect x="6.559" y="44.812" transform="matrix(0.9959 0.0909 -0.0909 0.9959 4.2421 -0.7827)" style="fill:#FFFFFF;stroke:#C8C8CC;stroke-width:1.0327;stroke-miterlimit:10;" width="8.301" height="2.695"/>
+		<g>
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="30.3086" y1="28.4912" x2="36.143" y2="82.8244">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="0.1584" style="stop-color:#F7F8F8"/>
+				<stop  offset="0.4035" style="stop-color:#E1E5E5"/>
+				<stop  offset="0.7028" style="stop-color:#BEC6C7"/>
+				<stop  offset="1" style="stop-color:#94A1A3"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_3_);" d="M49.731,51.935c0,1.102-0.901,2.003-2.003,2.003H16.08c-1.102,0-2.003-0.901-2.003-2.003
+				V34.753c0-1.102,0.901-2.003,2.003-2.003h31.649c1.102,0,2.003,0.901,2.003,2.003V51.935z"/>
+			<path style="fill:none;stroke:#C8C8CC;stroke-width:0.964;stroke-miterlimit:10;" d="M49.731,51.935
+				c0,1.102-0.901,2.003-2.003,2.003H16.08c-1.102,0-2.003-0.901-2.003-2.003V34.753c0-1.102,0.901-2.003,2.003-2.003h31.649
+				c1.102,0,2.003,0.901,2.003,2.003V51.935z"/>
+		</g>
+	</g>
+	<g>
+		<line style="fill:none;stroke:#78211C;stroke-width:3;stroke-miterlimit:10;" x1="10.561" y1="26.011" x2="24.408" y2="22.625"/>
+		<line style="fill:none;stroke:#78211C;stroke-width:3;stroke-miterlimit:10;" x1="53.247" y1="26.011" x2="39.399" y2="22.625"/>
+	</g>
+	<line style="fill:none;stroke:#78211C;stroke-miterlimit:10;" x1="10.561" y1="23.489" x2="24.408" y2="20.103"/>
+	<line style="fill:none;stroke:#78211C;stroke-miterlimit:10;" x1="53.247" y1="23.489" x2="39.399" y2="20.103"/>
+</g>
+</svg>

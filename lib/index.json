@@ -16,7 +16,7 @@
 {
 	"moji": "🌓",
 	"name": "first_quarter_moon",
-	"name-ja": "半月",
+	"name-ja": "上弦の月",
 	"category": "cosmos",
 	"unicode": "1f313"
 },
@@ -35,6 +35,13 @@
 	"unicode": "1f315"
 },
 {
+	"moji": "🌗",
+	"name": "last_quarter_moon",
+	"name-ja": "下弦の月",
+	"category": "cosmos",
+	"unicode": "1f317"
+},
+{
 	"moji": "🌙",
 	"name": "crescent_moon",
 	"name-ja": "三日月",
@@ -42,11 +49,25 @@
 	"unicode": "1f319"
 },
 {
+	"moji": "🌠",
+	"name": "shooting_star",
+	"name-ja": "流れ星",
+	"category": "cosmos",
+	"unicode": "1f320"
+},
+{
 	"moji": "🌛",
 	"name": "moon_with_face",
 	"name-ja": "顔月",
 	"category": "cosmos",
 	"unicode": "1f31b"
+},
+{
+	"moji": "🌟",
+	"name": "glowing_star",
+	"name-ja": "輝く星",
+	"category": "cosmos",
+	"unicode": "1f31f"
 },
 {
 	"moji": "🍔",
@@ -196,6 +217,14 @@
 	"unicode": "1f601"
 },
 {
+	"moji": "😂",
+	"name": "face_with_tear_of_joy",
+	"name-ja": "泣き笑い",
+	"emoticon": ";D",
+	"category": "faces",
+	"unicode": "1f602"
+},
+{
 	"moji": "😃",
 	"name": "smiley",
 	"name-ja": "スマイル",
@@ -242,6 +271,13 @@
 	"unicode": "1f60a"
 },
 {
+	"moji": "😋",
+	"name": "face_savouring_delicious_food",
+	"name-ja": "うまい",
+	"category": "faces",
+	"unicode": "1f60b"
+},
+{
 	"moji": "😌",
 	"name": "relieved",
 	"name-ja": "ほっとした顔",
@@ -280,8 +316,8 @@
 	"moji": "😓",
 	"name": "sweat",
 	"name-ja": "困り顔",
-	"category": "faces",
 	"emoticon": "(:|",
+	"category": "faces",
 	"unicode": "1f613"
 },
 {
@@ -346,11 +382,61 @@
 	"unicode": "1f61d"
 },
 {
+	"moji": "😞",
+	"name": "disappointed_face",
+	"name-ja": "がっかり",
+	"category": "faces",
+	"unicode": "1f61e"
+},
+{
 	"moji": "😟",
 	"name": "worried",
 	"name-ja": "心配",
 	"category": "faces",
 	"unicode": "1f61f"
+},
+{
+	"moji": "😠",
+	"name": "angry_face",
+	"name-ja": "怒った顔",
+	"category": "faces",
+	"unicode": "1f620"
+},
+{
+	"moji": "😡",
+	"name": "pouting_face",
+	"name-ja": "ふくれっ面",
+	"category": "faces",
+	"unicode": "1f621"
+},
+{
+	"moji": "😢",
+	"name": "crying_face",
+	"name-ja": "涙",
+	"emoticon": ";(",
+	"category": "faces",
+	"unicode": "1f622"
+},
+{
+	"moji": "😣",
+	"name": "persevering_face",
+	"name-ja": "がまん顔",
+	"category": "faces",
+	"unicode": "1f623"
+},
+{
+	"moji": "😤",
+	"name": "face_with_look_of_triumph",
+	"name-ja": "勝ち誇り",
+	"category": "faces",
+	"unicode": "1f624"
+},
+{
+	"moji": "😥",
+	"name": "disappointed_but_relieved_face",
+	"name-ja": "やれやれ",
+	"category": "faces",
+	"unicode": "1f625"
 },
 {
 	"moji": "😦",
@@ -368,11 +454,33 @@
 	"unicode": "1f627"
 },
 {
+	"moji": "😨",
+	"name": "fearful_face",
+	"name-ja": "青ざめ",
+	"category": "faces",
+	"unicode": "1f628"
+},
+{
+	"moji": "😩",
+	"name": "weary_face",
+	"name-ja": "うんざり",
+	"emoticon": "X(",
+	"category": "faces",
+	"unicode": "1f629"
+},
+{
 	"moji": "😬",
 	"name": "grimacing",
 	"name-ja": "いーっ",
 	"category": "faces",
 	"unicode": "1f62c"
+},
+{
+	"moji": "😭",
+	"name": "loudly_crying_face",
+	"name-ja": "大泣き",
+	"category": "faces",
+	"unicode": "1f62d"
 },
 {
 	"moji": "😮",
@@ -391,6 +499,20 @@
 	"unicode": "1f62f"
 },
 {
+	"moji": "😰",
+	"name": "face_with_open_mouth_and_cold_sweat",
+	"name-ja": "冷や汗2",
+	"category": "faces",
+	"unicode": "1f630"
+},
+{
+	"moji": "😲",
+	"name": "astonished_face",
+	"name-ja": "びっくり",
+	"category": "faces",
+	"unicode": "1f632"
+},
+{
 	"moji": "😳",
 	"name": "flushed",
 	"name-ja": "ぽっ",
@@ -403,6 +525,21 @@
 	"name-ja": "眠い",
 	"category": "faces",
 	"unicode": "1f634"
+},
+{
+	"moji": "😵",
+	"name": "dizzy_face",
+	"name-ja": "ふらふら",
+	"emoticon": "Xo",
+	"category": "faces",
+	"unicode": "1f635"
+},
+{
+	"moji": "😷",
+	"name": "face_with_medical_mask",
+	"name-ja": "風邪ひき",
+	"category": "faces",
+	"unicode": "1f637"
 },
 {
 	"moji": "🚗",
@@ -420,8 +557,8 @@
 },
 {
 	"moji": "☺",
-	"name": "relaxed",
-	"name-ja": "リラックス",
+	"name": "white_smiling_face",
+	"name-ja": "スマイルフェイス",
 	"category": "faces",
 	"unicode": "263a"
 },
@@ -431,6 +568,11 @@
 	"name-ja": "ハート",
 	"category": "faces",
 	"unicode": "2764"
+},
+{
+	"name": "relaxed",
+	"name-ja": "リラックス",
+	"category": "faces"
 },
 {
 	"name": "bowtie",
