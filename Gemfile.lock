@@ -8,6 +8,7 @@ GEM
     glib2 (1.2.4)
       pkg-config
     pkg-config (1.1.4)
+    rmagick (2.13.2)
     rsvg2 (1.2.4)
       cairo (>= 1.10.0)
       gdk_pixbuf2 (>= 1.2.4)
@@ -16,4 +17,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rmagick
   rsvg2
