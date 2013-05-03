@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="&#x30EC;&#x30A4;&#x30E4;&#x30FC;_1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="14.0938" y1="0.5483" x2="49.7642" y2="66.153">
+				<stop  offset="0" style="stop-color:#FADACD"/>
+				<stop  offset="0.1351" style="stop-color:#F9D3C5"/>
+				<stop  offset="0.3441" style="stop-color:#F7C0AF"/>
+				<stop  offset="0.6011" style="stop-color:#F3A18C"/>
+				<stop  offset="0.8934" style="stop-color:#ED765B"/>
+				<stop  offset="1" style="stop-color:#EB6547"/>
+			</linearGradient>
+			<circle style="fill:url(#SVGID_1_);" cx="31.194" cy="32" r="28.944"/>
+		</g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="2.25" y="3.057" width="57.889" height="57.887">
+				
+					<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="2.25" y="3.057" width="57.889" height="57.887" id="SVGID_2_">
+			<g style="filter:url(#Adobe_OpacityMaskFilter);">
+				
+					<image style="overflow:visible;" width="63" height="62" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
+EAMCAwYAAAHMAAACVgAAA47/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX
+Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa
+JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIAD4APwMBIgACEQEDEQH/
+xACLAAADAAMBAQAAAAAAAAAAAAAABgcBAgUDBAEBAAAAAAAAAAAAAAAAAAAAABAAAAYCAwEBAAAA
+AAAAAAAAAQIDBAUGIAcAEBFAFBEAAgECBAMFBwUAAAAAAAAAAQIDABEhMQQFIGESEEFxwTJRgZHR
+InITQpLSFDUSAQAAAAAAAAAAAAAAAAAAAED/2gAMAwEAAhEDEQAAAJ/uVgWO825E5XrOCA4pE3HG
+nKLeAAAGsnrSQejnIq2bAAACG6x05NAnwX3eUNA3/OqJR01QD//aAAgBAgABBQD4P//aAAgBAwAB
+BQD4P//aAAgBAQABBQDiKKq6kRrp25KGuITxbW0SYkzRZSO4ICUeIoqLq1Wqtolt2IAYLtVElm/N
+dRZXL/FQhVCScN+O4a3IUIbK2tvLRrVymeLytTgT26kTJIyVKYpy4PHSTNs6mf02IBEBp10ASpqJ
+ql6dvWzNO23AZbCAUuiZCyN+8cP9gGTnhsRlOv/aAAgBAgIGPwAH/9oACAEDAgY/AAf/2gAIAQEB
+Bj8AoRQoZJGyVRc0suvk/Cpsehc7cyaxL3+4/OiIndHIwa5NvjRk04/swj2eoUVYWIwIOYPYkMQ6
+pJCFUczSzTKJNVIAWYjLgsRcHMU24aGO00eLqMOod/ZJrJFBSAdK/dmfLiZGF1YWIrTaYqBBqdTF
+0C2FmkVWFMwGJdrn3nj2PUA4HVQoR4yIfKpIAfrjc9Q8Tfz49lgDfSmphJXn+VKCTNaHUWU3OAbu
++NBlNwcQeF9RKbKgJpN1YkxxzxyLfMJGwagQbEYgil2/cnswwjlPeOfOg0bBlORHaZNRIEUY4mm0
+eluumBsWy6rezgB26KSaG+CyEAWv3dbKa/yUPjPF/OmC7WsZt6hNE1vcHq+7rIoP6T6B+0kdv//Z" transform="matrix(1 0 0 1 0 1)">
+				</image>
+			</g>
+		</mask>
+		<g style="opacity:0.27;mask:url(#SVGID_2_);">
+			<circle style="fill:#EC7878;" cx="31.194" cy="32" r="28.944"/>
+		</g>
+	</g>
+	<path style="fill:none;stroke:#78211C;stroke-width:2.6907;stroke-miterlimit:10;" d="M21.833,50.129
+		c1.157-3.991,14.815-6.32,21.052,0.825"/>
+	<circle style="fill:none;stroke:#BB5E5D;stroke-width:2.5;stroke-miterlimit:10;" cx="31.194" cy="32" r="28.079"/>
+	<circle style="fill:none;stroke:#541715;stroke-width:2.5;stroke-miterlimit:10;" cx="31.194" cy="32" r="28.944"/>
+	<g>
+		<ellipse style="fill:#78211C;" cx="18.325" cy="27.342" rx="3.508" ry="4.529"/>
+		<ellipse style="fill:#78211C;" cx="42.798" cy="27.342" rx="3.509" ry="4.529"/>
+	</g>
+	<path style="fill:none;stroke:#78211C;stroke-width:2;stroke-miterlimit:10;" d="M36.568,13.424c0,0,4.848,6.384,12.25,6.5"/>
+	<path style="fill:none;stroke:#78211C;stroke-width:2;stroke-miterlimit:10;" d="M23.444,13.424c0,0-2.885,6.625-13.322,6.5"/>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="47.7305" y1="36.6553" x2="58.445" y2="56.3614">
+		<stop  offset="0" style="stop-color:#50C0E1"/>
+		<stop  offset="0.1543" style="stop-color:#4DB8DC"/>
+		<stop  offset="0.3932" style="stop-color:#44A2D0"/>
+		<stop  offset="0.6865" style="stop-color:#367FBC"/>
+		<stop  offset="1" style="stop-color:#2351A2"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_3_);stroke:#234EA0;stroke-miterlimit:10;" d="M54.307,33.08c0,0-8.002,9.854-8.002,15.767
+		c0,5.911,5.016,8.671,8.791,8.671c3.771,0,6.654-4.598,6.654-8.146C61.75,42.146,54.307,33.08,54.307,33.08z"/>
+</g>
+</svg>

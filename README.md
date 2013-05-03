@@ -24,8 +24,22 @@ Or use in a ruby project by adding to your Gemfile
 ```ruby
 gem 'phantom_open_emoji'
 ```
+
+Installation on Linux
+---------------------
+Simple, will write out how if anyone can't figre it out.
+
+Installation on OSX
+-------------------
+The converter won't work on with HomeBrew due to building rsvg libraries against older system libraries but it does work with MacPorts.
+
+With MacPorts:
+```bash
+sudo port install imagemagick librsvg gdk-pixbuf2 cairo
+```
+
 Converter/Lookup Library and Script
-----------------
+-----------------------------------
 There is a conversion and lookup library provided in ./lib. poe.rb contains all the actual scripts, and poe-cli in ./bin is a command line wrapper script that can be run from a terminal.
 
 Example:
