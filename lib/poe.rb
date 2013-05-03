@@ -3,6 +3,7 @@
 require 'json'
 require 'rsvg2'
 require 'fileutils'
+require 'RMagick'
 
 class POE
   @index #index hash
@@ -10,15 +11,24 @@ class POE
   @format #defaults to png
   @px #output px
   @target_path #path to output
+  @has_apng_support
 
   DEF_PX = 64
   DEF_FORMAT = 'png'
   DEF_TARGET = './images/' + DEF_FORMAT + DEF_PX.to_s + '/'
 
+  def _check_system_deps()
+    #apngasm
+    `which apngasm`
+    @has_apng_support = $?.success?
+  end
+
   def initialize
     #use the standard index inside lib
     @source_path = File.expand_path('../', __FILE__)
     set_index_file(@source_path + '/index.json')
+    
+    _check_system_deps()
 
     @px = DEF_PX
     @format = DEF_FORMAT
@@ -59,15 +69,25 @@ class POE
     case @format
     when 'png'
       @index.each do |emoji|
-        emoji_to_png(emoji)
+        convert_emoji(emoji)
       end
     end
   end
 
-  def emoji_to_png(emoji)
-    source = @source_path + "/images/svg/" + emoji['name'] + ".svg"
+  def get_source_info(emoji)
+    path = @source_path + '/images/svg/' + emoji['name']
+    if File.exist?(path + '.svg') #SVG source file
+      return {file: path + '.svg', type: 'svg'}
+    elsif FileTest.exist?(path) #folder with multiple sources for animation
+      files = Dir.entries(path)
+      return {path: path + "/", files: files, type: 'directory'}
+    end
 
-    handle = RSVG::Handle.new_from_file(source)
+    return {path: path, type: 'none'}
+  end
+
+  def _svg_to_surface(file)
+    handle = RSVG::Handle.new_from_file(file)
 
     dim = handle.dimensions
     ratio_w = @px.to_f / dim.width.to_f
@@ -77,15 +97,73 @@ class POE
     context = Cairo::Context.new(surface)
     context.scale(ratio_w, ratio_h)
     context.render_rsvg_handle(handle)
-    surface.write_to_png(@target_path + emoji['name'] + ".png")
+
+    return surface
   end
 
-  def create_target_path()
-    begin
-      Dir::mkdir(@target_path)
-      Dir::mkdir(@target_path + "unicode")
-    rescue
+  def _generate_apng(frame_path, name, animation_info)
+    if @has_apng_support
+      `apngasm #{(@target_path + name + '.png')} #{frame_path + '*.png'} #{animation_info['delay'].to_s}`
+    else #No apng generation. Fallback.
+      FileUtils.cp(frame_path + '0.png', @target_path + name + '.png')
     end
+  end
+
+  def convert_emoji(emoji)
+    source = get_source_info(emoji)
+
+    case source[:type]
+    when 'svg'
+      surface = _svg_to_surface(source[:file])
+      create_target_path()
+      surface.write_to_png(@target_path + emoji['name'] + '.png')
+    when 'directory'
+      origin = Dir.pwd
+      Dir.chdir(source[:path])
+
+      animation = Magick::ImageList.new()
+      frame_path = @target_path + emoji['name'] + '/'
+      create_target_path(frame_path, false)
+      animation_info = JSON.parse(open(source[:path] + 'animation.json').read)
+      animation_info['order'].each_with_index do |number, i|
+        surface = _svg_to_surface(number.to_s + '.svg')
+        surface.write_to_png(frame_path + i.to_s + '.png')
+        frame = Magick::Image.new(@px, @px)
+        frame.import_pixels(0, 0, @px, @px, 'BGRA', surface.data)
+        animation << frame
+      end
+
+      _generate_apng(frame_path, emoji['name'], animation_info)
+
+      Dir.chdir(origin)
+
+      animation.delay = animation_info['delay']
+      opt = animation.optimize_layers(Magick::OptimizeTransLayer)
+      opt.write(@target_path + emoji['name'] + ".mng")
+      opt.write(@target_path + emoji['name'] + ".gif")
+    end
+  end
+
+  def create_target_path(path = nil, generate_unicode_links = true)
+    if path.nil?
+      path = @target_path
+    end
+
+    if FileTest.exist?(path)
+      return true
+    end
+
+    begin
+      Dir::mkdir(path)
+      if generate_unicode_folder
+        Dir::mkdir(path + 'unicode')
+      end
+      return true
+    rescue
+      return false
+    end
+
+    return false
   end
 
   # シンボリックリンク作成
