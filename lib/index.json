@@ -1044,8 +1044,13 @@
 	"category": "nature"
 },
 {
-	"name": "jumping_spider",
-	"name-ja": "ハエトリグモ",
+	"name": "jumping_spider_green",
+	"name-ja": "ハエトリグモ(緑)",
+	"category": "nature"
+},
+{
+	"name": "jumping_spider_red",
+	"name-ja": "ハエトリグモ(赤)",
 	"category": "nature"
 },
 {
