@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	
+		<rect x="30.254" y="26.038" fill="#D0D4D6" stroke="#595757" stroke-width="0.899" stroke-miterlimit="10" width="3.492" height="8.859"/>
+	
+		<rect x="30.254" y="46.904" fill="#D0D4D6" stroke="#595757" stroke-width="0.899" stroke-miterlimit="10" width="3.492" height="8.861"/>
+	<g>
+		<defs>
+			<circle id="SVGID_1_" cx="32" cy="14.709" r="13.118"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_2_)">
+			<rect x="15.731" y="1.591" fill="#C30D23" width="32.027" height="8.688"/>
+			<rect x="15.731" y="18.968" fill="#0B6AF4" width="32.027" height="8.688"/>
+			<rect x="15.731" y="9.769" fill="#FFFFFF" width="32.027" height="10.817"/>
+		</g>
+		<use xlink:href="#SVGID_1_"  overflow="visible" fill="none" stroke="#595757" stroke-width="1.0221" stroke-miterlimit="10"/>
+	</g>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="31.9995" y1="44.2988" x2="31.9995" y2="68.7377">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+	<polygon fill="url(#SVGID_3_)" stroke="#353434" stroke-width="1.0842" stroke-miterlimit="10" points="41.966,62.408 
+		22.034,62.408 24.93,52.443 39.07,52.443 	"/>
+	<g>
+		<path fill="#FFFFFF" d="M42.434,47.503c0,1.124-0.92,2.044-2.044,2.044H23.61c-1.125,0-2.044-0.92-2.044-2.044V32.512
+			c0-1.125,0.92-2.044,2.044-2.044H40.39c1.124,0,2.044,0.92,2.044,2.044V47.503z"/>
+		<path fill="none" stroke="#595757" stroke-width="1.0221" stroke-miterlimit="10" d="M42.434,47.503
+			c0,1.124-0.92,2.044-2.044,2.044H23.61c-1.125,0-2.044-0.92-2.044-2.044V32.512c0-1.125,0.92-2.044,2.044-2.044H40.39
+			c1.124,0,2.044,0.92,2.044,2.044V47.503z"/>
+	</g>
+	
+		<line fill="none" stroke="#888888" stroke-width="1.0221" stroke-miterlimit="10" x1="25.527" y1="34.896" x2="38.473" y2="34.896"/>
+	
+		<line fill="none" stroke="#888888" stroke-width="1.0221" stroke-miterlimit="10" x1="25.527" y1="38.219" x2="38.473" y2="38.219"/>
+	
+		<line fill="none" stroke="#888888" stroke-width="1.0221" stroke-miterlimit="10" x1="25.527" y1="41.711" x2="38.473" y2="41.711"/>
+	
+		<line fill="none" stroke="#888888" stroke-width="1.0221" stroke-miterlimit="10" x1="25.527" y1="44.863" x2="38.473" y2="44.863"/>
+</g>
+</svg>
