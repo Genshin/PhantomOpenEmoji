@@ -25,9 +25,9 @@ class POE
 
   def initialize
     #use the standard index inside lib
-    @source_path = File.expand_path('../', __FILE__)
-    set_index_file(@source_path + '/index.json')
-    
+    @source_path = File.expand_path('../../', __FILE__)
+    set_index_file(@source_path + '/app/assets/javascripts/poe/index.json')
+
     _check_system_deps()
 
     @px = DEF_PX
@@ -39,7 +39,7 @@ class POE
   end
 
   def set_index_file(file)
-    @source_path = File.expand_path('../', file)
+    #@source_path = File.expand_path('../', file)
     file = open(file).read
     @index = JSON.parse(file)
   end
@@ -75,15 +75,15 @@ class POE
   end
 
   def get_source_info(emoji)
-    path = @source_path + '/images/svg/' + emoji['name']
+    path = @source_path + '/app/assets/images/poe/svg/' + emoji['name']
+
     if File.exist?(path + '.svg') #SVG source file
-      return {file: path + '.svg', type: 'svg'}
+      return {:file => path + '.svg', :type => 'svg'}
     elsif FileTest.exist?(path) #folder with multiple sources for animation
       files = Dir.entries(path)
-      return {path: path + "/", files: files, type: 'directory'}
+      return {:path => path + "/", :files => files, :type => 'directory'}
     end
-
-    return {path: path, type: 'none'}
+    return {:path => path, :type => 'none'}
   end
 
   def _svg_to_surface(file)
@@ -137,10 +137,10 @@ class POE
 
       Dir.chdir(origin)
 
-      animation.delay = animation_info['delay']
-      opt = animation.optimize_layers(Magick::OptimizeTransLayer)
-      opt.write(@target_path + emoji['name'] + ".mng")
-      opt.write(@target_path + emoji['name'] + ".gif")
+      #animation.delay = animation_info['delay']
+      #opt = animation.optimize_layers(Magick::OptimizeTransLayer)
+      #opt.write(@target_path + emoji['name'] + ".mng")
+      #opt.write(@target_path + emoji['name'] + ".gif")
     end
   end
 
@@ -220,4 +220,3 @@ class POE
   end
 
 end
-
