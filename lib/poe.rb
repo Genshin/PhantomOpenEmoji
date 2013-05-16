@@ -137,10 +137,10 @@ class POE
 
       Dir.chdir(origin)
 
-      animation.delay = animation_info['delay']
-      opt = animation.optimize_layers(Magick::OptimizeTransLayer)
-      opt.write(@target_path + emoji['name'] + ".mng")
-      opt.write(@target_path + emoji['name'] + ".gif")
+      #animation.delay = animation_info['delay']
+      #opt = animation.optimize_layers(Magick::OptimizeTransLayer)
+      #opt.write(@target_path + emoji['name'] + ".mng")
+      #opt.write(@target_path + emoji['name'] + ".gif")
     end
   end
 
