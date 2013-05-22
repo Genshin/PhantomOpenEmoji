@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="28.853" y1="20.0591" x2="36.978" y2="63.6841">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.0103" style="stop-color:#FDFDFE"/>
+			<stop  offset="0.411" style="stop-color:#B4B8C9"/>
+			<stop  offset="0.6984" style="stop-color:#878DA9"/>
+			<stop  offset="0.8424" style="stop-color:#757D9C"/>
+		</linearGradient>
+		<path fill="url(#SVGID_1_)" d="M54,27.75c-0.41,0-0.809,0.038-1.203,0.093C50.641,25.776,47.723,24.5,44.5,24.5
+			c-1.418,0-2.773,0.259-4.035,0.711C40.479,24.975,40.5,24.74,40.5,24.5c0-6.627-5.373-12-12-12c-6.627,0-12,5.373-12,12
+			c0,0.135,0.016,0.266,0.02,0.398c-1.628,0.815-3.042,1.987-4.144,3.418c-0.606-0.125-1.233-0.191-1.876-0.191
+			c-5.109,0-9.25,4.142-9.25,9.25s4.141,9.25,9.25,9.25c1.636,0,3.17-0.429,4.503-1.174c1.863,1.307,4.112,2.091,6.544,2.157
+			c2.193,2.387,5.331,3.892,8.828,3.892c3.617,0,6.851-1.607,9.05-4.138c1.543,0.723,3.258,1.138,5.074,1.138
+			c3.223,0,6.141-1.276,8.295-3.343C53.191,45.212,53.59,45.25,54,45.25c4.832,0,8.75-3.918,8.75-8.75
+			C62.75,31.667,58.832,27.75,54,27.75z"/>
+	</g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="1.25" y="12.5" width="61.5" height="39">
+			
+				<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="1.25" y="12.5" width="61.5" height="39" id="SVGID_2_">
+		<g filter="url(#Adobe_OpacityMaskFilter)">
+			<image overflow="visible" width="66" height="44" xlink:href="B4BDC3E9.jpg"  transform="matrix(1 0 0 1 -1 10)">
+			</image>
+		</g>
+	</mask>
+	<g opacity="0.35" mask="url(#SVGID_2_)">
+		<path fill="#54586D" d="M54,27.75c-0.41,0-0.809,0.038-1.203,0.093C50.641,25.776,47.723,24.5,44.5,24.5
+			c-1.418,0-2.773,0.259-4.035,0.711C40.479,24.975,40.5,24.74,40.5,24.5c0-6.627-5.373-12-12-12c-6.627,0-12,5.373-12,12
+			c0,0.135,0.016,0.266,0.02,0.398c-1.628,0.815-3.042,1.987-4.144,3.418c-0.606-0.125-1.233-0.191-1.876-0.191
+			c-5.109,0-9.25,4.142-9.25,9.25s4.141,9.25,9.25,9.25c1.636,0,3.17-0.429,4.503-1.174c1.863,1.307,4.112,2.091,6.544,2.157
+			c2.193,2.387,5.331,3.892,8.828,3.892c3.617,0,6.851-1.607,9.05-4.138c1.543,0.723,3.258,1.138,5.074,1.138
+			c3.223,0,6.141-1.276,8.295-3.343C53.191,45.212,53.59,45.25,54,45.25c4.832,0,8.75-3.918,8.75-8.75
+			C62.75,31.667,58.832,27.75,54,27.75z"/>
+	</g>
+</g>
+</svg>
