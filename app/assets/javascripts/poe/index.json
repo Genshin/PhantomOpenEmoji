@@ -171,6 +171,14 @@
 	"attribution": "Noah Greenstein"
 },
 {
+	"moji": "🎤",
+	"name": "microphone",
+	"name-ja": "マイク",
+	"category": "object",
+	"unicode": "1f3a4",
+	"attribution": "Letia Nichols"
+},
+{
 	"moji": "🎮",
 	"name": "video_game",
 	"name-ja": "ゲームコントローラー",
@@ -430,6 +438,14 @@
 	"name-ja": "うんち",
 	"category": "abstract",
 	"unicode": "1f4a9"
+},
+{
+	"moji": "💬",
+	"name": "speech_balloon",
+	"name-ja": "フキダシ",
+	"category": "abstract",
+	"unicode": "1f4ac",
+	"attribution": "Mike Boers"
 },
 {
 	"moji": "🔞",
