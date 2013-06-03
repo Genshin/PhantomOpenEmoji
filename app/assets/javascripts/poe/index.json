@@ -148,7 +148,7 @@
 },
 {
 	"moji": "🍹",
-	"name": "tropical drink",
+	"name": "tropical_drink",
 	"name-ja": "トロピカルドリンク",
 	"category": "food",
 	"unicode": "1f379",
@@ -156,7 +156,7 @@
 },
 {
 	"moji": "🍺",
-	"name": "beer mug",
+	"name": "beer_mug",
 	"name-ja": "ビールジョッキ",
 	"category": "food",
 	"unicode": "1f37a",
