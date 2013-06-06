@@ -1210,6 +1210,24 @@
 	"category": "people"
 },
 {
+	"name": "quoll",
+	"name-ja": "フクロネコ",
+	"category": "nature",
+	"attribution": "Peter Halasz"
+},
+{
+	"name": "palm_pre3",
+	"name-ja": "HP Palm Pre 3",
+	"category": "object",
+	"attribution": "Donald C. Kirker and webOS-Ports"
+},
+{
+	"name": "cutting_lines",
+	"name-ja": "カミソリ",
+	"category": "object",
+	"attribution": "Key Bump Apparel"
+},
+{
 	"name": "Kagetsuki",
 	"name-ja": "影月",
 	"category": "individuals",
