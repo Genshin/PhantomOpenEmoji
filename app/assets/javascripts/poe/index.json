@@ -358,6 +358,14 @@
 	"attribution": "patter-app.net"
 },
 {
+	"moji": "👊",
+	"name": "fisted_hand_sign",
+	"name-ja": "パンチ",
+	"category": "gesture",
+	"unicode": "1f44a",
+	"attribution": "Jy Yaworski"
+},
+{
 	"moji": "👍",
 	"name": "thumbs_up_sign",
 	"name-ja": "おやゆびサイン",
@@ -1226,6 +1234,23 @@
 	"name-ja": "カミソリ",
 	"category": "object",
 	"attribution": "Key Bump Apparel"
+},
+{
+	"name": "scuba_diver",
+	"name-ja": "スキューバダイバー",
+	"category": "people",
+	"attribution": "fidelinho"
+},
+{
+	"name": "penguin_chick",
+	"name-ja": "子どもペンギン",
+	"category": "nature"
+},
+{
+	"name": "pegasus_black",
+	"name-ja": "ペガサス(黒)",
+	"category": "nature",
+	"attribution": "Mark Atwood, the FallenPegasusbin"
 },
 {
 	"name": "Kagetsuki",
