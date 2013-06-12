@@ -443,7 +443,7 @@
 {
 	"moji": "💩",
 	"name": "poop",
-	"name-ja": "うんち",
+	"name-ja": "うんち(顔あり)",
 	"category": "abstract",
 	"unicode": "1f4a9"
 },
@@ -1257,6 +1257,30 @@
 	"name-ja": "嘔吐",
 	"category": "gesture",
 	"attribution": "Naya J."
+},
+{
+	"name": "shit",
+	"name-ja": "うんち",
+	"category": "abstract",
+	"attribution": "Adam Neuwirth"
+},
+{
+	"name": "Happy_FMC",
+	"name-ja": "Happy FMC",
+	"category": "transportation",
+	"attribution": "The Grape"
+},
+{
+	"name": "lambda_chi_alpha",
+	"name-ja": "Lambda Chi Alpha",
+	"category": "food",
+	"attribution": "Vander Vander Gamma Iota Zeta"
+},
+{
+	"name": "apple_of_discord",
+	"name-ja": "不和の林檎",
+	"category": "object",
+	"attribution": "Jo-Herman Haughol"
 },
 {
 	"name": "ksroom",
