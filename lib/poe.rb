@@ -12,6 +12,8 @@ class POE
   @px #output px
   @target_path #path to output
   @has_apng_support
+  @category_names
+  @categorized_index
 
   DEF_PX = 64
   DEF_FORMAT = 'png'
@@ -27,6 +29,9 @@ class POE
     #use the standard index inside lib
     @source_path = File.expand_path('../../', __FILE__)
     set_index_file(@source_path + '/app/assets/javascripts/poe/index.json')
+
+    set_category_names()
+    set_categorized_index()
 
     _check_system_deps()
 
@@ -219,4 +224,30 @@ class POE
     return nil
   end
 
+  def set_category_names()
+    @category_names = Array.new
+    @index.each do |item|
+      @category_names << item['category'] unless @category_names.include?(item['category'])
+    end
+  end
+
+  def category_names()
+    return @category_names
+  end
+
+  def set_categorized_index()
+    @categorized_index = Hash.new
+    @category_names.each do |name|
+      @categorized_index.store(name, nil)
+      tmp = Array.new
+      @index.each do |item|
+        tmp << item['name'] if (item['category'] == name)
+      end
+      @categorized_index[name] = tmp
+    end
+  end
+
+  def categorized_index()
+    return @categorized_index
+  end
 end
