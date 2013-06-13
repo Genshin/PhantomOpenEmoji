@@ -358,6 +358,14 @@
 	"attribution": "patter-app.net"
 },
 {
+	"moji": "👊",
+	"name": "fisted_hand_sign",
+	"name-ja": "パンチ",
+	"category": "gesture",
+	"unicode": "1f44a",
+	"attribution": "Jy Yaworski"
+},
+{
 	"moji": "👍",
 	"name": "thumbs_up_sign",
 	"name-ja": "おやゆびサイン",
@@ -435,7 +443,7 @@
 {
 	"moji": "💩",
 	"name": "poop",
-	"name-ja": "うんち",
+	"name-ja": "うんち(顔あり)",
 	"category": "abstract",
 	"unicode": "1f4a9"
 },
@@ -1210,11 +1218,94 @@
 	"category": "people"
 },
 {
+	"name": "quoll",
+	"name-ja": "フクロネコ",
+	"category": "nature",
+	"attribution": "Peter Halasz"
+},
+{
+	"name": "palm_pre3",
+	"name-ja": "HP Palm Pre 3",
+	"category": "object",
+	"attribution": "Donald C. Kirker and webOS-Ports"
+},
+{
+	"name": "cutting_lines",
+	"name-ja": "カミソリ",
+	"category": "object",
+	"attribution": "Key Bump Apparel"
+},
+{
+	"name": "scuba_diver",
+	"name-ja": "スキューバダイバー",
+	"category": "people",
+	"attribution": "fidelinho"
+},
+{
+	"name": "penguin_chick",
+	"name-ja": "子どもペンギン",
+	"category": "nature"
+},
+{
+	"name": "pegasus_black",
+	"name-ja": "ペガサス(黒)",
+	"category": "nature",
+	"attribution": "Mark Atwood, the FallenPegasusbin"
+},
+{
+	"name": "puke_finger",
+	"name-ja": "嘔吐",
+	"category": "gesture",
+	"attribution": "Naya J."
+},
+{
+	"name": "shit",
+	"name-ja": "うんち",
+	"category": "abstract",
+	"attribution": "Adam Neuwirth"
+},
+{
+	"name": "Happy_FMC",
+	"name-ja": "Happy FMC",
+	"category": "transportation",
+	"attribution": "The Grape"
+},
+{
+	"name": "lambda_chi_alpha",
+	"name-ja": "Lambda Chi Alpha",
+	"category": "food",
+	"attribution": "Vander Vander Gamma Iota Zeta"
+},
+{
+	"name": "apple_of_discord",
+	"name-ja": "不和の林檎",
+	"category": "object",
+	"attribution": "Jo-Herman Haughol"
+},
+{
+	"name": "ksroom",
+	"name-ja": "K's Room Company",
+	"category": "logos",
+	"attribution": "Ken Ishimoto"
+},
+{
+	"name": "ocean_dive_view",
+	"name-ja": "Ocean Dive View 'O'",
+	"category": "logos",
+	"attribution": "ocean dive academy new jersey usa"
+},
+{
 	"name": "Kagetsuki",
 	"name-ja": "影月",
 	"category": "individuals",
 	"contributor": "影月零",
 	"url": "http://zero.幻信.org"
+},
+{
+	"name": "Giorgio",
+	"name-ja": "ジョルジョ",
+	"category": "individuals",
+	"contributor": "Giorgio"
 },
 {
 	"name": "happijar",
