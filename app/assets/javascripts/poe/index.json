@@ -1089,6 +1089,14 @@
 	"attribution": "Glenn Møller"
 },
 {
+	"moji": "♿",
+	"name": "wheelchair",
+	"name-ja": "車椅子マーク",
+	"category": "abstract",
+	"unicode": "267f",
+	"attribution": "Adam Baxter"
+},
+{
 	"moji": "⚓",
 	"name": "anchor",
 	"name-ja": "いかり",
@@ -1281,6 +1289,12 @@
 	"name-ja": "不和の林檎",
 	"category": "object",
 	"attribution": "Jo-Herman Haughol"
+},
+{
+	"name": "gentleman_octopus",
+	"name-ja": "紳士蛸",
+	"category": "nature",
+	"attribution": "nickythegreek"
 },
 {
 	"name": "ksroom",
