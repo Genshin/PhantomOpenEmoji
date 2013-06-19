@@ -898,7 +898,8 @@
 	"name": "smiling_cat_face_with_heart_shaped_eyes",
 	"name-ja": "目がハート(ネコ)",
 	"category": "faces",
-	"unicode": "1f63b"
+	"unicode": "1f63b",
+	"attribution": "Arvid Andersson"
 },
 {
 	"moji": "😼",
@@ -1216,7 +1217,8 @@
 {
 	"name": "two_men_in_love",
 	"name-ja": "手をつないだ二人の男性とハート",
-	"category": "people"
+	"category": "people",
+	"attribution": "Michael Dandy"
 },
 {
 	"name": "two_men_with_heart",
@@ -1323,21 +1325,9 @@
 },
 {
 	"name": "bgok",
-	"name-ja": "ニワトリ(アニメ)",
+	"name-ja": "ニワトリ(鳴き)",
 	"category": "nature",
 	"attribution": "https://github.com/bgok"
-},
-{
-	"name": "two_men_in_love-a",
-	"name-ja": "手をつないだ二人の男性とハート(アニメ)",
-	"category": "people",
-	"attribution": "Michael Dandy"
-},
-{
-	"name": "smiling_cat_face_with_heart_shaped_eyes-a",
-	"name-ja": "目がハート(ネコ)(アニメ)",
-	"category": "faces",
-	"attribution": "Arvid Andersson"
 },
 {
 	"name": "ksroom",
@@ -1347,7 +1337,7 @@
 },
 {
 	"name": "ocean_dive_view",
-	"name-ja": "Ocean Dive View 'O'",
+	"name-ja": "Ocean Dive View",
 	"category": "logos",
 	"attribution": "ocean dive academy new jersey usa"
 },
