@@ -426,6 +426,14 @@
 	"attribution": "Josh Freeman"
 },
 {
+	"moji": "💃",
+	"name": "dancer",
+	"name-ja": "ダンサー(アニメ)",
+	"category": "people",
+	"unicode": "1f483",
+	"attribution": "Daniel 'Crusher' Nersveen"
+},
+{
 	"moji": "💊",
 	"name": "pill",
 	"name-ja": "薬",
@@ -890,7 +898,8 @@
 	"name": "smiling_cat_face_with_heart_shaped_eyes",
 	"name-ja": "目がハート(ネコ)",
 	"category": "faces",
-	"unicode": "1f63b"
+	"unicode": "1f63b",
+	"attribution": "Arvid Andersson"
 },
 {
 	"moji": "😼",
@@ -1075,7 +1084,7 @@
 },
 {
 	"moji": "☺",
-	"name": "smiling_face",
+	"name": "white_smiling_face",
 	"name-ja": "スマイルフェイス",
 	"category": "faces",
 	"unicode": "263a"
@@ -1087,6 +1096,14 @@
 	"category": "abstract",
 	"unicode": "264b",
 	"attribution": "Glenn Møller"
+},
+{
+	"moji": "♿",
+	"name": "wheelchair",
+	"name-ja": "車椅子マーク",
+	"category": "abstract",
+	"unicode": "267f",
+	"attribution": "Adam Baxter"
 },
 {
 	"moji": "⚓",
@@ -1126,6 +1143,11 @@
 	"category": "abstract",
 	"unicode": "3299",
 	"attribution": "Benjamin Bangsberg"
+},
+{
+	"name": "smiling_face",
+	"name-ja": "笑顔",
+	"category": "faces"
 },
 {
 	"name": "relaxed",
@@ -1195,7 +1217,8 @@
 {
 	"name": "two_men_in_love",
 	"name-ja": "手をつないだ二人の男性とハート",
-	"category": "people"
+	"category": "people",
+	"attribution": "Michael Dandy"
 },
 {
 	"name": "two_men_with_heart",
@@ -1283,6 +1306,30 @@
 	"attribution": "Jo-Herman Haughol"
 },
 {
+	"name": "gentleman_octopus",
+	"name-ja": "紳士蛸",
+	"category": "nature",
+	"attribution": "nickythegreek"
+},
+{
+	"name": "monster",
+	"name-ja": "怪物",
+	"category": "nature",
+	"attribution": "Themonsterfactory.com"
+},
+{
+	"name": "sunrise_over_mountains",
+	"name-ja": "Pacific Crest Trailからの日の出",
+	"category": "nature",
+	"attribution": "Justin Kazmark"
+},
+{
+	"name": "bgok",
+	"name-ja": "ニワトリ(鳴き)",
+	"category": "nature",
+	"attribution": "https://github.com/bgok"
+},
+{
 	"name": "ksroom",
 	"name-ja": "K's Room Company",
 	"category": "logos",
@@ -1290,7 +1337,7 @@
 },
 {
 	"name": "ocean_dive_view",
-	"name-ja": "Ocean Dive View 'O'",
+	"name-ja": "Ocean Dive View",
 	"category": "logos",
 	"attribution": "ocean dive academy new jersey usa"
 },
@@ -1327,6 +1374,12 @@
 	"name-ja": "ruby",
 	"category": "logos",
 	"url": "http://www.ruby-lang.org"
+},
+{
+	"name": "gakuengine",
+	"name-ja": "学園陣",
+	"category": "logos",
+	"url": "http://gakuengine.com"
 },
 {
 	"name": "genshin",
