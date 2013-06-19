@@ -426,6 +426,14 @@
 	"attribution": "Josh Freeman"
 },
 {
+	"moji": "💃",
+	"name": "dancer",
+	"name-ja": "ダンサー(アニメ)",
+	"category": "people",
+	"unicode": "1f483",
+	"attribution": "Daniel 'Crusher' Nersveen"
+},
+{
 	"moji": "💊",
 	"name": "pill",
 	"name-ja": "薬",
@@ -1075,7 +1083,7 @@
 },
 {
 	"moji": "☺",
-	"name": "smiling_face",
+	"name": "white_smiling_face",
 	"name-ja": "スマイルフェイス",
 	"category": "faces",
 	"unicode": "263a"
@@ -1134,6 +1142,11 @@
 	"category": "abstract",
 	"unicode": "3299",
 	"attribution": "Benjamin Bangsberg"
+},
+{
+	"name": "smiling_face",
+	"name-ja": "笑顔",
+	"category": "faces"
 },
 {
 	"name": "relaxed",
@@ -1295,6 +1308,36 @@
 	"name-ja": "紳士蛸",
 	"category": "nature",
 	"attribution": "nickythegreek"
+},
+{
+	"name": "monster",
+	"name-ja": "怪物",
+	"category": "nature",
+	"attribution": "Themonsterfactory.com"
+},
+{
+	"name": "sunrise_over_mountains",
+	"name-ja": "Pacific Crest Trailからの日の出",
+	"category": "nature",
+	"attribution": "Justin Kazmark"
+},
+{
+	"name": "bgok",
+	"name-ja": "ニワトリ(アニメ)",
+	"category": "nature",
+	"attribution": "https://github.com/bgok"
+},
+{
+	"name": "two_men_in_love-a",
+	"name-ja": "手をつないだ二人の男性とハート(アニメ)",
+	"category": "people",
+	"attribution": "Michael Dandy"
+},
+{
+	"name": "smiling_cat_face_with_heart_shaped_eyes-a",
+	"name-ja": "目がハート(ネコ)(アニメ)",
+	"category": "faces",
+	"attribution": "Arvid Andersson"
 },
 {
 	"name": "ksroom",
