@@ -721,7 +721,8 @@
 	"name": "angry_face",
 	"name-ja": "怒った顔",
 	"category": "faces",
-	"unicode": "1f620"
+	"unicode": "1f620",
+	"attribution": "Krysanto"
 },
 {
 	"moji": "😡",
@@ -1330,6 +1331,12 @@
 	"attribution": "https://github.com/bgok"
 },
 {
+	"name": "phone_book",
+	"name-ja": "電話帳",
+	"category": "object",
+	"attribution": "Rod Dorman"
+},
+{
 	"name": "ksroom",
 	"name-ja": "K's Room Company",
 	"category": "logos",
@@ -1359,8 +1366,8 @@
 	"alts": ["grateful"],
 	"name-ja": "ハッピジャー",
 	"category": "logos",
-	"contributor": "groupme",
-	"url": "http://groupme.com"
+	"attribution": "happijar",
+	"url": "http://happijar.com"
 },
 {
 	"name": "groupme",
@@ -1376,7 +1383,7 @@
 	"url": "http://www.ruby-lang.org"
 },
 {
-	"name": "gakuengine",
+	"name": "GAKUEngine",
 	"name-ja": "学園陣",
 	"category": "logos",
 	"url": "http://gakuengine.com"
