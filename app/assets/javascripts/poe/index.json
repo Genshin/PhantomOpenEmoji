@@ -1091,12 +1091,89 @@
 	"unicode": "263a"
 },
 {
+	"moji": "♈",
+	"name": "Aries",
+	"name-ja": "牡羊座",
+	"category": "abstract",
+	"unicode": "2648"
+},
+{
+	"moji": "♉",
+	"name": "Taurus",
+	"name-ja": "牡牛座",
+	"category": "abstract",
+	"unicode": "2649"
+},
+{
+	"moji": "♊",
+	"name": "Gemini",
+	"name-ja": "双子座",
+	"category": "abstract",
+	"unicode": "264a"
+},
+{
 	"moji": "♋",
-	"name": "cancer",
+	"name": "Cancer",
 	"name-ja": "蟹座",
 	"category": "abstract",
 	"unicode": "264b",
 	"attribution": "Glenn Møller"
+},
+{
+	"moji": "♌",
+	"name": "Leo",
+	"name-ja": "獅子座",
+	"category": "abstract",
+	"unicode": "264c"
+},
+{
+	"moji": "♍",
+	"name": "Virgo",
+	"name-ja": "乙女座",
+	"category": "abstract",
+	"unicode": "264d"
+},
+{
+	"moji": "♎",
+	"name": "Libra",
+	"name-ja": "天秤座",
+	"category": "abstract",
+	"unicode": "264e"
+},
+{
+	"moji": "♏",
+	"name": "Scorpius",
+	"name-ja": "蠍座",
+	"category": "abstract",
+	"unicode": "264f"
+},
+{
+	"moji": "♐",
+	"name": "Sagittarius",
+	"name-ja": "射手座",
+	"category": "abstract",
+	"unicode": "2650"
+},
+{
+	"moji": "♑",
+	"name": "Capricorn",
+	"name-ja": "山羊座",
+	"category": "abstract",
+	"unicode": "2651"
+},
+{
+	"moji": "♒",
+	"name": "Aquarius",
+	"name-ja": "水瓶座",
+	"category": "abstract",
+	"unicode": "2652"
+},
+{
+	"moji": "♓",
+	"name": "Pisces",
+	"name-ja": "魚座",
+	"category": "abstract",
+	"unicode": "2653"
 },
 {
 	"moji": "♿",
@@ -1335,6 +1412,37 @@
 	"name-ja": "電話帳",
 	"category": "object",
 	"attribution": "Rod Dorman"
+},
+{
+	"name": "oars",
+	"name-ja": "オール",
+	"category": "櫂",
+	"attribution": "Bridge"
+},
+{
+	"name": "smily_confused",
+	"name-ja": "スマイリー(困る)",
+	"category": "faces"
+},
+{
+	"name": "smily_kissing_heart",
+	"name-ja": "スマイリー(投げキッス)",
+	"category": "faces"
+},
+{
+	"name": "smily_sleeping",
+	"name-ja": "スマイリー(眠い)",
+	"category": "faces"
+},
+{
+	"name": "smily_smile",
+	"name-ja": "スマイリー(嬉しい顔)",
+	"category": "faces"
+},
+{
+	"name": "smily_wink2",
+	"name-ja": "スマイリー(ウインク2)",
+	"category": "faces"
 },
 {
 	"name": "ksroom",
