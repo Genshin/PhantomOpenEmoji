@@ -1420,28 +1420,28 @@
 	"attribution": "Bridge"
 },
 {
-	"name": "smily_confused",
+	"name": "smiley_confused",
 	"name-ja": "スマイリー(困る)",
 	"category": "faces"
 },
 {
-	"name": "smily_kissing_heart",
+	"name": "smiley_kissing_heart",
 	"name-ja": "スマイリー(投げキッス)",
 	"category": "faces"
 },
 {
-	"name": "smily_sleeping",
+	"name": "smiley_sleeping",
 	"name-ja": "スマイリー(眠い)",
 	"category": "faces"
 },
 {
-	"name": "smily_smile",
+	"name": "smiley_smile",
 	"name-ja": "スマイリー(嬉しい顔)",
 	"category": "faces"
 },
 {
-	"name": "smily_wink2",
-	"name-ja": "スマイリー(ウインク2)",
+	"name": "smiley_stuck_out_tongue_winking_eye",
+	"name-ja": "スマイリー(あっかんべー)",
 	"category": "faces"
 },
 {
