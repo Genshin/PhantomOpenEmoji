@@ -1420,6 +1420,18 @@
 	"attribution": "Bridge"
 },
 {
+	"name": "siamese_kitten",
+	"name-ja": "シャム",
+	"category": "nature",
+	"attribution": "njx"
+},
+{
+	"name": "one_eyed_robot",
+	"name-ja": "ロボット",
+	"category": "object",
+	"attribution": "Mr. Daniel Scott Fowler"
+},
+{
 	"name": "smiley_confused",
 	"name-ja": "スマイリー(困る)",
 	"category": "faces"
