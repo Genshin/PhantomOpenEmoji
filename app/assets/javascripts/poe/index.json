@@ -402,6 +402,14 @@
 	"unicode": "1f46d"
 },
 {
+	"moji": "👸",
+	"name": "princess",
+	"name-ja": "お姫様",
+	"category": "people",
+	"unicode": "1f478",
+	"attribution": "Kim Baumann Larsen"
+},
+{
 	"moji": "👻",
 	"name": "ghost",
 	"name-ja": "お化け",
@@ -1430,6 +1438,18 @@
 	"name-ja": "ロボット",
 	"category": "object",
 	"attribution": "Mr. Daniel Scott Fowler"
+},
+{
+	"name": "octocat",
+	"name-ja": "オクトキャット",
+	"category": "object",
+	"attribution": "Josh Vera"
+},
+{
+	"name": "DSLR_click",
+	"name-ja": "一眼レフ",
+	"category": "object",
+	"attribution": "A.Tabisz"
 },
 {
 	"name": "smiley_confused",
