@@ -75,6 +75,7 @@ class POE
     when 'png'
       @index.each do |emoji|
         convert_emoji(emoji)
+        create_unicode_symlink(emoji)
       end
     end
   end
@@ -171,8 +172,18 @@ class POE
     return false
   end
 
-  # シンボリックリンク作成
   def create_unicode_symlink(emoji)
+    path = @target_path
+
+    unless FileTest.exist?(path + 'unicode')
+      Dir::mkdir(path + 'unicode')
+    end
+
+    unless emoji['unicode'].nil?
+      FileUtils.symlink(path + emoji['name'] + '.png',
+                        path + 'unicode/' + emoji['unicode'] + '.png')
+    end
+
     #if !emoji.unicode.nil?
     #  putf "moji " + item.name + " unicode " + item.unicode
     #end
@@ -185,7 +196,6 @@ class POE
    # end
   end
 
-  # 絵文字から検索
   def lookup_character(character)
     @index.each do |emoji|
       if character == emoji['moji']
@@ -195,7 +205,6 @@ class POE
     return nil
   end
 
-  # 名前から検索
   def lookup_name(name)
     @index.each do |item|
       if name == item['name']
@@ -205,7 +214,6 @@ class POE
     return nil
   end
 
-  # 日本語名から検索
   def lookup_name_ja(name_ja)
     @index.each do |item|
       if name_ja == item['name-ja']
