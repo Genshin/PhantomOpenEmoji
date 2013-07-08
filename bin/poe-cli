@@ -73,6 +73,10 @@ def convert_standard_sets
   @poe.convert_index()
 end
 
+opts.on('-u', '--unicode-only') {
+  @poe.set_unicode_only()
+}
+
 opts.on('--standard') {
   convert_standard_sets
 }
@@ -106,15 +110,14 @@ opts.on('--all-sets') {
   convert_android_sets
 }
 
-# 絵文字から検索
 opts.on('--lookup-emoji EMOJI') {|emoji|
   puts @poe.lookup_emoji(emoji)
 }
-# 名前から検索
+
 opts.on('--lookup-name NAME') {|name|
   puts @poe.lookup_name(name)
 }
-# 日本語名から絵文字を検索
+
 opts.on('--lookup-name-ja NAME') {|name|
   puts @poe.lookup_name_ja(name)
 }
