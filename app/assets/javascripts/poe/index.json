@@ -1423,8 +1423,8 @@
 },
 {
 	"name": "oars",
-	"name-ja": "オール",
-	"category": "櫂",
+	"name-ja": "櫂",
+	"category": "transportation",
 	"attribution": "Bridge"
 },
 {
