@@ -184,16 +184,18 @@ class POE
   end
 
   def create_unicode_symlink(emoji)
-    path = @target_path
-    target_path = path + emoji['name'] + '.png'
-    symlink_path = path + 'unicode/' + emoji['unicode'] + '.png' unless emoji['unicode'].nil?
+    origin = Dir.pwd
+    Dir.chdir(@target_path)
 
-    unless FileTest.exist?(path + 'unicode')
-      Dir::mkdir(path + 'unicode')
+    origin_path = '../' + emoji['name'] + '.png'
+    symlink_path = './' + 'unicode/' + emoji['unicode'] + '.png' unless emoji['unicode'].nil?
+
+    unless FileTest.exist?( './unicode')
+      Dir::mkdir('./unicode')
     end
 
     if !emoji['unicode'].nil? && !FileTest.exist?(symlink_path)
-      FileUtils.symlink(target_path, symlink_path)
+      FileUtils.symlink(origin_path, symlink_path)
     end
 
     # if !emoji.unicode.nil?
@@ -206,6 +208,7 @@ class POE
     # filenames.each do |f|
     # FileUtils.symlink( "./" + srcdir + '/' + emoji.name + , fullpath + '/' + outdir + '/' + f, {:force => true});
     # end
+    Dir.chdir(origin)
   end
 
   def lookup_character(character)
