@@ -402,6 +402,14 @@
 	"unicode": "1f46d"
 },
 {
+	"moji": "👸",
+	"name": "princess",
+	"name-ja": "お姫様",
+	"category": "people",
+	"unicode": "1f478",
+	"attribution": "Kim Baumann Larsen"
+},
+{
 	"moji": "👻",
 	"name": "ghost",
 	"name-ja": "お化け",
@@ -721,7 +729,8 @@
 	"name": "angry_face",
 	"name-ja": "怒った顔",
 	"category": "faces",
-	"unicode": "1f620"
+	"unicode": "1f620",
+	"attribution": "Krysanto"
 },
 {
 	"moji": "😡",
@@ -1090,12 +1099,89 @@
 	"unicode": "263a"
 },
 {
+	"moji": "♈",
+	"name": "Aries",
+	"name-ja": "牡羊座",
+	"category": "abstract",
+	"unicode": "2648"
+},
+{
+	"moji": "♉",
+	"name": "Taurus",
+	"name-ja": "牡牛座",
+	"category": "abstract",
+	"unicode": "2649"
+},
+{
+	"moji": "♊",
+	"name": "Gemini",
+	"name-ja": "双子座",
+	"category": "abstract",
+	"unicode": "264a"
+},
+{
 	"moji": "♋",
-	"name": "cancer",
+	"name": "Cancer",
 	"name-ja": "蟹座",
 	"category": "abstract",
 	"unicode": "264b",
 	"attribution": "Glenn Møller"
+},
+{
+	"moji": "♌",
+	"name": "Leo",
+	"name-ja": "獅子座",
+	"category": "abstract",
+	"unicode": "264c"
+},
+{
+	"moji": "♍",
+	"name": "Virgo",
+	"name-ja": "乙女座",
+	"category": "abstract",
+	"unicode": "264d"
+},
+{
+	"moji": "♎",
+	"name": "Libra",
+	"name-ja": "天秤座",
+	"category": "abstract",
+	"unicode": "264e"
+},
+{
+	"moji": "♏",
+	"name": "Scorpius",
+	"name-ja": "蠍座",
+	"category": "abstract",
+	"unicode": "264f"
+},
+{
+	"moji": "♐",
+	"name": "Sagittarius",
+	"name-ja": "射手座",
+	"category": "abstract",
+	"unicode": "2650"
+},
+{
+	"moji": "♑",
+	"name": "Capricorn",
+	"name-ja": "山羊座",
+	"category": "abstract",
+	"unicode": "2651"
+},
+{
+	"moji": "♒",
+	"name": "Aquarius",
+	"name-ja": "水瓶座",
+	"category": "abstract",
+	"unicode": "2652"
+},
+{
+	"moji": "♓",
+	"name": "Pisces",
+	"name-ja": "魚座",
+	"category": "abstract",
+	"unicode": "2653"
 },
 {
 	"moji": "♿",
@@ -1330,6 +1416,73 @@
 	"attribution": "https://github.com/bgok"
 },
 {
+	"name": "phone_book",
+	"name-ja": "電話帳",
+	"category": "object",
+	"attribution": "Rod Dorman"
+},
+{
+	"name": "oars",
+	"name-ja": "オール",
+	"category": "櫂",
+	"attribution": "Bridge"
+},
+{
+	"name": "siamese_kitten",
+	"name-ja": "シャム",
+	"category": "nature",
+	"attribution": "njx"
+},
+{
+	"name": "one_eyed_robot",
+	"name-ja": "ロボット",
+	"category": "object",
+	"attribution": "Mr. Daniel Scott Fowler"
+},
+{
+	"name": "octocat",
+	"name-ja": "オクトキャット",
+	"category": "object",
+	"attribution": "Josh Vera"
+},
+{
+	"name": "DSLR_click",
+	"name-ja": "一眼レフ",
+	"category": "object",
+	"attribution": "A.Tabisz"
+},
+{
+	"name": "high_hopes",
+	"name-ja": "大きな望み",
+	"category": "nature",
+	"attribution": "Meniou"
+},
+{
+	"name": "smiley_confused",
+	"name-ja": "スマイリー(困る)",
+	"category": "faces"
+},
+{
+	"name": "smiley_kissing_heart",
+	"name-ja": "スマイリー(投げキッス)",
+	"category": "faces"
+},
+{
+	"name": "smiley_sleeping",
+	"name-ja": "スマイリー(眠い)",
+	"category": "faces"
+},
+{
+	"name": "smiley_smile",
+	"name-ja": "スマイリー(嬉しい顔)",
+	"category": "faces"
+},
+{
+	"name": "smiley_stuck_out_tongue_winking_eye",
+	"name-ja": "スマイリー(あっかんべー)",
+	"category": "faces"
+},
+{
 	"name": "ksroom",
 	"name-ja": "K's Room Company",
 	"category": "logos",
@@ -1359,8 +1512,8 @@
 	"alts": ["grateful"],
 	"name-ja": "ハッピジャー",
 	"category": "logos",
-	"contributor": "groupme",
-	"url": "http://groupme.com"
+	"attribution": "happijar",
+	"url": "http://happijar.com"
 },
 {
 	"name": "groupme",
@@ -1376,7 +1529,7 @@
 	"url": "http://www.ruby-lang.org"
 },
 {
-	"name": "gakuengine",
+	"name": "GAKUEngine",
 	"name-ja": "学園陣",
 	"category": "logos",
 	"url": "http://gakuengine.com"
