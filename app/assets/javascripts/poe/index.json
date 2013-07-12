@@ -436,7 +436,7 @@
 {
 	"moji": "💃",
 	"name": "dancer",
-	"name-ja": "ダンサー(アニメ)",
+	"name-ja": "ダンサー",
 	"category": "people",
 	"unicode": "1f483",
 	"attribution": "Daniel 'Crusher' Nersveen"
@@ -448,6 +448,14 @@
 	"category": "object",
 	"unicode": "1f48a",
 	"attribution": "Cynthia McCoy"
+},
+{
+	"moji": "💏",
+	"alts": ["kiss", "couple_kissing"],
+	"name": "couple_kiss",
+	"name-ja": "カップルのキス",
+	"category": "people",
+	"unicode": "1f48f"
 },
 {
 	"moji": "💑",
@@ -689,7 +697,8 @@
 	"name-ja": "べー",
 	"emoticon": ":P",
 	"category": "faces",
-	"unicode": "1f61b"
+	"unicode": "1f61b",
+	"attribution": "Victor Westmann"
 },
 {
 	"moji": "😜",

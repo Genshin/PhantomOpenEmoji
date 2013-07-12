@@ -194,8 +194,8 @@ class POE
       Dir::mkdir('./unicode')
     end
 
-    if !emoji['unicode'].nil? && !FileTest.exist?(symlink_path)
-      FileUtils.symlink(origin_path, symlink_path)
+    unless emoji['unicode'].nil?
+      FileUtils.symlink(origin_path, symlink_path, {:force => true})
     end
 
     # if !emoji.unicode.nil?
