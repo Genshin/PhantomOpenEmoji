@@ -465,6 +465,14 @@
 	"unicode": "1f491"
 },
 {
+	"moji": "💓",
+	"alts": ["beating_heart"],
+	"name": "heartbeat",
+	"name-ja": "ドキドキしているハート",
+	"category": "abstract",
+	"unicode": "1f493"
+},
+{
 	"moji": "💩",
 	"name": "poop",
 	"name-ja": "うんち(顔あり)",
