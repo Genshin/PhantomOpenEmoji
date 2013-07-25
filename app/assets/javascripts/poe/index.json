@@ -1481,6 +1481,11 @@
 	"attribution": "Onery"
 },
 {
+	"name": "apngasm",
+	"name-ja": "apngasm",
+	"category": "logos"
+},
+{
 	"name": "smiley_confused",
 	"name-ja": "スマイリー(困る)",
 	"category": "faces"
