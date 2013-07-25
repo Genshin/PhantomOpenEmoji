@@ -436,7 +436,7 @@
 {
 	"moji": "💃",
 	"name": "dancer",
-	"name-ja": "ダンサー(アニメ)",
+	"name-ja": "ダンサー",
 	"category": "people",
 	"unicode": "1f483",
 	"attribution": "Daniel 'Crusher' Nersveen"
@@ -450,11 +450,27 @@
 	"attribution": "Cynthia McCoy"
 },
 {
+	"moji": "💏",
+	"alts": ["kiss", "couple_kissing"],
+	"name": "couple_kiss",
+	"name-ja": "カップルのキス",
+	"category": "people",
+	"unicode": "1f48f"
+},
+{
 	"moji": "💑",
 	"name": "couple_with_heart",
 	"name-ja": "カップルとハート",
 	"category": "people",
 	"unicode": "1f491"
+},
+{
+	"moji": "💓",
+	"alts": ["beating_heart"],
+	"name": "heartbeat",
+	"name-ja": "ドキドキしているハート",
+	"category": "abstract",
+	"unicode": "1f493"
 },
 {
 	"moji": "💩",
@@ -689,7 +705,8 @@
 	"name-ja": "べー",
 	"emoticon": ":P",
 	"category": "faces",
-	"unicode": "1f61b"
+	"unicode": "1f61b",
+	"attribution": "Victor Westmann"
 },
 {
 	"moji": "😜",
@@ -1456,6 +1473,17 @@
 	"name-ja": "大きな望み",
 	"category": "nature",
 	"attribution": "Meniou"
+},
+{
+	"name": "cookie_fairy",
+	"name-ja": "クッキーの妖精",
+	"category": "people",
+	"attribution": "Onery"
+},
+{
+	"name": "apngasm",
+	"name-ja": "apngasm",
+	"category": "logos"
 },
 {
 	"name": "smiley_confused",
