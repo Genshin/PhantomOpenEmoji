@@ -12,9 +12,12 @@ class POE
   @px # output px
   @target_path # path to output
   @has_apng_support
-  @unicode_only # Whether to convert only standard
+  @unicode_only # flag   Whether to convert only unicode Emoji
   @category_names
   @categorized_index
+  @output_json # flag   Whether to output Json File
+  @output_index # List to be output to a Json file
+  @output_filename
 
   DEF_PX = 64
   DEF_FORMAT = 'png'
@@ -39,6 +42,8 @@ class POE
     @px = DEF_PX
     @format = DEF_FORMAT
     @unicode_only = false
+    @output_json = false
+    @output_index = Array.new
   end
 
   def get_index()
@@ -70,8 +75,8 @@ class POE
     @format = format
   end
 
-  def set_unicode_only()
-    @unicode_only = true
+  def set_unicode_only(flag)
+    @unicode_only = flag    # flag is true
   end
 
   def convert_index()
@@ -83,12 +88,16 @@ class POE
         if @unicode_only && emoji['unicode'] != nil
           convert_emoji(emoji)
           create_unicode_symlink(emoji)
+          set_output_index(emoji)  
         elsif !@unicode_only
           convert_emoji(emoji)
           create_unicode_symlink(emoji)
+          set_output_index(emoji)
         end
       end
     end
+
+    output_json_file() if @output_json
   end
 
   def get_source_info(emoji)
@@ -211,10 +220,28 @@ class POE
     Dir.chdir(origin)
   end
 
+  def set_output_json(flag)
+    @output_json = flag   # flag is true
+  end
+
+  def set_output_index(emoji)    
+    @output_index << emoji
+  end
+
+  def set_output_filename(filename)
+    @output_filename = filename
+  end
+
+  def output_json_file
+    File.open(@output_filename + '.json', 'w') do |io|
+      io.write @output_index
+    end
+  end
+
   def lookup_character(character)
-    @index.each do |emoji|
-      if character == emoji['moji']
-        return emoji
+    @index.each do |item|
+      if character == item['moji']
+        return item
       end
     end
     return nil
