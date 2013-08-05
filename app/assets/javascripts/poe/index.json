@@ -124,7 +124,6 @@
 },
 {
 	"moji": "🍥",
-	"alts": ["naruto"],
 	"name": "fish_cake_with_swirl_design",
 	"name-ja": "なると",
 	"category": "food",
@@ -451,7 +450,6 @@
 },
 {
 	"moji": "💏",
-	"alts": ["kiss", "couple_kissing"],
 	"name": "couple_kiss",
 	"name-ja": "カップルのキス",
 	"category": "people",
@@ -466,7 +464,6 @@
 },
 {
 	"moji": "💓",
-	"alts": ["beating_heart"],
 	"name": "heartbeat",
 	"name-ja": "ドキドキしているハート",
 	"category": "abstract",
@@ -519,7 +516,6 @@
 },
 {
 	"moji": "😁",
-	"alts": ["grinning_face_with_smiling_eyes"],
 	"name": "grin",
 	"name-ja": "うっしっし",
 	"category": "faces",
@@ -536,7 +532,6 @@
 },
 {
 	"moji": "😃",
-	"alts": ["smiling_face_with_open_mouth"],
 	"name": "smiley",
 	"name-ja": "スマイル",
 	"emoticon": ":)",
@@ -546,7 +541,6 @@
 },
 {
 	"moji": "😄",
-	"alts": ["smiling_face_with_open_mouth_and_smiling_eyes"],
 	"name": "smile",
 	"name-ja": "嬉しい顔",
 	"category": "faces",
@@ -555,7 +549,6 @@
 },
 {
 	"moji": "😅",
-	"alts": ["smiling_face_with_open_mouth_and_cold_sweat"],
 	"name": "sweat_smile",
 	"name-ja": "冷や汗",
 	"category": "faces",
@@ -564,7 +557,6 @@
 },
 {
 	"moji": "😆",
-	"alts": ["smiling_face_with_open_mouth_and_tightly_closed_eyes"],
 	"name": "laughing",
 	"name-ja": "笑い",
 	"emoticon": ":D",
@@ -573,7 +565,6 @@
 },
 {
 	"moji": "😉",
-	"alts": ["winking_face"],
 	"name": "wink",
 	"name-ja": "ウインク",
 	"emoticon": ";)",
@@ -582,7 +573,6 @@
 },
 {
 	"moji": "😊",
-	"alts": ["smiling_face_with_smiling_eyes"],
 	"name": "blush",
 	"name-ja": "にこにこ",
 	"emoticon": ":$",
@@ -599,7 +589,6 @@
 },
 {
 	"moji": "😌",
-	"alts": ["relieved_face"],
 	"name": "relieved",
 	"name-ja": "ほっとした顔",
 	"category": "faces",
@@ -607,7 +596,6 @@
 },
 {
 	"moji": "😍",
-	"alts": ["smiling_face_with_heart_shaped_eyes"],
 	"name": "heart_eyes",
 	"name-ja": "目がハート",
 	"category": "faces",
@@ -616,7 +604,6 @@
 },
 {
 	"moji": "😏",
-	"alts": ["smirk_face"],
 	"name": "smirk",
 	"name-ja": "ふっ",
 	"category": "faces",
@@ -624,7 +611,6 @@
 },
 {
 	"moji": "😑",
-	"alts": ["expressionless_face"],
 	"name": "expressionless",
 	"name-ja": "ぼけーっとした顔",
 	"category": "faces",
@@ -632,7 +618,6 @@
 },
 {
 	"moji": "😒",
-	"alts": ["unamused_face"],
 	"name": "unamused",
 	"name-ja": "横目",
 	"category": "faces",
@@ -640,7 +625,6 @@
 },
 {
 	"moji": "😓",
-	"alts": ["face_with_cold_sweat"],
 	"name": "sweat",
 	"name-ja": "困り顔",
 	"emoticon": "(:|",
@@ -657,7 +641,6 @@
 },
 {
 	"moji": "😕",
-	"alts": ["confused_face"],
 	"name": "confused",
 	"name-ja": "困る",
 	"emoticon": ":^)",
@@ -666,7 +649,6 @@
 },
 {
 	"moji": "😗",
-	"alts": ["kissing_face"],
 	"name": "kissing",
 	"name-ja": "チュー",
 	"emoticon": ":*",
@@ -675,7 +657,6 @@
 },
 {
 	"moji": "😘",
-	"alts": ["face_throwing_a_kiss"],
 	"name": "kissing_heart",
 	"name-ja": "投げキッス",
 	"category": "faces",
@@ -683,7 +664,6 @@
 },
 {
 	"moji": "😙",
-	"alts": ["kissing_face_with_smiling_eyes"],
 	"name": "kissing_smiling_eyes",
 	"name-ja": "チューしよ",
 	"category": "faces",
@@ -691,7 +671,6 @@
 },
 {
 	"moji": "😚",
-	"alts": ["kissing_face_with_closed_eyes"],
 	"name": "kissing_closed_eyes",
 	"name-ja": "チュッ",
 	"category": "faces",
@@ -700,7 +679,6 @@
 },
 {
 	"moji": "😛",
-	"alts": ["face_with_stuck_out_tongue"],
 	"name": "stuck_out_tongue",
 	"name-ja": "べー",
 	"emoticon": ":P",
@@ -710,7 +688,6 @@
 },
 {
 	"moji": "😜",
-	"alts": ["face_with_stuck_out_tongue_winking_eye"],
 	"name": "stuck_out_tongue_winking_eye",
 	"name-ja": "あっかんべー",
 	"emoticon": ";P",
@@ -719,7 +696,6 @@
 },
 {
 	"moji": "😝",
-	"alts": ["face_with_stuck_out_tongue_and_tightly_closed_eye"],
 	"name": "stuck_out_tongue_closed_eyes",
 	"name-ja": "べーっ",
 	"emoticon": "XP",
@@ -735,7 +711,6 @@
 },
 {
 	"moji": "😟",
-	"alts": ["worried_face"],
 	"name": "worried",
 	"name-ja": "心配",
 	"category": "faces",
@@ -788,7 +763,6 @@
 },
 {
 	"moji": "😦",
-	"alts": ["frowning_face_with_open_mouth"],
 	"name": "frowning",
 	"name-ja": "しかめっ面",
 	"emoticon": ":(",
@@ -797,7 +771,6 @@
 },
 {
 	"moji": "😧",
-	"alts": ["anguished_face"],
 	"name": "anguished",
 	"name-ja": "悲しい顔",
 	"category": "faces",
@@ -820,7 +793,6 @@
 },
 {
 	"moji": "😬",
-	"alts": ["grimacing_face"],
 	"name": "grimacing",
 	"name-ja": "いーっ",
 	"category": "faces",
@@ -835,7 +807,6 @@
 },
 {
 	"moji": "😮",
-	"alts": ["face_with_open_mouth"],
 	"name": "open_mouth",
 	"name-ja": "ぽかんと",
 	"emoticon": ":O",
@@ -844,7 +815,6 @@
 },
 {
 	"moji": "😯",
-	"alts": ["hushed_face"],
 	"name": "hushed",
 	"name-ja": "しーん",
 	"emoticon": ":x",
@@ -867,7 +837,6 @@
 },
 {
 	"moji": "😳",
-	"alts": ["flushed_fase"],
 	"name": "flushed",
 	"name-ja": "ぽっ",
 	"category": "faces",
@@ -875,7 +844,6 @@
 },
 {
 	"moji": "😴",
-	"alts": ["sleeping_face"],
 	"name": "sleeping",
 	"name-ja": "眠い",
 	"category": "faces",
@@ -1085,7 +1053,6 @@
 },
 {
 	"moji": "☀",
-	"alts": ["black_sun_with_rays"],
 	"name": "sun",
 	"name-ja": "晴れ",
 	"category": "abstract",
@@ -1537,7 +1504,6 @@
 },
 {
 	"name": "happijar",
-	"alts": ["grateful"],
 	"name-ja": "ハッピジャー",
 	"category": "logos",
 	"attribution": "happijar",
