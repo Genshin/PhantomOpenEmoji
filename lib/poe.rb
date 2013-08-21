@@ -8,7 +8,7 @@ require 'RMagick'
 class POE
   attr_accessor :index, :source_path, :format, :px, :target_path,
     :has_apng_support, :unicode_only, :category_names, :categorized_index,
-    :output_json, :output_index, :output_filename
+    :output_json, :output_index, :output_filename, :raw_output
 
   DEF_PX = 64
   DEF_FORMAT = 'png'
@@ -130,23 +130,38 @@ class POE
 
     case source[:type]
     when 'svg'
-      surface = _svg_to_surface(source[:file])
-      create_target_path()
-      surface.write_to_png(@target_path + emoji['name'] + '.png')
+      if @raw_output
+        create_target_path()
+        FileUtils.cp(source[:file], @target_path)
+      else
+        surface = _svg_to_surface(source[:file])
+        create_target_path()
+        surface.write_to_png(@target_path + emoji['name'] + '.png')
+      end
     when 'directory'
       origin = Dir.pwd
       Dir.chdir(source[:path])
 
-      animation = Magick::ImageList.new()
-      frame_path = @target_path + emoji['name'] + '/'
-      create_target_path(frame_path, false)
-      animation_info = JSON.parse(open(source[:path] + 'animation.json').read)
-      animation_info['order'].each_with_index do |number, i|
-        surface = _svg_to_surface(number.to_s + '.svg')
-        surface.write_to_png(frame_path + i.to_s + '.png')
-        frame = Magick::Image.new(@px, @px)
-        frame.import_pixels(0, 0, @px, @px, 'BGRA', surface.data)
-        animation << frame
+      if @raw_output
+        frame_path = @target_path + emoji['name'] + '/'
+        create_target_path(frame_path, false)
+        animation_info = JSON.parse(open(source[:path] + 'animation.json').read)
+        FileUtils::cp(source[:path] + 'animation.json', frame_path)
+        animation_info['order'].each_with_index do |number, i|
+          FileUtils::cp(source[:path] + number.to_s + '.svg', frame_path)
+        end
+      else
+        animation = Magick::ImageList.new()
+        frame_path = @target_path + emoji['name'] + '/'
+        create_target_path(frame_path, false)
+        animation_info = JSON.parse(open(source[:path] + 'animation.json').read)
+        animation_info['order'].each_with_index do |number, i|
+          surface = _svg_to_surface(number.to_s + '.svg')
+          surface.write_to_png(frame_path + i.to_s + '.png')
+          frame = Magick::Image.new(@px, @px)
+          frame.import_pixels(0, 0, @px, @px, 'BGRA', surface.data)
+          animation << frame
+        end
       end
 
       _generate_apng(frame_path, emoji['name'], animation_info)

@@ -120,6 +120,10 @@ opts.on('-j [FILENAME]', '--json [FILENAME]') { |filename|
   end
 }
 
+opts.on('-r', '--raw'){
+  @poe.raw_output = true
+}
+
 opts.on('--lookup-emoji EMOJI') {|emoji|
   puts @poe.lookup_emoji(emoji)
 }
