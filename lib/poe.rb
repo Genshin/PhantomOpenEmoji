@@ -224,7 +224,7 @@ class POE
 
   def output_json_file
     File.open(@output_filename + '.json', 'w') do |io|
-      io.write @output_index
+      io.write JSON.pretty_generate @output_index
     end
   end
 
