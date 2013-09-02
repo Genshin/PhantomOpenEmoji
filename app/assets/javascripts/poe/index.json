@@ -260,7 +260,7 @@
 	"name-ja": "タコ",
 	"category": "nature",
 	"unicode": "1f419",
-	"attribution": "Antón Campos"
+	"attribution": "Antón Campos, rklopfer"
 },
 {
 	"moji": "🐡",
@@ -285,7 +285,7 @@
 	"name-ja": "ペンギン",
 	"category": "nature",
 	"unicode": "1f427",
-	"attribution": "Sebastian Schauenburg"
+	"attribution": "Sebastian Schauenburg, annoyingmouse, KS.GVN"
 },
 {
 	"moji": "🐨",
@@ -414,7 +414,7 @@
 	"name-ja": "お化け",
 	"category": "people",
 	"unicode": "1f47b",
-	"attribution": "Seto Konowa"
+	"attribution": "Seto Konowa, wireclub"
 },
 {
 	"moji": "👽",
@@ -629,7 +629,8 @@
 	"name-ja": "困り顔",
 	"emoticon": "(:|",
 	"category": "faces",
-	"unicode": "1f613"
+	"unicode": "1f613",
+	"attribution": "Simonas, Kazlauskas"
 },
 {
 	"moji": "😔",
@@ -990,7 +991,7 @@
 	"name-ja": "バンザイ",
 	"category": "gesture",
 	"unicode": "1f64c",
-	"attribution": "Anh Vu"
+	"attribution": "Anh Vu, Ikaraam Ullah"
 },
 {
 	"moji": "🙍",
@@ -1065,7 +1066,7 @@
 	"name-ja": "曇り",
 	"category": "abstract",
 	"unicode": "2601",
-	"attribution": "Oliver Salzburg"
+	"attribution": "Oliver Salzburg, Khalid Abuhakmeh"
 },
 {
 	"moji": "☕",
@@ -1189,7 +1190,7 @@
 	"name-ja": "イナズマ",
 	"category": "object",
 	"unicode": "26a1",
-	"attribution": "Finallyanime!"
+	"attribution": "Finallyanime!, Brian Kemp"
 },
 {
 	"moji": "✌",
