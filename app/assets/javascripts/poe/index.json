@@ -1449,6 +1449,36 @@
 	"attribution": "Onery"
 },
 {
+	"name": "Charlie",
+	"name-ja": "チャーリー",
+	"category": "nature",
+	"attribution": "Thomas Barber"
+},
+{
+	"name": "Bags_McRibbit",
+	"name-ja": "バッグズ・ミックリビット",
+	"category": "object",
+	"attribution": "Bags McRibbit"
+},
+{
+	"name": "geek_love",
+	"name-ja": "オタク愛",
+	"category": "faces",
+	"attribution": "Matt S"
+},
+{
+	"name": "hand_salute",
+	"name-ja": "挙手",
+	"category": "gesture",
+	"attribution": "A. B. Salisbury"
+},
+{
+	"name": "Hosted_Cloud",
+	"name-ja": "ホステッドクラウド",
+	"category": "object",
+	"attribution": "Freeway hosted cloud"
+},
+{
 	"name": "apngasm",
 	"name-ja": "apngasm",
 	"category": "logos"
@@ -1502,6 +1532,12 @@
 	"name-ja": "ジョルジョ",
 	"category": "individuals",
 	"contributor": "Giorgio"
+},
+{
+	"name": "redbeard",
+	"name-ja": "レッドベアード",
+	"category": "individuals",
+	"attribution": "Brian Redbeard"
 },
 {
 	"name": "happijar",

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="_x30_9_6_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#FFC9A4" d="M22.104,0.663v11.25l1.25,4.125l1.75,11.875c0,0,9.125,8.75,10.375,8.875s19.875-10.5,19.875-10.5
+			L53.901-2.888L22.104,0.663z"/>
+		<path fill="none" stroke="#2B0F01" stroke-width="2" stroke-miterlimit="10" d="M22.104,0.663v11.25l1.25,4.125l1.75,11.875
+			c0,0,9.125,8.75,10.375,8.875s19.875-10.5,19.875-10.5L53.901-2.888L22.104,0.663z"/>
+	</g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="21.104" y="-4" width="35.279" height="41.789">
+			
+				<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="21.104" y="-4" width="35.279" height="41.789" id="SVGID_1_">
+		<g filter="url(#Adobe_OpacityMaskFilter)">
+			
+				<image overflow="visible" width="40" height="46" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
+EAMCAwYAAAGwAAACCgAAAqv/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX
+Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa
+JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIAC4AKAMBIgACEQEDEQH/
+xACGAAACAwEBAAAAAAAAAAAAAAAABwQFBgECAQEAAAAAAAAAAAAAAAAAAAAAEAABBAIDAQEAAAAA
+AAAAAAAFAQIDBAYHABAwEhMRAAIBAwEFBgcBAAAAAAAAAAECEQAhAwQQMUFhEiBRcYGRwbHR4TIT
+IxQFEgEAAAAAAAAAAAAAAAAAAAAw/9oADAMBAAIRAxEAAADF2un24r5jFBKFwFpv1M2DocF0eQyL
+cTM8dWPytASyIH//2gAIAQIAAQUA8f/aAAgBAwABBQDx/9oACAEBAAEFAKIm8Q5BhBuV0Ouibnpr
+V6cyAS0Va1xEx1FERO9iRq0prW2nx3spE/XArLYTHeyJWvmG3nj7gHIahOrPcrwMyDPIYOECdojL
+wSpNLBh+TvZ1/9oACAECAgY/AB//2gAIAQMCBj8AH//aAAgBAQEGPwA/zY+oDid1QyBF77mh+TIA
+vGBepOZjG8W+VLgWbgm/KmdgCQzfGrbcbRYqb+lZdMbdJMed+xgPHq9jRQmDkUR5H69jCFMw3saT
+VIJKG45UjK4DxcGi+RwAOdNg0X7HuJBsPGjk1DTew4DYD/nK7ON6r9p8ZtU63Hkx4u5SD69JO3//
+2Q==" transform="matrix(1 0 0 1 19 -6)">
+			</image>
+		</g>
+	</mask>
+	<g opacity="0.27" mask="url(#SVGID_1_)">
+		<path fill="#FF3829" d="M22.104,0.663v11.25l1.25,4.125l1.75,11.875c0,0,9.125,8.75,10.375,8.875s19.875-10.5,19.875-10.5
+			L53.901-2.888L22.104,0.663z"/>
+		<path fill="none" stroke="#FF3829" stroke-width="2" stroke-miterlimit="10" d="M22.104,0.663v11.25l1.25,4.125l1.75,11.875
+			c0,0,9.125,8.75,10.375,8.875s19.875-10.5,19.875-10.5L53.901-2.888L22.104,0.663z"/>
+	</g>
+</g>
+<polyline fill="none" stroke="#D34600" stroke-miterlimit="10" points="25.26,8.163 27.041,8.913 28.479,10.663 "/>
+<polyline fill="none" stroke="#D34600" stroke-miterlimit="10" points="34.156,8.913 36.854,6.288 41.62,6.288 "/>
+<path fill="#3994B7" d="M26.841,10.944c-0.8,0-1.47,0.794-1.661,1.868l1.661,0.624l-1.661,0.623
+	c0.191,1.074,0.861,1.868,1.661,1.868c0.948,0,1.717-1.115,1.717-2.491S27.789,10.944,26.841,10.944z"/>
+<path fill="#3994B7" d="M41.586,10.051c-0.943,0-1.732,0.937-1.958,2.203l1.958,0.735l-1.958,0.734
+	c0.226,1.266,1.015,2.203,1.958,2.203c1.119,0,2.025-1.315,2.025-2.938S42.705,10.051,41.586,10.051z"/>
+<g>
+	<g>
+		<path fill="#FFC9A4" d="M53.901,9.013c0,0,1.465-6.359,4.76-3.959c3.295,2.399,2.807,8.08,0.609,10.099
+			c-2.196,2.019-3.782,4.299-3.782,4.299L53.901,9.013z"/>
+		<path fill="none" stroke="#2B0F01" stroke-width="1.9361" stroke-miterlimit="10" d="M53.901,9.013c0,0,1.465-6.359,4.76-3.959
+			c3.295,2.399,2.807,8.08,0.609,10.099c-2.196,2.019-3.782,4.299-3.782,4.299L53.901,9.013z"/>
+	</g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="52.917" y="3.544" width="9.077" height="18.453">
+			
+				<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="52.917" y="3.544" width="9.077" height="18.453" id="SVGID_2_">
+		<g filter="url(#Adobe_OpacityMaskFilter_1_)">
+			
+				<image overflow="visible" width="14" height="23" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
+EAMCAwYAAAGFAAABpAAAAez/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX
+Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa
+JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIABcADgMBIgACEQEDEQH/
+xAB2AAACAwAAAAAAAAAAAAAAAAAAAwIEBgEBAAAAAAAAAAAAAAAAAAAAABAAAwABBQAAAAAAAAAA
+AAAAAgMFEAESIgQGEQABAwMDBQAAAAAAAAAAAAABABECIRIDMUEEcYHBIhMSAQAAAAAAAAAAAAAA
+AAAAABD/2gAMAwEAAhEDEQAAAMbO84z6wP/aAAgBAgABBQDH/9oACAEDAAEFAMf/2gAIAQEAAQUA
+mTGUGFIaNHynbFD3Ukn6RBPHXlu//9oACAECAgY/AD//2gAIAQMCBj8AP//aAAgBAQEGPwCUY0jH
+UqHBJrke2XQE+FkjPRgXXHzBrMVwJ29okKXxBJIraHW9z93X/9k=" transform="matrix(1 0 0 1 50 1)">
+			</image>
+		</g>
+	</mask>
+	<g opacity="0.27" mask="url(#SVGID_2_)">
+		<path fill="#FF3829" d="M53.901,9.013c0,0,1.465-6.359,4.76-3.959c3.295,2.399,2.807,8.08,0.609,10.099
+			c-2.196,2.019-3.782,4.299-3.782,4.299L53.901,9.013z"/>
+		<path fill="none" stroke="#FF3829" stroke-width="1.9361" stroke-miterlimit="10" d="M53.901,9.013c0,0,1.465-6.359,4.76-3.959
+			c3.295,2.399,2.807,8.08,0.609,10.099c-2.196,2.019-3.782,4.299-3.782,4.299L53.901,9.013z"/>
+	</g>
+</g>
+<path fill="none" stroke="#E09070" stroke-miterlimit="10" d="M28.558,11.188l1.795,2.975l-4.375,4.25c0,0,0.75,2.625,3.25,3.5"/>
+<path fill="#D6300F" d="M49.979,1.163c0,0,0.125,2.25,2,5.125s0,6.125,0,6.125s0.25,4.75-2,5.5l-1.375,4l-3.375-1.25l-1.617,3.625
+	l-1.383-1.625l-0.609,3.625h-1.991v2.125h-3.149l-8-1.875l-3.298,2.625c0,0-1.577,3.625-3.077,4c0,0,0.35,1.757,0,2.171
+	c-1.9,2.249-4.868,4.166-5.854,4.791C13.144,42.095,7.625,44,7.625,44S14,49.75,21.354,46.33c-3.501,4.355-9.906,6.31-9.906,6.31
+	s8.031,2.747,17.031-0.64L18,59.625c0,0,22.46,5,33-17.125c0.5-11.375,6.979-10.582,6.979-10.582l-0.875-5.63l0.875-0.125
+	l-0.625-6.125l1.25-1.875l-1.125-3.375c0,0-2.75-5.625-2.75-8.5l1.375-3.125l-0.75-2.875l-12.25-2.625l3.75,6l0.875-2.5l1.625,2
+	L49.979,1.163z"/>
+<path fill="#F46322" d="M27.479,21.913c0,0-2.875-1.125-4,1.25s-1.375,8.25-1.375,8.25l-0.75,1.75h2.125
+	c0,0,3.236-2.163,3.391-5.344c0,0,1.734,0.094,3.484,0.969s4.75,3.125,8.375,3.125l1.625,1.25c0,0,1-2.875-3.125-6.75
+	S30.854,20.913,27.479,21.913z"/>
+<path fill="#D6300F" d="M20.229,1.163c0,0-4.25,5.9-3.25,8.888l5.125-5.638l-0.75,6.25l6.375-9.5l-1.75,5.125l10-5.75l0.625-2.875
+	C36.604-2.337,23.355-4.939,20.229,1.163z"/>
+</svg>

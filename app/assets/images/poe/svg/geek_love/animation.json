@@ -1,0 +1,6 @@
+{
+	"name": "geek_love",
+	"oneshot": false,
+	"order": [0, 1, 2, 3, 4, 5],
+	"delay": 0.25
+}
