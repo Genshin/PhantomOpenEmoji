@@ -33,7 +33,7 @@ This project is licensed under a combination of the SIL Open Font License, MIT L
 
 Easy Use as a Gem
 -----------------
-Install the libaray and command line tool with:
+Install the library and command line tool with:
 
 ```bash
 gem install phantom_open_emoji
