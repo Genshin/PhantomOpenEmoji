@@ -1347,8 +1347,13 @@
 	"attribution": "Mark Atwood, the FallenPegasusbin"
 },
 {
-	"name": "puke_finger",
+	"name": "puke",
 	"name-ja": "嘔吐",
+	"category": "faces"
+},
+{
+	"name": "puke_finger",
+	"name-ja": "嘔吐2",
 	"category": "gesture",
 	"attribution": "Naya J."
 },
@@ -1477,6 +1482,12 @@
 	"name-ja": "ホステッドクラウド",
 	"category": "object",
 	"attribution": "Freeway hosted cloud"
+},
+{
+	"name": "picycle",
+	"name-ja": "パイシクル",
+	"category": "object",
+	"attribution": "Marcus Hays"
 },
 {
 	"name": "apngasm",
