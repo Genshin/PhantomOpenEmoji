@@ -6,18 +6,9 @@ require 'fileutils'
 require 'RMagick'
 
 class POE
-  @index # index hash
-  @source_path # index.json will be at the root of this path
-  @format # defaults to png
-  @px # output px
-  @target_path # path to output
-  @has_apng_support
-  @unicode_only # flag   Whether to convert only unicode Emoji
-  @category_names
-  @categorized_index
-  @output_json # flag   Whether to output Json File
-  @output_index # List to be output to a Json file
-  @output_filename
+  attr_accessor :index, :source_path, :format, :px, :target_path,
+    :has_apng_support, :unicode_only, :category_names, :categorized_index,
+    :output_json, :output_index, :output_filename, :raw_output
 
   DEF_PX = 64
   DEF_FORMAT = 'png'
@@ -51,7 +42,6 @@ class POE
   end
 
   def set_index_file(file)
-    # @source_path = File.expand_path('../', file)
     file = open(file).read
     @index = JSON.parse(file)
   end
@@ -140,33 +130,43 @@ class POE
 
     case source[:type]
     when 'svg'
-      surface = _svg_to_surface(source[:file])
-      create_target_path()
-      surface.write_to_png(@target_path + emoji['name'] + '.png')
+      if @raw_output
+        create_target_path()
+        FileUtils.cp(source[:file], @target_path)
+      else
+        surface = _svg_to_surface(source[:file])
+        create_target_path()
+        surface.write_to_png(@target_path + emoji['name'] + '.png')
+      end
     when 'directory'
       origin = Dir.pwd
       Dir.chdir(source[:path])
 
-      animation = Magick::ImageList.new()
-      frame_path = @target_path + emoji['name'] + '/'
-      create_target_path(frame_path, false)
-      animation_info = JSON.parse(open(source[:path] + 'animation.json').read)
-      animation_info['order'].each_with_index do |number, i|
-        surface = _svg_to_surface(number.to_s + '.svg')
-        surface.write_to_png(frame_path + i.to_s + '.png')
-        frame = Magick::Image.new(@px, @px)
-        frame.import_pixels(0, 0, @px, @px, 'BGRA', surface.data)
-        animation << frame
+      if @raw_output
+        frame_path = @target_path + emoji['name'] + '/'
+        create_target_path(frame_path, false)
+        animation_info = JSON.parse(open(source[:path] + 'animation.json').read)
+        FileUtils::cp(source[:path] + 'animation.json', frame_path)
+        animation_info['order'].each_with_index do |number, i|
+          FileUtils::cp(source[:path] + number.to_s + '.svg', frame_path)
+        end
+      else
+        animation = Magick::ImageList.new()
+        frame_path = @target_path + emoji['name'] + '/'
+        create_target_path(frame_path, false)
+        animation_info = JSON.parse(open(source[:path] + 'animation.json').read)
+        animation_info['order'].each_with_index do |number, i|
+          surface = _svg_to_surface(number.to_s + '.svg')
+          surface.write_to_png(frame_path + i.to_s + '.png')
+          frame = Magick::Image.new(@px, @px)
+          frame.import_pixels(0, 0, @px, @px, 'BGRA', surface.data)
+          animation << frame
+        end
       end
 
       _generate_apng(frame_path, emoji['name'], animation_info)
 
       Dir.chdir(origin)
-
-      # animation.delay = animation_info['delay']
-      # opt = animation.optimize_layers(Magick::OptimizeTransLayer)
-      # opt.write(@target_path + emoji['name'] + ".mng")
-      # opt.write(@target_path + emoji['name'] + ".gif")
     end
   end
 
@@ -204,19 +204,9 @@ class POE
     end
 
     unless emoji['unicode'].nil?
-      FileUtils.symlink(origin_path, symlink_path, {:force => true})
+      FileUtils.symlink(origin_path, symlink_path, {force: true})
     end
 
-    # if !emoji.unicode.nil?
-    #  putf "moji " + item.name + " unicode " + item.unicode
-    # end
-
-    # FileUtils.mkdir_p(outdir) unless FileTest.exist?(outdir)
-    # Dir.chdir(pngdir)
-    # filenames = Dir.glob('*.png')
-    # filenames.each do |f|
-    # FileUtils.symlink( "./" + srcdir + '/' + emoji.name + , fullpath + '/' + outdir + '/' + f, {:force => true});
-    # end
     Dir.chdir(origin)
   end
 
@@ -234,7 +224,7 @@ class POE
 
   def output_json_file
     File.open(@output_filename + '.json', 'w') do |io|
-      io.write @output_index
+      io.write JSON.pretty_generate @output_index
     end
   end
 

@@ -110,14 +110,18 @@ opts.on('--all-sets') {
   convert_android_sets
 }
 
-opts.on('-o [FILENAME]', '--output-json [FILENAME]') { |filename|
+opts.on('-j [FILENAME]', '--json [FILENAME]') { |filename|
   @poe.set_output_json(true)
 
   if filename.nil?
-    @poe.set_output_filename('convert')
+    @poe.set_output_filename('emoji')
   else
     @poe.set_output_filename(filename)
   end
+}
+
+opts.on('-r', '--raw'){
+  @poe.raw_output = true
 }
 
 opts.on('--lookup-emoji EMOJI') {|emoji|
