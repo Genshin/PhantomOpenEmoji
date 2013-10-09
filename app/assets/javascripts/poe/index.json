@@ -470,6 +470,14 @@
 	"unicode": "1f493"
 },
 {
+	"moji": "💡",
+	"name": "electric_light_bulb",
+	"name-ja": "電球",
+	"category": "object",
+	"unicode": "1f4a1",
+	"attribution": "Matthew Padgett"
+},
+{
 	"moji": "💩",
 	"name": "poop",
 	"name-ja": "うんち(顔あり)",
@@ -1349,7 +1357,8 @@
 {
 	"name": "puke",
 	"name-ja": "嘔吐",
-	"category": "faces"
+	"category": "faces",
+	"attribution": "Naya J."
 },
 {
 	"name": "puke_finger",
