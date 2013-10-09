@@ -473,7 +473,7 @@
 	"moji": "💡",
 	"name": "electric_light_bulb",
 	"name-ja": "電球",
-	"category": "object",
+	"category": "abstract",
 	"unicode": "1f4a1",
 	"attribution": "Matthew Padgett"
 },
