@@ -54,7 +54,7 @@ Simple, will write out how if anyone can't figre it out.
 
 Installation on OSX
 -------------------
-The converter won't work on with HomeBrew due to building rsvg libraries against older system libraries but it does work with MacPorts.
+The converter won't work with HomeBrew due to building rsvg libraries against older system libraries but it does work with MacPorts.
 
 With MacPorts:
 ```bash
