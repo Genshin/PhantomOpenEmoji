@@ -1,4 +1,4 @@
-Phantom Open Emoji[![Code Climate](https://codeclimate.com/github/Genshin/PhantomOpenEmoji.png)](https://codeclimate.com/github/Genshin/PhantomOpenEmoji)
+Phantom Open Emoji
 ==================
 Phantom Open Emoji is a completely free and open source set of emoji.
 
