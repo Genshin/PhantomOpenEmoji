@@ -1,0 +1,6 @@
+{
+	"name": "hand_salute",
+	"oneshot": false,
+	"order": [0, 1, 2, 3],
+	"delay": 0.25
+}

@@ -124,7 +124,6 @@
 },
 {
 	"moji": "🍥",
-	"alts": ["naruto"],
 	"name": "fish_cake_with_swirl_design",
 	"name-ja": "なると",
 	"category": "food",
@@ -261,7 +260,7 @@
 	"name-ja": "タコ",
 	"category": "nature",
 	"unicode": "1f419",
-	"attribution": "Antón Campos"
+	"attribution": "Antón Campos, rklopfer"
 },
 {
 	"moji": "🐡",
@@ -286,7 +285,7 @@
 	"name-ja": "ペンギン",
 	"category": "nature",
 	"unicode": "1f427",
-	"attribution": "Sebastian Schauenburg"
+	"attribution": "Sebastian Schauenburg, annoyingmouse, KS.GVN"
 },
 {
 	"moji": "🐨",
@@ -415,7 +414,7 @@
 	"name-ja": "お化け",
 	"category": "people",
 	"unicode": "1f47b",
-	"attribution": "Seto Konowa"
+	"attribution": "Seto Konowa, wireclub"
 },
 {
 	"moji": "👽",
@@ -451,7 +450,6 @@
 },
 {
 	"moji": "💏",
-	"alts": ["kiss", "couple_kissing"],
 	"name": "couple_kiss",
 	"name-ja": "カップルのキス",
 	"category": "people",
@@ -466,11 +464,18 @@
 },
 {
 	"moji": "💓",
-	"alts": ["beating_heart"],
 	"name": "heartbeat",
 	"name-ja": "ドキドキしているハート",
 	"category": "abstract",
 	"unicode": "1f493"
+},
+{
+	"moji": "💡",
+	"name": "electric_light_bulb",
+	"name-ja": "電球",
+	"category": "abstract",
+	"unicode": "1f4a1",
+	"attribution": "Matthew Padgett"
 },
 {
 	"moji": "💩",
@@ -519,7 +524,6 @@
 },
 {
 	"moji": "😁",
-	"alts": ["grinning_face_with_smiling_eyes"],
 	"name": "grin",
 	"name-ja": "うっしっし",
 	"category": "faces",
@@ -536,7 +540,6 @@
 },
 {
 	"moji": "😃",
-	"alts": ["smiling_face_with_open_mouth"],
 	"name": "smiley",
 	"name-ja": "スマイル",
 	"emoticon": ":)",
@@ -546,7 +549,6 @@
 },
 {
 	"moji": "😄",
-	"alts": ["smiling_face_with_open_mouth_and_smiling_eyes"],
 	"name": "smile",
 	"name-ja": "嬉しい顔",
 	"category": "faces",
@@ -555,7 +557,6 @@
 },
 {
 	"moji": "😅",
-	"alts": ["smiling_face_with_open_mouth_and_cold_sweat"],
 	"name": "sweat_smile",
 	"name-ja": "冷や汗",
 	"category": "faces",
@@ -564,7 +565,6 @@
 },
 {
 	"moji": "😆",
-	"alts": ["smiling_face_with_open_mouth_and_tightly_closed_eyes"],
 	"name": "laughing",
 	"name-ja": "笑い",
 	"emoticon": ":D",
@@ -574,7 +574,6 @@
 },
 {
 	"moji": "😉",
-	"alts": ["winking_face"],
 	"name": "wink",
 	"name-ja": "ウインク",
 	"emoticon": ";)",
@@ -583,7 +582,6 @@
 },
 {
 	"moji": "😊",
-	"alts": ["smiling_face_with_smiling_eyes"],
 	"name": "blush",
 	"name-ja": "にこにこ",
 	"emoticon": ":$",
@@ -600,7 +598,6 @@
 },
 {
 	"moji": "😌",
-	"alts": ["relieved_face"],
 	"name": "relieved",
 	"name-ja": "ほっとした顔",
 	"category": "faces",
@@ -608,7 +605,6 @@
 },
 {
 	"moji": "😍",
-	"alts": ["smiling_face_with_heart_shaped_eyes"],
 	"name": "heart_eyes",
 	"name-ja": "目がハート",
 	"category": "faces",
@@ -617,7 +613,6 @@
 },
 {
 	"moji": "😏",
-	"alts": ["smirk_face"],
 	"name": "smirk",
 	"name-ja": "ふっ",
 	"category": "faces",
@@ -625,7 +620,6 @@
 },
 {
 	"moji": "😑",
-	"alts": ["expressionless_face"],
 	"name": "expressionless",
 	"name-ja": "ぼけーっとした顔",
 	"category": "faces",
@@ -633,7 +627,6 @@
 },
 {
 	"moji": "😒",
-	"alts": ["unamused_face"],
 	"name": "unamused",
 	"name-ja": "横目",
 	"category": "faces",
@@ -641,12 +634,12 @@
 },
 {
 	"moji": "😓",
-	"alts": ["face_with_cold_sweat"],
 	"name": "sweat",
 	"name-ja": "困り顔",
 	"emoticon": "(:|",
 	"category": "faces",
-	"unicode": "1f613"
+	"unicode": "1f613",
+	"attribution": "Simonas, Kazlauskas"
 },
 {
 	"moji": "😔",
@@ -658,7 +651,6 @@
 },
 {
 	"moji": "😕",
-	"alts": ["confused_face"],
 	"name": "confused",
 	"name-ja": "困る",
 	"emoticon": ":^)",
@@ -667,7 +659,6 @@
 },
 {
 	"moji": "😗",
-	"alts": ["kissing_face"],
 	"name": "kissing",
 	"name-ja": "チュー",
 	"emoticon": ":*",
@@ -676,7 +667,6 @@
 },
 {
 	"moji": "😘",
-	"alts": ["face_throwing_a_kiss"],
 	"name": "kissing_heart",
 	"name-ja": "投げキッス",
 	"category": "faces",
@@ -684,7 +674,6 @@
 },
 {
 	"moji": "😙",
-	"alts": ["kissing_face_with_smiling_eyes"],
 	"name": "kissing_smiling_eyes",
 	"name-ja": "チューしよ",
 	"category": "faces",
@@ -692,7 +681,6 @@
 },
 {
 	"moji": "😚",
-	"alts": ["kissing_face_with_closed_eyes"],
 	"name": "kissing_closed_eyes",
 	"name-ja": "チュッ",
 	"category": "faces",
@@ -701,7 +689,6 @@
 },
 {
 	"moji": "😛",
-	"alts": ["face_with_stuck_out_tongue"],
 	"name": "stuck_out_tongue",
 	"name-ja": "べー",
 	"emoticon": ":P",
@@ -711,7 +698,6 @@
 },
 {
 	"moji": "😜",
-	"alts": ["face_with_stuck_out_tongue_winking_eye"],
 	"name": "stuck_out_tongue_winking_eye",
 	"name-ja": "あっかんべー",
 	"emoticon": ";P",
@@ -720,7 +706,6 @@
 },
 {
 	"moji": "😝",
-	"alts": ["face_with_stuck_out_tongue_and_tightly_closed_eye"],
 	"name": "stuck_out_tongue_closed_eyes",
 	"name-ja": "べーっ",
 	"emoticon": "XP",
@@ -736,7 +721,6 @@
 },
 {
 	"moji": "😟",
-	"alts": ["worried_face"],
 	"name": "worried",
 	"name-ja": "心配",
 	"category": "faces",
@@ -789,7 +773,6 @@
 },
 {
 	"moji": "😦",
-	"alts": ["frowning_face_with_open_mouth"],
 	"name": "frowning",
 	"name-ja": "しかめっ面",
 	"emoticon": ":(",
@@ -798,7 +781,6 @@
 },
 {
 	"moji": "😧",
-	"alts": ["anguished_face"],
 	"name": "anguished",
 	"name-ja": "悲しい顔",
 	"category": "faces",
@@ -821,7 +803,6 @@
 },
 {
 	"moji": "😬",
-	"alts": ["grimacing_face"],
 	"name": "grimacing",
 	"name-ja": "いーっ",
 	"category": "faces",
@@ -836,7 +817,6 @@
 },
 {
 	"moji": "😮",
-	"alts": ["face_with_open_mouth"],
 	"name": "open_mouth",
 	"name-ja": "ぽかんと",
 	"emoticon": ":O",
@@ -845,7 +825,6 @@
 },
 {
 	"moji": "😯",
-	"alts": ["hushed_face"],
 	"name": "hushed",
 	"name-ja": "しーん",
 	"emoticon": ":x",
@@ -868,7 +847,6 @@
 },
 {
 	"moji": "😳",
-	"alts": ["flushed_fase"],
 	"name": "flushed",
 	"name-ja": "ぽっ",
 	"category": "faces",
@@ -876,7 +854,6 @@
 },
 {
 	"moji": "😴",
-	"alts": ["sleeping_face"],
 	"name": "sleeping",
 	"name-ja": "眠い",
 	"category": "faces",
@@ -1023,7 +1000,7 @@
 	"name-ja": "バンザイ",
 	"category": "gesture",
 	"unicode": "1f64c",
-	"attribution": "Anh Vu"
+	"attribution": "Anh Vu, Ikaraam Ullah"
 },
 {
 	"moji": "🙍",
@@ -1086,7 +1063,6 @@
 },
 {
 	"moji": "☀",
-	"alts": ["black_sun_with_rays"],
 	"name": "sun",
 	"name-ja": "晴れ",
 	"category": "abstract",
@@ -1099,7 +1075,7 @@
 	"name-ja": "曇り",
 	"category": "abstract",
 	"unicode": "2601",
-	"attribution": "Oliver Salzburg"
+	"attribution": "Oliver Salzburg, Khalid Abuhakmeh"
 },
 {
 	"moji": "☕",
@@ -1223,7 +1199,7 @@
 	"name-ja": "イナズマ",
 	"category": "object",
 	"unicode": "26a1",
-	"attribution": "Finallyanime!"
+	"attribution": "Finallyanime!, Brian Kemp"
 },
 {
 	"moji": "✌",
@@ -1304,11 +1280,6 @@
 	"category": "nature"
 },
 {
-	"name": "jumping_spider_red",
-	"name-ja": "ハエトリグモ(赤)",
-	"category": "nature"
-},
-{
 	"name": "family_daughters",
 	"name-ja": "家族2",
 	"category": "people"
@@ -1380,8 +1351,14 @@
 	"attribution": "Mark Atwood, the FallenPegasusbin"
 },
 {
-	"name": "puke_finger",
+	"name": "puke",
 	"name-ja": "嘔吐",
+	"category": "faces",
+	"attribution": "Naya J."
+},
+{
+	"name": "puke_finger",
+	"name-ja": "嘔吐2",
 	"category": "gesture",
 	"attribution": "Naya J."
 },
@@ -1482,6 +1459,42 @@
 	"attribution": "Onery"
 },
 {
+	"name": "Charlie",
+	"name-ja": "チャーリー",
+	"category": "nature",
+	"attribution": "Thomas Barber"
+},
+{
+	"name": "Bags_McRibbit",
+	"name-ja": "バッグズ・ミックリビット",
+	"category": "object",
+	"attribution": "Bags McRibbit"
+},
+{
+	"name": "geek_love",
+	"name-ja": "オタク愛",
+	"category": "faces",
+	"attribution": "Matt S"
+},
+{
+	"name": "hand_salute",
+	"name-ja": "挙手",
+	"category": "gesture",
+	"attribution": "A. B. Salisbury"
+},
+{
+	"name": "Hosted_Cloud",
+	"name-ja": "ホステッドクラウド",
+	"category": "object",
+	"attribution": "Freeway hosted cloud"
+},
+{
+	"name": "picycle",
+	"name-ja": "パイシクル",
+	"category": "object",
+	"attribution": "Marcus Hays"
+},
+{
 	"name": "apngasm",
 	"name-ja": "apngasm",
 	"category": "logos"
@@ -1537,8 +1550,13 @@
 	"contributor": "Giorgio"
 },
 {
+	"name": "redbeard",
+	"name-ja": "レッドベアード",
+	"category": "individuals",
+	"attribution": "Brian Redbeard"
+},
+{
 	"name": "happijar",
-	"alts": ["grateful"],
 	"name-ja": "ハッピジャー",
 	"category": "logos",
 	"attribution": "happijar",

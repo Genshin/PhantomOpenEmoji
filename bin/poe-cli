@@ -32,12 +32,12 @@ end
 
 
 opts = OptionParser.new
-# 一覧表示
+
 opts.on('--list', '-l') {
   list_emoji
 }
 
-# ./index.json以外のファイル使用
+# File use other　./index.json
 opts.on('-i', '--index') {|index_file|
   @poe.set_index_file(index_file)
 }
@@ -50,7 +50,7 @@ opts.on('-s PX', '--size PX') {|px|
   @poe.set_size(px.to_i)
 }
 
-# コンバート
+# convert
 opts.on('-c [OUTDIR]', '--convert [OUTDIR]') {|outdir|
   if outdir.nil?
     @poe.set_target_path(Dir.pwd, true)
@@ -74,7 +74,7 @@ def convert_standard_sets
 end
 
 opts.on('-u', '--unicode-only') {
-  @poe.set_unicode_only()
+  @poe.set_unicode_only(true)
 }
 
 opts.on('--standard') {
@@ -108,6 +108,20 @@ opts.on('--android') {
 opts.on('--all-sets') {
   convert_standard_sets
   convert_android_sets
+}
+
+opts.on('-j [FILENAME]', '--json [FILENAME]') { |filename|
+  @poe.set_output_json(true)
+
+  if filename.nil?
+    @poe.set_output_filename('emoji')
+  else
+    @poe.set_output_filename(filename)
+  end
+}
+
+opts.on('-r', '--raw'){
+  @poe.raw_output = true
 }
 
 opts.on('--lookup-emoji EMOJI') {|emoji|
