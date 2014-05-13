@@ -501,13 +501,6 @@
 	"attribution": "Świstak"
 },
 {
-	"moji": "🔫",
-	"name": "pistol",
-	"name-ja": "ピストル",
-	"category": "tools",
-	"unicode": "1f52b"
-},
-{
 	"moji": "🗻",
 	"name": "mount_fuji",
 	"name-ja": "富士山",
@@ -1495,11 +1488,6 @@
 	"attribution": "Marcus Hays"
 },
 {
-	"name": "apngasm",
-	"name-ja": "apngasm",
-	"category": "logos"
-},
-{
 	"name": "smiley_confused",
 	"name-ja": "スマイリー(困る)",
 	"category": "faces"
@@ -1537,19 +1525,6 @@
 	"attribution": "ocean dive academy new jersey usa"
 },
 {
-	"name": "Kagetsuki",
-	"name-ja": "影月",
-	"category": "individuals",
-	"contributor": "影月零",
-	"url": "http://zero.幻信.org"
-},
-{
-	"name": "Giorgio",
-	"name-ja": "ジョルジョ",
-	"category": "individuals",
-	"contributor": "Giorgio"
-},
-{
 	"name": "redbeard",
 	"name-ja": "レッドベアード",
 	"category": "individuals",
@@ -1568,24 +1543,5 @@
 	"category": "logos",
 	"contributor": "groupme",
 	"url": "http://groupme.com"
-},
-{
-	"name": "ruby",
-	"name-ja": "ruby",
-	"category": "logos",
-	"url": "http://www.ruby-lang.org"
-},
-{
-	"name": "GAKUEngine",
-	"name-ja": "学園陣",
-	"category": "logos",
-	"url": "http://gakuengine.com"
-},
-{
-	"name": "genshin",
-	"name-ja": "幻信",
-	"category": "logos",
-	"contributor": "幻信創造株式会社[Phantom Creation Inc.]",
-	"url": "http://genshin.org"
 }
 ]
