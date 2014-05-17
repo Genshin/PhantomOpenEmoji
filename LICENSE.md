@@ -1,15 +1,21 @@
-The assets in the "restricted" folder are from copyrighted sources, but were commisioned by the copyright holders. Misuse of these assets could lead to a copyright violation. Please see poe.json for information on individual copyright holders.
+※The assets in the "restricted" folder are from copyrighted sources, but were commisioned by the copyright holders. Misuse of these assets could lead to a copyright violation. Please see poe.json for information on individual copyright holders.
 
-When distributed as a font the SIL Open Font License is applied.
+!!! As of 2014/5/18 the licensing of Phantom Open Emoji has changed.
+Due to several misunderstandings reguarding copyright and licensing, and some conributors not  
+realzing what licensing terms were being applied, the licensing conditions of  
+Phantom Open Emoji has changed. Please be assured we will open up most of the POE emoji and  
+more shortly.
 
-All graphical assets are licensed under the CreativeCommons 3.0 License.
-Edit, use, distribute as you please but never claim emoji and source created by Genshin Souzou as your own.
-All images created by Genshin Souzou are copyright Genshin Souzou.
-Images not created by Genshin Souzou will be listed with their copyright owners noted.
-Submitting code or images to Phantom Open Emoji means submitting those images to the above licenses.
-If you do not accept distribution of your copyrighted materials under the above licenses DO NOT submit them for inclusion.
+License and Use Conditions
+--------------------------
+1. All emoji are created by Genshin Souzou and are copyright Genshin Souzou.
+2. Emoji in the restricted folder are based on images or logos which are copyright thier  
+   respective owners. They may not be used without the express permission of their copyright  
+   holders.
+3. All emoji not in the "restricted" folder may be remixed and used freely in digital material.
+4. No emoji may be used in commercial printed or physical material. The owners of emoji in the  
+   "restricted" folder are exempt from this condition for their emoji.
+5. Distrobution in commercial and closed source digital matrial is permitted, but attribution  
+   must be given to Phantom Open Emoji. 
 
-Genshin Souzou and all Phantom Open Emoji related parties and developers can not be held responsible for copyright-infringing images.
-If anyone submits an infringing image they will be held responsible.
-
-To attribute please write "Emoji by Genshin Souzou K.K. [Phantom Creation Inc] at http://genshin.org ."
+To attribute please write "emoji by Genshin Souzou K.K. [Phantom Creation Inc] at http://genshin.org ."
