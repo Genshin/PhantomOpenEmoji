@@ -9,7 +9,7 @@ more shortly.
 License and Use Conditions
 --------------------------
 1. All emoji are created by Genshin Souzou and are copyright Genshin Souzou.
-2. Emoji in the restricted folder are based on images or logos which are copyright thier  
+2. Emoji in the restricted folder are based on images or logos which are copyright their  
    respective owners. They may not be used without the express permission of their copyright  
    holders.
 3. All emoji not in the "restricted" folder may be remixed and used freely in digital material.
