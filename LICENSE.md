@@ -15,7 +15,7 @@ License and Use Conditions
 3. All emoji not in the "restricted" folder may be remixed and used freely in digital material.
 4. No emoji may be used in commercial printed or physical material. The owners of emoji in the  
    "restricted" folder are exempt from this condition for their emoji.
-5. Distrobution in commercial and closed source digital matrial is permitted, but attribution  
+5. Distribution in commercial and closed source digital matrial is permitted, but attribution  
    must be given to Phantom Open Emoji. 
 
 To attribute please write "emoji by Genshin Souzou K.K. [Phantom Creation Inc] at http://genshin.org ."
