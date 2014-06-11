@@ -1543,5 +1543,46 @@
 	"category": "logos",
 	"contributor": "groupme",
 	"url": "http://groupme.com"
+},
+{
+	"name": "angry_girl",
+	"name-ja": "怒った女",
+	"category": "people",
+	"attribution": "Lisa Brewster",
+	"url": "http://www.adora.io/"
+},
+{
+	"name": "hardly_english",
+	"name-ja": "The Hardly English Company",
+	"category": "logos",
+	"attribution": "Jonathan DeNardis",
+	"url": "http://www.thehardlyenglishcompany.com/"
+},
+{
+	"name": "mad_scientist",
+	"name-ja": "マッドサイエンティスト",
+	"category": "people",
+	"attribution": "Admiral Potato",
+	"url": "http://NuclearPixel.com/"
+},
+{
+	"name": "runner",
+	"name-ja": "ランナー",
+	"category": "people",
+	"attribution": "Chris Means",
+	"url": "https://plus.google.com/u/0/+ChrisMeans"
+},
+{
+	"name": "sewing_machine",
+	"name-ja": "ミシン",
+	"category": "object",
+	"attribution": "Nina Paley",
+	"url": "http://ninapaley.com"
+},
+{
+	"name": "space_fight",
+	"name-ja": "宇宙戦争",
+	"category": "nature",
+	"attribution": "Andreas Gauger"
 }
 ]
