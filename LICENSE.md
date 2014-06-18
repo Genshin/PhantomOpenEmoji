@@ -16,6 +16,12 @@ License and Use Conditions
 4. No emoji may be used in commercial printed, tangible or physical material. The owners of emoji in the  
    "restricted" folder are exempt from this condition for their emoji.
 5. Distribution in commercial and closed source digital matrial is permitted, but attribution  
-   must be given to Phantom Open Emoji. 
+   must be given to Phantom Open Emoji.
+6. You may not distribute Phantom Open Emoji as licensed or licensable content. There is no implicit allowance  
+   of sub-license. You may not submit Phantom Open Emoji assets to services which apply license conditions  
+   or claim copyright conditions over submitted content or assets. You may not sell Phantom Open Emoji  
+   assets or charge for the use of Phantom Open Emoji assets. If Phantom Open Emoji assets are provided  
+   as digital content or assets, optional or bundled, they must be provied free of charge and under the  
+   conditions of this license without any additional conditions, restrictions, or claims.
 
 To attribute please write "emoji by Genshin Souzou K.K. [Phantom Creation Inc] at http://genshin.org ."
