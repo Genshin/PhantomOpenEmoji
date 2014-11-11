@@ -1,6 +1,10 @@
 Phantom Open Emoji
 ==================
-Phantom Open Emoji is an open-source friendly set of emoji.
+Phantom Open Emoji is an open-source friendly set of emoji. 
+It was the first Open Source set of emoji available. 
+Unfortunately it did not receive enough funding to create a complete set. 
+In order to create a complete set the emojidex project was created. 
+Check out the emojidex organization on github [here](https://github.com/emojidex/)
 
 POE on Kickstarter
 ------------------
